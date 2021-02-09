@@ -1,0 +1,1174 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExecutionContext"
+- "FieldExecutionStrategy"
+- "MutationFieldExecutionStrategy"
+- "QueryFieldExecutionStrategy"
+- "SubscriptionFieldExecutionStrategy"
+- "SerialFieldExecutionStrategy"
+- "ConcurrentDispatchFieldExecutionStrategy"
+- "execute"
+- "buildExecutionContext"
+- "executeOperation"
+- "getOperationRootType"
+- "collectFields"
+- "shouldIncludeNode"
+- "doesFragmentConditionMatch"
+- "getFieldEntryKey"
+- "resolveField"
+- "resolveOrError"
+- "completeValueCatchingError"
+- "completeValueWithLocatedError"
+- "completeValue"
+- "completeListValue"
+- "completeLeafValue"
+- "completeAbstractValue"
+- "completeObjectValue"
+- "defaultResolveType"
+- "defaultResolve"
+- "getFieldDef"
+provides-nominal:
+- "7GraphQL16ExecutionContextC"
+- "7GraphQL22FieldExecutionStrategyP"
+- "7GraphQL30MutationFieldExecutionStrategyP"
+- "7GraphQL27QueryFieldExecutionStrategyP"
+- "7GraphQL34SubscriptionFieldExecutionStrategyP"
+- "7GraphQL28SerialFieldExecutionStrategyV"
+- "7GraphQL40ConcurrentDispatchFieldExecutionStrategyV"
+provides-member:
+- ["7GraphQL16ExecutionContextC", ""]
+- ["7GraphQL22FieldExecutionStrategyP", ""]
+- ["7GraphQL30MutationFieldExecutionStrategyP", ""]
+- ["7GraphQL27QueryFieldExecutionStrategyP", ""]
+- ["7GraphQL34SubscriptionFieldExecutionStrategyP", ""]
+- ["7GraphQL28SerialFieldExecutionStrategyV", ""]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", ""]
+provides-dynamic-lookup:
+- "_errors"
+- "append"
+- "context"
+- "errors"
+- "errorsSemaphore"
+- "eventLoopGroup"
+- "fragments"
+- "instrumentation"
+- "mutationStrategy"
+- "operation"
+- "queryStrategy"
+- "rootValue"
+- "schema"
+- "subscriptionStrategy"
+- "variableValues"
+depends-top-level:
+- "!"
+- !private "!="
+- !private "&&"
+- "+"
+- "<"
+- "=="
+- "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "ConcurrentDispatchFieldExecutionStrategy"
+- !private "Dictionary"
+- "Directive"
+- !private "DispatchGroup"
+- "DispatchQoS"
+- "DispatchQueue"
+- "DispatchSemaphore"
+- "Document"
+- "Encodable"
+- "Error"
+- "EventLoopFuture"
+- "EventLoopGroup"
+- "ExecutionContext"
+- "Field"
+- "FieldExecutionStrategy"
+- "FloatLiteralType"
+- "FragmentDefinition"
+- "FragmentSpread"
+- "Future"
+- "GraphQLAbstractType"
+- "GraphQLError"
+- "GraphQLFieldDefinition"
+- "GraphQLFieldResolve"
+- "GraphQLIncludeDirective"
+- "GraphQLLeafType"
+- "GraphQLList"
+- "GraphQLNonNull"
+- "GraphQLObjectType"
+- "GraphQLResolveInfo"
+- "GraphQLResult"
+- "GraphQLSchema"
+- "GraphQLSkipDirective"
+- "GraphQLType"
+- "HasTypeCondition"
+- "IndexPath"
+- "InlineFragment"
+- "Instrumentation"
+- "IntegerLiteralType"
+- "KeySubscriptable"
+- "Map"
+- "MutationFieldExecutionStrategy"
+- "OperationDefinition"
+- "QueryFieldExecutionStrategy"
+- "Result"
+- !private "SchemaMetaFieldDef"
+- "SelectionSet"
+- "SerialFieldExecutionStrategy"
+- "String"
+- "StringLiteralType"
+- "SubscriptionFieldExecutionStrategy"
+- !private "TypeMetaFieldDef"
+- !private "TypeNameMetaFieldDef"
+- "TypeResolveResult"
+- !private "UnicodeScalarType"
+- !private "_errors"
+- "buildExecutionContext"
+- "collectFields"
+- "completeAbstractValue"
+- "completeLeafValue"
+- "completeListValue"
+- "completeObjectValue"
+- "completeValue"
+- "completeValueCatchingError"
+- "completeValueWithLocatedError"
+- "defaultResolve"
+- "defaultResolveType"
+- "dispatchQueue"
+- "doesFragmentConditionMatch"
+- !private "errorsSemaphore"
+- "execute"
+- "executeOperation"
+- "fatalError"
+- !private "getArgumentValues"
+- "getFieldDef"
+- "getFieldEntryKey"
+- "getOperationRootType"
+- !private "getVariableValues"
+- "locatedError"
+- "map"
+- !private "processId"
+- "resolveField"
+- "resolveOrError"
+- "shouldIncludeNode"
+- !private "threadId"
+- !private "type"
+- !private "typeFromAST"
+- !private "typeInfo"
+- "unwrap"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "find"]
+- !private ["Sa", "flatten"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "subscript"]
+- !private ["So17OS_dispatch_queueC8DispatchE10AttributesV", "concurrent"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "find"]
+- !private ["SK", "flatten"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "subscript"]
+- !private ["7GraphQL12BooleanValueC", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "find"]
+- !private ["s7CVarArgP", "flatten"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "label"]
+- !private ["s7CVarArgP", "qos"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["Sl", "Element"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "find"]
+- !private ["Sl", "flatten"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "DispatchGroup"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "DispatchQoS"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "DispatchQueue"]
+- !private ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "Error"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "ExecutionContext"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "Field"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "Future"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "GraphQLObjectType"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "IndexPath"]
+- !private ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "Map"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "String"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", ""]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "dispatchQueue"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "executeFields"]
+- ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "init"]
+- !private ["7GraphQL40ConcurrentDispatchFieldExecutionStrategyV", "resolveField"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "enumerated"]
+- !private ["10Foundation15ContiguousBytesP", "find"]
+- !private ["10Foundation15ContiguousBytesP", "flatten"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "bool"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "fields"]
+- !private ["s28CustomDebugStringConvertibleP", "find"]
+- !private ["s28CustomDebugStringConvertibleP", "flatten"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isTypeOf"]
+- !private ["s28CustomDebugStringConvertibleP", "label"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "null"]
+- !private ["s28CustomDebugStringConvertibleP", "ofType"]
+- !private ["s28CustomDebugStringConvertibleP", "qos"]
+- !private ["s28CustomDebugStringConvertibleP", "resolveType"]
+- !private ["s28CustomDebugStringConvertibleP", "serialize"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "find"]
+- !private ["s17CustomReflectableP", "flatten"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "type"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "bool"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "errors"]
+- !private ["s23CustomStringConvertibleP", "find"]
+- !private ["s23CustomStringConvertibleP", "flatten"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "label"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- !private ["s23CustomStringConvertibleP", "qos"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "enumerated"]
+- !private ["10Foundation12DataProtocolP", "find"]
+- !private ["10Foundation12DataProtocolP", "flatten"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "appending"]
+- !private ["Se", "bool"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "errors"]
+- !private ["Se", "find"]
+- !private ["Se", "flatten"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "null"]
+- !private ["Se", "subscript"]
+- !private ["Se", "type"]
+- !private ["7Runtime18DefaultConstructorP", "append"]
+- !private ["7Runtime18DefaultConstructorP", "enumerated"]
+- !private ["7Runtime18DefaultConstructorP", "find"]
+- !private ["7Runtime18DefaultConstructorP", "flatten"]
+- !private ["7Runtime18DefaultConstructorP", "forEach"]
+- !private ["7Runtime18DefaultConstructorP", "init"]
+- !private ["7Runtime18DefaultConstructorP", "isEmpty"]
+- !private ["7Runtime18DefaultConstructorP", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["7GraphQL10DefinitionP", "kind"]
+- !private ["7GraphQL10DefinitionP", "name"]
+- !private ["7GraphQL10DefinitionP", "operation"]
+- !private ["7GraphQL10DefinitionP", "selectionSet"]
+- !private ["7GraphQL10DefinitionP", "variableDefinitions"]
+- !private ["SD", "flatten"]
+- !private ["SD", "forEach"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["7GraphQL9DirectiveC", "arguments"]
+- !private ["7GraphQL9DirectiveC", "name"]
+- !private ["7GraphQL17DirectiveLocationO", "RawValue"]
+- !private ["7GraphQL17DirectiveLocationO", ""]
+- !private ["So17OS_dispatch_groupC", "init"]
+- !private ["So17OS_dispatch_groupC", "wait"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "enter"]
+- ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "label"]
+- !private ["So18OS_dispatch_objectC", "leave"]
+- !private ["So18OS_dispatch_objectC", "qos"]
+- !private ["So18OS_dispatch_objectC", "signal"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So18OS_dispatch_objectC", "wait"]
+- !private ["8Dispatch0A3QoSV", "userInitiated"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["So17OS_dispatch_queueC", "label"]
+- !private ["So17OS_dispatch_queueC", "qos"]
+- ["So21OS_dispatch_semaphoreC", "init"]
+- !private ["So21OS_dispatch_semaphoreC", "signal"]
+- !private ["So21OS_dispatch_semaphoreC", "wait"]
+- !private ["7GraphQL8DocumentC", "definitions"]
+- ["SE", ""]
+- !private ["SE", "append"]
+- !private ["SE", "appending"]
+- !private ["SE", "args"]
+- !private ["SE", "bool"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "errors"]
+- !private ["SE", "fields"]
+- !private ["SE", "find"]
+- !private ["SE", "flatten"]
+- !private ["SE", "forEach"]
+- !private ["SE", "getPossibleTypes"]
+- !private ["SE", "getType"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isSubType"]
+- !private ["SE", "isTypeOf"]
+- !private ["SE", "mutationType"]
+- !private ["SE", "name"]
+- !private ["SE", "null"]
+- !private ["SE", "ofType"]
+- !private ["SE", "queryType"]
+- !private ["SE", "resolve"]
+- !private ["SE", "resolveType"]
+- !private ["SE", "serialize"]
+- !private ["SE", "subscript"]
+- !private ["SE", "subscriptionType"]
+- !private ["SE", "type"]
+- ["SQ", ""]
+- !private ["SQ", "alias"]
+- !private ["SQ", "append"]
+- !private ["SQ", "arguments"]
+- !private ["SQ", "async"]
+- !private ["SQ", "bool"]
+- !private ["SQ", "concurrent"]
+- !private ["SQ", "definitions"]
+- !private ["SQ", "directives"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "errors"]
+- ["SQ", "failure"]
+- !private ["SQ", "fields"]
+- !private ["SQ", "find"]
+- !private ["SQ", "flatMap"]
+- !private ["SQ", "flatMapError"]
+- !private ["SQ", "flatMapErrorThrowing"]
+- !private ["SQ", "flatMapThrowing"]
+- !private ["SQ", "flatten"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "get"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isTypeOf"]
+- !private ["SQ", "label"]
+- !private ["SQ", "map"]
+- ["SQ", "mutation"]
+- !private ["SQ", "name"]
+- !private ["SQ", "null"]
+- !private ["SQ", "ofType"]
+- !private ["SQ", "operation"]
+- !private ["SQ", "qos"]
+- ["SQ", "query"]
+- !private ["SQ", "selectionSet"]
+- !private ["SQ", "selections"]
+- !private ["SQ", "signal"]
+- !private ["SQ", "subscript"]
+- ["SQ", "subscription"]
+- ["SQ", "success"]
+- !private ["SQ", "type"]
+- !private ["SQ", "userInitiated"]
+- !private ["SQ", "value"]
+- !private ["SQ", "variableDefinitions"]
+- !private ["SQ", "wait"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO15EventLoopFutureC", ""]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "flatMapError"]
+- !private ["3NIO15EventLoopFutureC", "flatMapErrorThrowing"]
+- !private ["3NIO15EventLoopFutureC", "flatMapThrowing"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["3NIO14EventLoopGroupP", "next"]
+- ["7GraphQL16ExecutionContextC", "DispatchSemaphore"]
+- ["7GraphQL16ExecutionContextC", "EventLoopGroup"]
+- ["7GraphQL16ExecutionContextC", "FragmentDefinition"]
+- ["7GraphQL16ExecutionContextC", "GraphQLError"]
+- ["7GraphQL16ExecutionContextC", "GraphQLSchema"]
+- ["7GraphQL16ExecutionContextC", "Instrumentation"]
+- ["7GraphQL16ExecutionContextC", "Map"]
+- ["7GraphQL16ExecutionContextC", "MutationFieldExecutionStrategy"]
+- ["7GraphQL16ExecutionContextC", "OperationDefinition"]
+- ["7GraphQL16ExecutionContextC", "QueryFieldExecutionStrategy"]
+- ["7GraphQL16ExecutionContextC", "String"]
+- ["7GraphQL16ExecutionContextC", "SubscriptionFieldExecutionStrategy"]
+- !private ["7GraphQL16ExecutionContextC", "_errors"]
+- ["7GraphQL16ExecutionContextC", "append"]
+- ["7GraphQL16ExecutionContextC", "context"]
+- ["7GraphQL16ExecutionContextC", "deinit"]
+- ["7GraphQL16ExecutionContextC", "errors"]
+- !private ["7GraphQL16ExecutionContextC", "errorsSemaphore"]
+- ["7GraphQL16ExecutionContextC", "eventLoopGroup"]
+- ["7GraphQL16ExecutionContextC", "fragments"]
+- ["7GraphQL16ExecutionContextC", "init"]
+- ["7GraphQL16ExecutionContextC", "instrumentation"]
+- ["7GraphQL16ExecutionContextC", "mutationStrategy"]
+- ["7GraphQL16ExecutionContextC", "operation"]
+- ["7GraphQL16ExecutionContextC", "queryStrategy"]
+- ["7GraphQL16ExecutionContextC", "rootValue"]
+- ["7GraphQL16ExecutionContextC", "schema"]
+- ["7GraphQL16ExecutionContextC", "subscriptionStrategy"]
+- ["7GraphQL16ExecutionContextC", "variableValues"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "appending"]
+- !private ["s25ExpressibleByArrayLiteralP", "bool"]
+- !private ["s25ExpressibleByArrayLiteralP", "concurrent"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "find"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatten"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "null"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "bool"]
+- !private ["s27ExpressibleByBooleanLiteralP", "null"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "bool"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "flatten"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "null"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bool"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "null"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "bool"]
+- !private ["s25ExpressibleByFloatLiteralP", "null"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bool"]
+- !private ["s27ExpressibleByIntegerLiteralP", "null"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "bool"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "null"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "type"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "bool"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "null"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "bool"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "null"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["7GraphQL5FieldC", ""]
+- !private ["7GraphQL5FieldC", "alias"]
+- !private ["7GraphQL5FieldC", "arguments"]
+- !private ["7GraphQL5FieldC", "directives"]
+- !private ["7GraphQL5FieldC", "name"]
+- !private ["7GraphQL5FieldC", "selectionSet"]
+- !private ["7GraphQL22FieldExecutionStrategyP", "DispatchGroup"]
+- !private ["7GraphQL22FieldExecutionStrategyP", "DispatchQueue"]
+- ["7GraphQL22FieldExecutionStrategyP", "ExecutionContext"]
+- ["7GraphQL22FieldExecutionStrategyP", "Field"]
+- ["7GraphQL22FieldExecutionStrategyP", "Future"]
+- ["7GraphQL22FieldExecutionStrategyP", "GraphQLObjectType"]
+- ["7GraphQL22FieldExecutionStrategyP", "IndexPath"]
+- !private ["7GraphQL22FieldExecutionStrategyP", "Map"]
+- ["7GraphQL22FieldExecutionStrategyP", "String"]
+- ["7GraphQL22FieldExecutionStrategyP", ""]
+- !private ["7GraphQL22FieldExecutionStrategyP", "dispatchQueue"]
+- ["7GraphQL22FieldExecutionStrategyP", "executeFields"]
+- !private ["7GraphQL22FieldExecutionStrategyP", "resolveField"]
+- !private ["7GraphQL8FragmentP", "directives"]
+- !private ["7GraphQL8FragmentP", "name"]
+- !private ["7GraphQL8FragmentP", "selectionSet"]
+- !private ["7GraphQL18FragmentDefinitionC", ""]
+- !private ["7GraphQL18FragmentDefinitionC", "name"]
+- !private ["7GraphQL18FragmentDefinitionC", "selectionSet"]
+- !private ["7GraphQL14FragmentSpreadC", ""]
+- !private ["7GraphQL14FragmentSpreadC", "directives"]
+- !private ["7GraphQL14FragmentSpreadC", "name"]
+- !private ["7GraphQL10FutureTypeP", "Expectation"]
+- !private ["7GraphQL10FutureTypeP", "flatMap"]
+- !private ["7GraphQL10FutureTypeP", "flatMapError"]
+- !private ["7GraphQL10FutureTypeP", "flatMapErrorThrowing"]
+- !private ["7GraphQL10FutureTypeP", "flatMapThrowing"]
+- !private ["7GraphQL10FutureTypeP", "map"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "name"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "resolveType"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "fields"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "isTypeOf"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "name"]
+- !private ["7GraphQL0A11QLDirectiveV", "args"]
+- !private ["7GraphQL0A11QLDirectiveV", "name"]
+- !private ["7GraphQL0A10QLEnumTypeC", ""]
+- ["7GraphQL0A7QLErrorV", ""]
+- !private ["7GraphQL0A7QLErrorV", "init"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "args"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "name"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "resolve"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "type"]
+- !private ["7GraphQL0A11QLInputTypeP", "ofType"]
+- !private ["7GraphQL0A10QLLeafTypeP", "serialize"]
+- !private ["7GraphQL0A6QLListC", ""]
+- !private ["7GraphQL0A6QLListC", "ofType"]
+- ["7GraphQL0A11QLNamedTypeP", ""]
+- !private ["7GraphQL0A11QLNamedTypeP", "fields"]
+- !private ["7GraphQL0A11QLNamedTypeP", "isTypeOf"]
+- !private ["7GraphQL0A11QLNamedTypeP", "name"]
+- !private ["7GraphQL0A11QLNamedTypeP", "resolveType"]
+- !private ["7GraphQL0A11QLNamedTypeP", "serialize"]
+- !private ["7GraphQL0A9QLNonNullC", ""]
+- !private ["7GraphQL0A9QLNonNullC", "ofType"]
+- ["7GraphQL0A14QLNullableTypeP", ""]
+- !private ["7GraphQL0A14QLNullableTypeP", "fields"]
+- !private ["7GraphQL0A14QLNullableTypeP", "isTypeOf"]
+- !private ["7GraphQL0A14QLNullableTypeP", "name"]
+- !private ["7GraphQL0A14QLNullableTypeP", "ofType"]
+- !private ["7GraphQL0A14QLNullableTypeP", "resolveType"]
+- !private ["7GraphQL0A14QLNullableTypeP", "serialize"]
+- !private ["7GraphQL0A12QLObjectTypeC", ""]
+- !private ["7GraphQL0A12QLObjectTypeC", "fields"]
+- !private ["7GraphQL0A12QLObjectTypeC", "isTypeOf"]
+- !private ["7GraphQL0A12QLObjectTypeC", "name"]
+- ["7GraphQL0A12QLOutputTypeP", ""]
+- !private ["7GraphQL0A12QLOutputTypeP", "fields"]
+- !private ["7GraphQL0A12QLOutputTypeP", "isTypeOf"]
+- !private ["7GraphQL0A12QLOutputTypeP", "name"]
+- !private ["7GraphQL0A12QLOutputTypeP", "ofType"]
+- !private ["7GraphQL0A13QLResolveInfoV", "fieldName"]
+- !private ["7GraphQL0A13QLResolveInfoV", "init"]
+- !private ["7GraphQL0A13QLResolveInfoV", "parentType"]
+- !private ["7GraphQL0A13QLResolveInfoV", "schema"]
+- !private ["7GraphQL0A8QLResultV", ""]
+- !private ["7GraphQL0A8QLResultV", "errors"]
+- !private ["7GraphQL0A8QLResultV", "init"]
+- !private ["7GraphQL0A12QLScalarTypeC", ""]
+- !private ["7GraphQL0A8QLSchemaC", "getPossibleTypes"]
+- !private ["7GraphQL0A8QLSchemaC", "getType"]
+- !private ["7GraphQL0A8QLSchemaC", "isSubType"]
+- !private ["7GraphQL0A8QLSchemaC", "mutationType"]
+- !private ["7GraphQL0A8QLSchemaC", "queryType"]
+- !private ["7GraphQL0A8QLSchemaC", "subscriptionType"]
+- ["7GraphQL0A6QLTypeP", ""]
+- !private ["7GraphQL0A6QLTypeP", "fields"]
+- !private ["7GraphQL0A6QLTypeP", "isTypeOf"]
+- !private ["7GraphQL0A6QLTypeP", "name"]
+- !private ["7GraphQL0A6QLTypeP", "ofType"]
+- !private ["7GraphQL0A6QLTypeP", "resolveType"]
+- !private ["7GraphQL0A6QLTypeP", "serialize"]
+- !private ["7GraphQL0A15QLTypeReferenceC", ""]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "fields"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "isTypeOf"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "name"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "ofType"]
+- !private ["7GraphQL16HasTypeConditionP", "directives"]
+- !private ["7GraphQL16HasTypeConditionP", "getTypeCondition"]
+- !private ["7GraphQL16HasTypeConditionP", "name"]
+- !private ["7GraphQL16HasTypeConditionP", "selectionSet"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "bool"]
+- !private ["SH", "enumerated"]
+- ["SH", "failure"]
+- !private ["SH", "fields"]
+- !private ["SH", "find"]
+- !private ["SH", "flatten"]
+- !private ["SH", "forEach"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isTypeOf"]
+- !private ["SH", "label"]
+- ["SH", "mutation"]
+- !private ["SH", "name"]
+- !private ["SH", "null"]
+- !private ["SH", "ofType"]
+- !private ["SH", "operation"]
+- !private ["SH", "qos"]
+- ["SH", "query"]
+- !private ["SH", "selectionSet"]
+- !private ["SH", "selections"]
+- !private ["SH", "signal"]
+- !private ["SH", "subscript"]
+- ["SH", "subscription"]
+- ["SH", "success"]
+- !private ["SH", "type"]
+- !private ["SH", "variableDefinitions"]
+- !private ["SH", "wait"]
+- !private ["7GraphQL9IndexPathV", ""]
+- !private ["7GraphQL9IndexPathV", "appending"]
+- !private ["7GraphQL16IndexPathElementP", "init"]
+- !private ["7GraphQL14InlineFragmentC", ""]
+- !private ["7GraphQL14InlineFragmentC", "directives"]
+- !private ["7GraphQL14InlineFragmentC", "selectionSet"]
+- !private ["7GraphQL15InstrumentationP", "now"]
+- !private ["7GraphQL15InstrumentationP", "operationExecution"]
+- !private ["Si", ""]
+- ["7GraphQL16KeySubscriptableP", ""]
+- !private ["7GraphQL16KeySubscriptableP", "args"]
+- !private ["7GraphQL16KeySubscriptableP", "fields"]
+- !private ["7GraphQL16KeySubscriptableP", "isTypeOf"]
+- !private ["7GraphQL16KeySubscriptableP", "name"]
+- !private ["7GraphQL16KeySubscriptableP", "ofType"]
+- !private ["7GraphQL16KeySubscriptableP", "resolve"]
+- !private ["7GraphQL16KeySubscriptableP", "resolveType"]
+- !private ["7GraphQL16KeySubscriptableP", "serialize"]
+- !private ["7GraphQL16KeySubscriptableP", "subscript"]
+- !private ["7GraphQL16KeySubscriptableP", "type"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["7GraphQL3MapO", ""]
+- !private ["7GraphQL3MapO", "bool"]
+- !private ["7GraphQL3MapO", "null"]
+- !private ["7GraphQL3MapO", "subscript"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "find"]
+- !private ["SM", "flatten"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "enumerated"]
+- !private ["10Foundation19MutableDataProtocolP", "find"]
+- !private ["10Foundation19MutableDataProtocolP", "flatten"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["7GraphQL30MutationFieldExecutionStrategyP", "Future"]
+- !private ["7GraphQL30MutationFieldExecutionStrategyP", "Map"]
+- !private ["7GraphQL30MutationFieldExecutionStrategyP", "String"]
+- ["7GraphQL30MutationFieldExecutionStrategyP", ""]
+- ["7GraphQL30MutationFieldExecutionStrategyP", "executeFields"]
+- !private ["7GraphQL30MutationFieldExecutionStrategyP", "resolveField"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "enter"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "leave"]
+- !private ["So8NSObjectC", "qos"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "signal"]
+- ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "wait"]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "enter"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "label"]
+- !private ["So8NSObjectP", "leave"]
+- !private ["So8NSObjectP", "qos"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "signal"]
+- ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "wait"]
+- !private ["7GraphQL4NameC", "value"]
+- !private ["7GraphQL9NamedTypeC", ""]
+- ["7GraphQL4NodeP", ""]
+- !private ["7GraphQL4NodeP", "alias"]
+- !private ["7GraphQL4NodeP", "arguments"]
+- !private ["7GraphQL4NodeP", "definitions"]
+- !private ["7GraphQL4NodeP", "directives"]
+- !private ["7GraphQL4NodeP", "kind"]
+- !private ["7GraphQL4NodeP", "name"]
+- !private ["7GraphQL4NodeP", "operation"]
+- !private ["7GraphQL4NodeP", "selectionSet"]
+- !private ["7GraphQL4NodeP", "selections"]
+- !private ["7GraphQL4NodeP", "value"]
+- !private ["7GraphQL4NodeP", "variableDefinitions"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "enter"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "label"]
+- !private ["So9OS_objectC", "leave"]
+- !private ["So9OS_objectC", "qos"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "signal"]
+- ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["So9OS_objectC", "wait"]
+- !private ["7GraphQL19OperationDefinitionC", ""]
+- !private ["7GraphQL19OperationDefinitionC", "name"]
+- !private ["7GraphQL19OperationDefinitionC", "operation"]
+- !private ["7GraphQL19OperationDefinitionC", "selectionSet"]
+- !private ["7GraphQL19OperationDefinitionC", "variableDefinitions"]
+- ["7GraphQL13OperationTypeO", "mutation"]
+- ["7GraphQL13OperationTypeO", "query"]
+- ["7GraphQL13OperationTypeO", "subscription"]
+- !private ["s9OptionSetP", "concurrent"]
+- !private ["Sq", "type"]
+- !private ["7GraphQL16OptionalProtocolP", "type"]
+- !private ["7Runtime12PropertyInfoV", "get"]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "DispatchGroup"]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "DispatchQueue"]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "Future"]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "Map"]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "String"]
+- ["7GraphQL27QueryFieldExecutionStrategyP", ""]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "dispatchQueue"]
+- ["7GraphQL27QueryFieldExecutionStrategyP", "executeFields"]
+- !private ["7GraphQL27QueryFieldExecutionStrategyP", "resolveField"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "find"]
+- !private ["Sk", "flatten"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "find"]
+- !private ["Sm", "flatten"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "subscript"]
+- !private ["SY", ""]
+- !private ["SY", "concurrent"]
+- ["SY", "mutation"]
+- ["SY", "query"]
+- !private ["SY", "rawValue"]
+- ["SY", "subscription"]
+- ["s6ResultO", "failure"]
+- ["s6ResultO", "success"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "init"]
+- !private ["7Combine9SchedulerP", "label"]
+- !private ["7Combine9SchedulerP", "qos"]
+- ["7GraphQL9SelectionP", ""]
+- !private ["7GraphQL9SelectionP", "alias"]
+- !private ["7GraphQL9SelectionP", "arguments"]
+- !private ["7GraphQL9SelectionP", "directives"]
+- !private ["7GraphQL9SelectionP", "name"]
+- !private ["7GraphQL9SelectionP", "selectionSet"]
+- !private ["7GraphQL12SelectionSetC", "selections"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "find"]
+- !private ["ST", "flatten"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "ExecutionContext"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "Field"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "Future"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "GraphQLObjectType"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "IndexPath"]
+- !private ["7GraphQL28SerialFieldExecutionStrategyV", "Map"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "String"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", ""]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "executeFields"]
+- ["7GraphQL28SerialFieldExecutionStrategyV", "init"]
+- !private ["7GraphQL28SerialFieldExecutionStrategyV", "resolveField"]
+- !private ["s10SetAlgebraP", ""]
+- !private ["s10SetAlgebraP", "concurrent"]
+- !private ["SS", ""]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["7GraphQL11StringValueC", ""]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "DispatchGroup"]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "DispatchQueue"]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "Future"]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "Map"]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "String"]
+- ["7GraphQL34SubscriptionFieldExecutionStrategyP", ""]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "dispatchQueue"]
+- ["7GraphQL34SubscriptionFieldExecutionStrategyP", "executeFields"]
+- !private ["7GraphQL34SubscriptionFieldExecutionStrategyP", "resolveField"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Runtime8TypeInfoV", "property"]
+- ["7GraphQL17TypeResolveResultO", "name"]
+- ["7GraphQL17TypeResolveResultO", "type"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "fields"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "init"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "isTypeOf"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "name"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "typeResolveResult"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "enumerated"]
+- !private ["s14_ArrayProtocolP", "find"]
+- !private ["s14_ArrayProtocolP", "flatten"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "find"]
+- !private ["s24_DestructorSafeContainerP", "flatten"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "enumerated"]
+- !private ["s19_HasContiguousBytesP", "find"]
+- !private ["s19_HasContiguousBytesP", "flatten"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "find"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "flatten"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "qos"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "label"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "qos"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "find"]
+- !private ["s21_ObjectiveCBridgeableP", "flatten"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "type"]
+depends-nominal:
+- !private "Sa"
+- !private "So17OS_dispatch_queueC8DispatchE10AttributesV"
+- !private "SK"
+- !private "7GraphQL12BooleanValueC"
+- "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- "7GraphQL40ConcurrentDispatchFieldExecutionStrategyV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "7Runtime18DefaultConstructorP"
+- !private "s26DefaultStringInterpolationV"
+- !private "7GraphQL10DefinitionP"
+- !private "SD"
+- !private "7GraphQL9DirectiveC"
+- !private "7GraphQL17DirectiveLocationO"
+- !private "So17OS_dispatch_groupC"
+- "So18OS_dispatch_objectC"
+- !private "8Dispatch0A3QoSV"
+- !private "So17OS_dispatch_queueC"
+- "So21OS_dispatch_semaphoreC"
+- !private "7GraphQL8DocumentC"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- "7GraphQL16ExecutionContextC"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7GraphQL5FieldC"
+- "7GraphQL22FieldExecutionStrategyP"
+- !private "7GraphQL8FragmentP"
+- !private "7GraphQL18FragmentDefinitionC"
+- !private "7GraphQL14FragmentSpreadC"
+- !private "7GraphQL10FutureTypeP"
+- !private "7GraphQL0A14QLAbstractTypeP"
+- !private "7GraphQL0A15QLCompositeTypeP"
+- !private "7GraphQL0A11QLDirectiveV"
+- !private "7GraphQL0A10QLEnumTypeC"
+- "7GraphQL0A7QLErrorV"
+- !private "7GraphQL0A17QLFieldDefinitionC"
+- !private "7GraphQL0A11QLInputTypeP"
+- !private "7GraphQL0A10QLLeafTypeP"
+- !private "7GraphQL0A6QLListC"
+- "7GraphQL0A11QLNamedTypeP"
+- !private "7GraphQL0A9QLNonNullC"
+- "7GraphQL0A14QLNullableTypeP"
+- !private "7GraphQL0A12QLObjectTypeC"
+- "7GraphQL0A12QLOutputTypeP"
+- !private "7GraphQL0A13QLResolveInfoV"
+- !private "7GraphQL0A8QLResultV"
+- !private "7GraphQL0A12QLScalarTypeC"
+- !private "7GraphQL0A8QLSchemaC"
+- "7GraphQL0A6QLTypeP"
+- !private "7GraphQL0A15QLTypeReferenceC"
+- !private "7GraphQL0A24QLTypeReferenceContainerP"
+- !private "7GraphQL0A13QLWrapperTypeP"
+- !private "7GraphQL16HasTypeConditionP"
+- "SH"
+- !private "7GraphQL9IndexPathV"
+- !private "7GraphQL16IndexPathElementP"
+- !private "7GraphQL14InlineFragmentC"
+- !private "7GraphQL15InstrumentationP"
+- !private "Si"
+- "7GraphQL16KeySubscriptableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7GraphQL3MapO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "7GraphQL30MutationFieldExecutionStrategyP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7GraphQL4NameC"
+- !private "7GraphQL9NamedTypeC"
+- "7GraphQL4NodeP"
+- "So9OS_objectC"
+- !private "7GraphQL19OperationDefinitionC"
+- "7GraphQL13OperationTypeO"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "7GraphQL16OptionalProtocolP"
+- !private "7Runtime12PropertyInfoV"
+- "7GraphQL27QueryFieldExecutionStrategyP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "s6ResultO"
+- !private "7Combine9SchedulerP"
+- "7GraphQL9SelectionP"
+- !private "7GraphQL12SelectionSetC"
+- !private "ST"
+- "7GraphQL28SerialFieldExecutionStrategyV"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "7GraphQL11StringValueC"
+- "7GraphQL34SubscriptionFieldExecutionStrategyP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Runtime8TypeInfoV"
+- "7GraphQL17TypeResolveResultO"
+- !private "7GraphQL30TypeResolveResultRepresentableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "82967910252d13ea8f4886ac83aff21a"

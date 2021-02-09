@@ -1,0 +1,1100 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RESTPathBuilder"
+- "RESTConfiguration"
+- "RESTInterfaceExporter"
+provides-nominal:
+- "7Apodini15RESTPathBuilderV"
+- "7Apodini17RESTConfigurationV"
+- "7Apodini21RESTInterfaceExporterC"
+provides-member:
+- ["7Apodini15RESTPathBuilderV", ""]
+- ["7Apodini9OperationO", ""]
+- ["7Apodini17RESTConfigurationV", ""]
+- ["7Apodini21RESTInterfaceExporterC", ""]
+- ["7Apodini9OperationO", "httpMethod"]
+provides-dynamic-lookup:
+- "app"
+- "configuration"
+- "export"
+- "exportParameter"
+- "finishedExporting"
+- "parameterNamespace"
+- "retrieveParameter"
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "=="
+- "Apodini"
+- !private "ApodiniError"
+- !private "Application"
+- "AssignmentPrecedence"
+- "Codable"
+- "Decodable"
+- "Endpoint"
+- "EndpointParameter"
+- "EndpointPathParameter"
+- !private "FloatLiteralType"
+- !private "HTTPMethod"
+- "HTTPServer"
+- "Handler"
+- !private "IntegerLiteralType"
+- "InterfaceExporter"
+- !private "JSONDecoder"
+- "Operation"
+- "ParameterNamespace"
+- "PathBuilder"
+- "RESTConfiguration"
+- !private "RESTEndpointHandler"
+- "RESTInterfaceExporter"
+- "RESTPathBuilder"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Vapor"
+- "WebServiceModel"
+- !private "app"
+- !private "bindAddress"
+- !private "configuration"
+- !private "pathComponents"
+- !private "pathString"
+depends-member:
+- ["7Apodini11AnyEndpointP", ""]
+- !private ["7Apodini11AnyEndpointP", "absolutePath"]
+- !private ["7Apodini11AnyEndpointP", "createConnectionContext"]
+- !private ["7Apodini11AnyEndpointP", "exportParameters"]
+- !private ["7Apodini11AnyEndpointP", "operation"]
+- !private ["7Apodini11AnyEndpointP", "relationships"]
+- ["7Apodini20AnyEndpointParameterP", ""]
+- !private ["7Apodini20AnyEndpointParameterP", "initLosslessStringConvertibleParameterValue"]
+- !private ["7Apodini20AnyEndpointParameterP", "name"]
+- !private ["7Apodini20AnyEndpointParameterP", "parameterType"]
+- !private ["7Apodini20AnyEndpointParameterP", "pathId"]
+- ["7Apodini24AnyEndpointPathParameterP", ""]
+- !private ["7Apodini24AnyEndpointPathParameterP", "name"]
+- !private ["7Apodini24AnyEndpointPathParameterP", "pathId"]
+- !private ["7Apodini0A5ErrorV", ""]
+- !private ["7Apodini0A5ErrorV", "init"]
+- !private ["5Vapor11ApplicationC", "http"]
+- !private ["5Vapor11ApplicationC", "logger"]
+- !private ["5Vapor11ApplicationC", "routes"]
+- !private ["7Apodini11ApplicationC", "vapor"]
+- !private ["Sa", "append"]
+- !private ["Sa", "asPathString"]
+- !private ["Sa", "build"]
+- ["Sa", "individual"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "joined"]
+- !private ["7Apodini21BaseInterfaceExporterP", "ApodiniError"]
+- ["7Apodini21BaseInterfaceExporterP", "Default_EndpointExportOutput"]
+- ["7Apodini21BaseInterfaceExporterP", "Default_ExporterRequest"]
+- ["7Apodini21BaseInterfaceExporterP", "Default_ParameterExportOutput"]
+- ["7Apodini21BaseInterfaceExporterP", "EndpointExportOutput"]
+- ["7Apodini21BaseInterfaceExporterP", "ExporterRequest"]
+- !private ["7Apodini21BaseInterfaceExporterP", "HTTPMethod"]
+- !private ["7Apodini21BaseInterfaceExporterP", "JSONDecoder"]
+- ["7Apodini21BaseInterfaceExporterP", "ParameterExportOutput"]
+- !private ["7Apodini21BaseInterfaceExporterP", "RESTConfiguration"]
+- !private ["7Apodini21BaseInterfaceExporterP", "RESTEndpointHandler"]
+- !private ["7Apodini21BaseInterfaceExporterP", "RESTPathBuilder"]
+- ["7Apodini21BaseInterfaceExporterP", ""]
+- ["7Apodini21BaseInterfaceExporterP", "_Default_EndpointExportOutput"]
+- ["7Apodini21BaseInterfaceExporterP", "_Default_ExporterRequest"]
+- ["7Apodini21BaseInterfaceExporterP", "_Default_ParameterExportOutput"]
+- !private ["7Apodini21BaseInterfaceExporterP", "app"]
+- !private ["7Apodini21BaseInterfaceExporterP", "configuration"]
+- ["7Apodini21BaseInterfaceExporterP", "export"]
+- ["7Apodini21BaseInterfaceExporterP", "exportParameter"]
+- ["7Apodini21BaseInterfaceExporterP", "finishedExporting"]
+- ["7Apodini21BaseInterfaceExporterP", "init"]
+- ["7Apodini21BaseInterfaceExporterP", "parameterNamespace"]
+- ["7Apodini21BaseInterfaceExporterP", "retrieveParameter"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "asPathString"]
+- !private ["SK", "build"]
+- ["SK", "individual"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "joined"]
+- !private ["SK", "lowercased"]
+- ["5Vapor11BindAddressO", "hostname"]
+- ["5Vapor11BindAddressO", "unixDomainSocket"]
+- !private ["5Vapor7RequestC4BodyV", "data"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "asPathString"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "build"]
+- ["8CloudKit21CKRecordValueProtocolP", "individual"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "isEmpty"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "joined"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "lowercased"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "asPathString"]
+- !private ["s7CVarArgP", "build"]
+- ["s7CVarArgP", "individual"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s9CodingKeyP", "lowercased"]
+- !private ["5Vapor22CodingKeyRepresentableP", "lowercased"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "asPathString"]
+- !private ["Sl", "build"]
+- ["Sl", "individual"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "lowercased"]
+- !private ["SL", ""]
+- !private ["SL", "lowercased"]
+- ["7Apodini9ComponentP", ""]
+- !private ["5Vapor10HTTPServerC13ConfigurationV", "address"]
+- !private ["7Apodini13ConfigurationP", "append"]
+- !private ["7Apodini13ConfigurationP", "asPathString"]
+- !private ["7Apodini13ConfigurationP", "build"]
+- !private ["5Vapor10HTTPServerC13ConfigurationV", "hostname"]
+- ["7Apodini13ConfigurationP", "individual"]
+- !private ["7Apodini13ConfigurationP", "isEmpty"]
+- !private ["7Apodini13ConfigurationP", "joined"]
+- !private ["5Vapor10HTTPServerC13ConfigurationV", "port"]
+- !private ["5Vapor10HTTPServerC13ConfigurationV", "tlsConfiguration"]
+- !private ["5Vapor7ContentP", "append"]
+- !private ["5Vapor7ContentP", "asPathString"]
+- !private ["5Vapor7ContentP", "build"]
+- ["5Vapor7ContentP", "individual"]
+- !private ["5Vapor7ContentP", "isEmpty"]
+- !private ["5Vapor7ContentP", "joined"]
+- !private ["5Vapor7ContentP", "lowercased"]
+- !private ["5Vapor16ContentContainerP", "decode"]
+- !private ["5Vapor14ContentDecoderP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "asPathString"]
+- !private ["10Foundation15ContiguousBytesP", "build"]
+- ["10Foundation15ContiguousBytesP", "individual"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "absolutePath"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "asPathString"]
+- !private ["s28CustomDebugStringConvertibleP", "build"]
+- !private ["s28CustomDebugStringConvertibleP", "createConnectionContext"]
+- !private ["s28CustomDebugStringConvertibleP", "exportParameters"]
+- ["s28CustomDebugStringConvertibleP", "individual"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "operation"]
+- !private ["s28CustomDebugStringConvertibleP", "relationships"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "asPathString"]
+- !private ["s17CustomReflectableP", "build"]
+- ["s17CustomReflectableP", "individual"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "absolutePath"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "asPathString"]
+- !private ["s23CustomStringConvertibleP", "body"]
+- !private ["s23CustomStringConvertibleP", "build"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "createConnectionContext"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "exportParameters"]
+- !private ["s23CustomStringConvertibleP", "grouped"]
+- ["s23CustomStringConvertibleP", "individual"]
+- !private ["s23CustomStringConvertibleP", "initLosslessStringConvertibleParameterValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- ["s23CustomStringConvertibleP", "lightweight"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "operation"]
+- !private ["s23CustomStringConvertibleP", "parameter"]
+- !private ["s23CustomStringConvertibleP", "parameterType"]
+- !private ["s23CustomStringConvertibleP", "parameters"]
+- ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pathId"]
+- !private ["s23CustomStringConvertibleP", "query"]
+- !private ["s23CustomStringConvertibleP", "relationships"]
+- ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "asPathString"]
+- !private ["10Foundation12DataProtocolP", "build"]
+- ["10Foundation12DataProtocolP", "individual"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- ["Se", ""]
+- !private ["Se", "append"]
+- !private ["Se", "asPathString"]
+- !private ["Se", "build"]
+- ["Se", "individual"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "joined"]
+- !private ["Se", "lowercased"]
+- !private ["7Runtime18DefaultConstructorP", "append"]
+- !private ["7Runtime18DefaultConstructorP", "asPathString"]
+- !private ["7Runtime18DefaultConstructorP", "build"]
+- ["7Runtime18DefaultConstructorP", "individual"]
+- !private ["7Runtime18DefaultConstructorP", "isEmpty"]
+- !private ["7Runtime18DefaultConstructorP", "joined"]
+- !private ["7Runtime18DefaultConstructorP", "lowercased"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", ""]
+- !private ["SE", "append"]
+- !private ["SE", "asPathString"]
+- !private ["SE", "build"]
+- ["SE", "individual"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "joined"]
+- !private ["SE", "lowercased"]
+- !private ["7Apodini8EndpointV", ""]
+- !private ["7Apodini8EndpointV", "absolutePath"]
+- !private ["7Apodini8EndpointV", "createConnectionContext"]
+- !private ["7Apodini8EndpointV", "exportParameters"]
+- !private ["7Apodini8EndpointV", "operation"]
+- !private ["7Apodini8EndpointV", "relationships"]
+- !private ["7Apodini17EndpointParameterV", ""]
+- !private ["7Apodini17EndpointParameterV", "initLosslessStringConvertibleParameterValue"]
+- !private ["7Apodini17EndpointParameterV", "name"]
+- !private ["7Apodini17EndpointParameterV", "parameterType"]
+- !private ["7Apodini17EndpointParameterV", "pathId"]
+- !private ["7Apodini21EndpointPathParameterV", ""]
+- !private ["7Apodini21EndpointPathParameterV", "name"]
+- !private ["7Apodini21EndpointPathParameterV", "pathId"]
+- !private ["7Apodini20EndpointRelationshipV", "destinationPath"]
+- !private ["7Apodini21EnvironmentAccessibleP", "vapor"]
+- !private ["SQ", "DELETE"]
+- !private ["SQ", "GET"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "PUT"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "asPathString"]
+- !private ["SQ", "badInput"]
+- !private ["SQ", "build"]
+- ["SQ", "content"]
+- ["SQ", "create"]
+- ["SQ", "delete"]
+- ["SQ", "hostname"]
+- !private ["SQ", "httpMethod"]
+- ["SQ", "individual"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- ["SQ", "lightweight"]
+- !private ["SQ", "lowercased"]
+- ["SQ", "path"]
+- !private ["SQ", "rawValue"]
+- ["SQ", "read"]
+- ["SQ", "unixDomainSocket"]
+- ["SQ", "update"]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["7Apodini9ErrorTypeO", "badInput"]
+- !private ["7Apodini15ExporterRequestP", "body"]
+- !private ["7Apodini15ExporterRequestP", "content"]
+- !private ["7Apodini15ExporterRequestP", "parameters"]
+- !private ["7Apodini15ExporterRequestP", "query"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "asPathString"]
+- !private ["s25ExpressibleByArrayLiteralP", "build"]
+- ["s25ExpressibleByArrayLiteralP", "individual"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "constant"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "parameter"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "constant"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s32ExpressibleByStringInterpolationP", "parameter"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "constant"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", "parameter"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "constant"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "parameter"]
+- !private ["5Vapor11ApplicationC4HTTPV", "server"]
+- !private ["8NIOHTTP110HTTPMethodO", "DELETE"]
+- !private ["8NIOHTTP110HTTPMethodO", "GET"]
+- !private ["8NIOHTTP110HTTPMethodO", "POST"]
+- !private ["8NIOHTTP110HTTPMethodO", "PUT"]
+- !private ["8NIOHTTP110HTTPMethodO", "rawValue"]
+- ["5Vapor10HTTPServerC", "Configuration"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "asPathString"]
+- !private ["SH", "badInput"]
+- !private ["SH", "build"]
+- ["SH", "content"]
+- ["SH", "create"]
+- ["SH", "delete"]
+- !private ["SH", "httpMethod"]
+- ["SH", "individual"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "joined"]
+- ["SH", "lightweight"]
+- !private ["SH", "lowercased"]
+- ["SH", "path"]
+- ["SH", "read"]
+- ["SH", "update"]
+- !private ["7GraphQL16IndexPathElementP", "lowercased"]
+- !private ["7Apodini17InterfaceExporterP", "ApodiniError"]
+- ["7Apodini17InterfaceExporterP", "Default_EndpointExportOutput"]
+- ["7Apodini17InterfaceExporterP", "Default_ExporterRequest"]
+- ["7Apodini17InterfaceExporterP", "Default_ParameterExportOutput"]
+- ["7Apodini17InterfaceExporterP", "EndpointExportOutput"]
+- ["7Apodini17InterfaceExporterP", "ExporterRequest"]
+- !private ["7Apodini17InterfaceExporterP", "HTTPMethod"]
+- !private ["7Apodini17InterfaceExporterP", "JSONDecoder"]
+- ["7Apodini17InterfaceExporterP", "ParameterExportOutput"]
+- !private ["7Apodini17InterfaceExporterP", "RESTConfiguration"]
+- !private ["7Apodini17InterfaceExporterP", "RESTEndpointHandler"]
+- !private ["7Apodini17InterfaceExporterP", "RESTPathBuilder"]
+- ["7Apodini17InterfaceExporterP", ""]
+- ["7Apodini17InterfaceExporterP", "_Default_EndpointExportOutput"]
+- ["7Apodini17InterfaceExporterP", "_Default_ExporterRequest"]
+- ["7Apodini17InterfaceExporterP", "_Default_ParameterExportOutput"]
+- !private ["7Apodini17InterfaceExporterP", "app"]
+- !private ["7Apodini17InterfaceExporterP", "configuration"]
+- ["7Apodini17InterfaceExporterP", "export"]
+- ["7Apodini17InterfaceExporterP", "exportParameter"]
+- ["7Apodini17InterfaceExporterP", "finishedExporting"]
+- ["7Apodini17InterfaceExporterP", "init"]
+- ["7Apodini17InterfaceExporterP", "parameterNamespace"]
+- ["7Apodini17InterfaceExporterP", "retrieveParameter"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["7Logging6LoggerV", "info"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["12MultipartKit0A15PartConvertibleP", "lowercased"]
+- ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "asPathString"]
+- !private ["SM", "build"]
+- ["SM", "individual"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "asPathString"]
+- !private ["10Foundation19MutableDataProtocolP", "build"]
+- ["10Foundation19MutableDataProtocolP", "individual"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So19NSPasteboardReadingP", "lowercased"]
+- !private ["So19NSPasteboardWritingP", "lowercased"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["4Yams17NodeRepresentableP", ""]
+- !private ["4Yams17NodeRepresentableP", "append"]
+- !private ["4Yams17NodeRepresentableP", "asPathString"]
+- !private ["4Yams17NodeRepresentableP", "build"]
+- ["4Yams17NodeRepresentableP", "individual"]
+- !private ["4Yams17NodeRepresentableP", "isEmpty"]
+- !private ["4Yams17NodeRepresentableP", "joined"]
+- !private ["4Yams17NodeRepresentableP", "lowercased"]
+- !private ["Sj", ""]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "append"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "asPathString"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "build"]
+- ["10OpenAPIKit0A13APISchemaTypeP", "individual"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "isEmpty"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "joined"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "lowercased"]
+- ["7Apodini9OperationO", "Vapor"]
+- ["7Apodini9OperationO", ""]
+- ["7Apodini9OperationO", "create"]
+- ["7Apodini9OperationO", "delete"]
+- ["7Apodini9OperationO", "httpMethod"]
+- ["7Apodini9OperationO", "read"]
+- ["7Apodini9OperationO", "update"]
+- ["7Apodini13ParameterTypeO", "content"]
+- ["7Apodini13ParameterTypeO", "lightweight"]
+- ["7Apodini13ParameterTypeO", "path"]
+- !private ["10RoutingKit10ParametersV", "get"]
+- !private ["7Apodini11PathBuilderP", "Result"]
+- ["7Apodini11PathBuilderP", ""]
+- ["7Apodini11PathBuilderP", "append"]
+- !private ["7Apodini11PathBuilderP", "init"]
+- !private ["7Apodini11PathBuilderP", "pathComponents"]
+- !private ["7Apodini11PathBuilderP", "pathDescription"]
+- !private ["7Apodini11PathBuilderP", "pathString"]
+- ["7Apodini11PathBuilderP", "root"]
+- !private ["7Apodini11PathBuilderP", "routesBuilder"]
+- !private ["7Apodini21PathBuilderWithResultP", "Result"]
+- ["7Apodini13PathComponentP", ""]
+- !private ["10RoutingKit13PathComponentO", "constant"]
+- !private ["7Apodini13PathComponentP", "lowercased"]
+- !private ["10RoutingKit13PathComponentO", "parameter"]
+- ["7Apodini14PropertyOptionP", ""]
+- !private ["7Apodini14PropertyOptionP", "badInput"]
+- ["7Apodini17RESTConfigurationV", "HTTPServer"]
+- ["7Apodini17RESTConfigurationV", "String"]
+- ["7Apodini17RESTConfigurationV", "Vapor"]
+- ["7Apodini17RESTConfigurationV", "bindAddress"]
+- ["7Apodini17RESTConfigurationV", "configuration"]
+- ["7Apodini17RESTConfigurationV", "init"]
+- ["7Apodini17RESTConfigurationV", "uriPrefix"]
+- !private ["7Apodini19RESTEndpointHandlerC", "init"]
+- !private ["7Apodini19RESTEndpointHandlerC", "register"]
+- ["7Apodini21RESTInterfaceExporterC", "Apodini"]
+- !private ["7Apodini21RESTInterfaceExporterC", "ApodiniError"]
+- ["7Apodini21RESTInterfaceExporterC", "Codable"]
+- ["7Apodini21RESTInterfaceExporterC", "Decodable"]
+- ["7Apodini21RESTInterfaceExporterC", "Default_EndpointExportOutput"]
+- ["7Apodini21RESTInterfaceExporterC", "Default_ExporterRequest"]
+- ["7Apodini21RESTInterfaceExporterC", "Default_ParameterExportOutput"]
+- ["7Apodini21RESTInterfaceExporterC", "Endpoint"]
+- ["7Apodini21RESTInterfaceExporterC", "EndpointExportOutput"]
+- ["7Apodini21RESTInterfaceExporterC", "EndpointParameter"]
+- ["7Apodini21RESTInterfaceExporterC", "ExporterRequest"]
+- !private ["7Apodini21RESTInterfaceExporterC", "HTTPMethod"]
+- ["7Apodini21RESTInterfaceExporterC", "Handler"]
+- !private ["7Apodini21RESTInterfaceExporterC", "JSONDecoder"]
+- ["7Apodini21RESTInterfaceExporterC", "ParameterExportOutput"]
+- ["7Apodini21RESTInterfaceExporterC", "ParameterNamespace"]
+- ["7Apodini21RESTInterfaceExporterC", "RESTConfiguration"]
+- !private ["7Apodini21RESTInterfaceExporterC", "RESTEndpointHandler"]
+- !private ["7Apodini21RESTInterfaceExporterC", "RESTPathBuilder"]
+- ["7Apodini21RESTInterfaceExporterC", "String"]
+- ["7Apodini21RESTInterfaceExporterC", "Vapor"]
+- ["7Apodini21RESTInterfaceExporterC", "WebServiceModel"]
+- ["7Apodini21RESTInterfaceExporterC", ""]
+- ["7Apodini21RESTInterfaceExporterC", "_Default_EndpointExportOutput"]
+- ["7Apodini21RESTInterfaceExporterC", "_Default_ExporterRequest"]
+- ["7Apodini21RESTInterfaceExporterC", "_Default_ParameterExportOutput"]
+- ["7Apodini21RESTInterfaceExporterC", "app"]
+- ["7Apodini21RESTInterfaceExporterC", "configuration"]
+- ["7Apodini21RESTInterfaceExporterC", "deinit"]
+- ["7Apodini21RESTInterfaceExporterC", "export"]
+- ["7Apodini21RESTInterfaceExporterC", "exportParameter"]
+- ["7Apodini21RESTInterfaceExporterC", "finishedExporting"]
+- ["7Apodini21RESTInterfaceExporterC", "init"]
+- ["7Apodini21RESTInterfaceExporterC", "parameterNamespace"]
+- ["7Apodini21RESTInterfaceExporterC", "retrieveParameter"]
+- ["7Apodini15RESTPathBuilderV", "EndpointPathParameter"]
+- ["7Apodini15RESTPathBuilderV", "String"]
+- ["7Apodini15RESTPathBuilderV", "Vapor"]
+- ["7Apodini15RESTPathBuilderV", ""]
+- ["7Apodini15RESTPathBuilderV", "append"]
+- ["7Apodini15RESTPathBuilderV", "init"]
+- !private ["7Apodini15RESTPathBuilderV", "pathComponents"]
+- !private ["7Apodini15RESTPathBuilderV", "pathDescription"]
+- !private ["7Apodini15RESTPathBuilderV", "pathString"]
+- ["7Apodini15RESTPathBuilderV", "root"]
+- ["7Apodini15RESTPathBuilderV", "routesBuilder"]
+- ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "asPathString"]
+- !private ["Sk", "build"]
+- ["Sk", "individual"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "joined"]
+- ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "asPathString"]
+- !private ["Sm", "build"]
+- ["Sm", "individual"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "lowercased"]
+- !private ["SY", "DELETE"]
+- !private ["SY", "GET"]
+- !private ["SY", "POST"]
+- !private ["SY", "PUT"]
+- !private ["SY", "badInput"]
+- !private ["SY", "init"]
+- !private ["SY", "rawValue"]
+- ["7Apodini9ReducibleP", ""]
+- !private ["7Apodini9ReducibleP", "body"]
+- !private ["7Apodini9ReducibleP", "content"]
+- !private ["7Apodini9ReducibleP", "parameters"]
+- !private ["7Apodini9ReducibleP", "query"]
+- ["5Vapor7RequestC", ""]
+- !private ["5Vapor7RequestC", "body"]
+- !private ["5Vapor7RequestC", "content"]
+- !private ["5Vapor7RequestC", "parameters"]
+- !private ["5Vapor7RequestC", "query"]
+- ["5Vapor16RequestDecodableP", ""]
+- !private ["5Vapor16RequestDecodableP", "append"]
+- !private ["5Vapor16RequestDecodableP", "asPathString"]
+- !private ["5Vapor16RequestDecodableP", "body"]
+- !private ["5Vapor16RequestDecodableP", "build"]
+- !private ["5Vapor16RequestDecodableP", "content"]
+- ["5Vapor16RequestDecodableP", "individual"]
+- !private ["5Vapor16RequestDecodableP", "isEmpty"]
+- !private ["5Vapor16RequestDecodableP", "joined"]
+- !private ["5Vapor16RequestDecodableP", "lowercased"]
+- !private ["5Vapor16RequestDecodableP", "parameters"]
+- !private ["5Vapor16RequestDecodableP", "query"]
+- ["5Vapor17ResponseEncodableP", ""]
+- !private ["5Vapor17ResponseEncodableP", "append"]
+- !private ["5Vapor17ResponseEncodableP", "asPathString"]
+- !private ["5Vapor17ResponseEncodableP", "build"]
+- ["5Vapor17ResponseEncodableP", "individual"]
+- !private ["5Vapor17ResponseEncodableP", "isEmpty"]
+- !private ["5Vapor17ResponseEncodableP", "joined"]
+- !private ["5Vapor17ResponseEncodableP", "lowercased"]
+- !private ["7Apodini21ResponseTransformableP", "append"]
+- !private ["7Apodini21ResponseTransformableP", "asPathString"]
+- !private ["7Apodini21ResponseTransformableP", "build"]
+- ["7Apodini21ResponseTransformableP", "individual"]
+- !private ["7Apodini21ResponseTransformableP", "isEmpty"]
+- !private ["7Apodini21ResponseTransformableP", "joined"]
+- !private ["7Apodini21ResponseTransformableP", "lowercased"]
+- !private ["5Vapor6RoutesC", "grouped"]
+- !private ["5Vapor13RoutesBuilderP", "grouped"]
+- !private ["5Vapor13RoutesBuilderP", "http"]
+- !private ["5Vapor13RoutesBuilderP", "logger"]
+- !private ["5Vapor13RoutesBuilderP", "routes"]
+- !private ["4Yams19ScalarConstructibleP", "lowercased"]
+- !private ["4Yams19ScalarRepresentableP", "lowercased"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "asPathString"]
+- !private ["ST", "build"]
+- ["ST", "individual"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- !private ["ST", "lowercased"]
+- ["5Vapor6ServerP", "Configuration"]
+- !private ["5Vapor11ApplicationC4HTTPV6ServerV", "configuration"]
+- !private ["7Apodini13StandardErrorP", "init"]
+- !private ["7Apodini28StandardErrorCompliantOptionP", "badInput"]
+- ["7Apodini20StandardErrorContextP", ""]
+- !private ["7Apodini20StandardErrorContextP", "init"]
+- !private ["Sx", ""]
+- !private ["SS", "lowercased"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "lowercased"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "lowercased"]
+- !private ["5Vapor17URLQueryContainerP", "subscript"]
+- !private ["5Vapor27URLQueryFragmentConvertibleP", "lowercased"]
+- !private ["10OpenAPIKit11ValidatableP", "append"]
+- !private ["10OpenAPIKit11ValidatableP", "asPathString"]
+- !private ["10OpenAPIKit11ValidatableP", "build"]
+- ["10OpenAPIKit11ValidatableP", "individual"]
+- !private ["10OpenAPIKit11ValidatableP", "isEmpty"]
+- !private ["10OpenAPIKit11ValidatableP", "joined"]
+- !private ["10OpenAPIKit11ValidatableP", "lowercased"]
+- !private ["7Apodini11ApplicationC8VaporAppV", "app"]
+- !private ["7Apodini15WebServiceModelC", "relationships"]
+- !private ["7Apodini15WebServiceModelC", "rootEndpoints"]
+- !private ["7Apodini13WithEventLoopP", "body"]
+- !private ["7Apodini13WithEventLoopP", "content"]
+- !private ["7Apodini13WithEventLoopP", "parameters"]
+- !private ["7Apodini13WithEventLoopP", "query"]
+- !private ["4Yams13YAMLEncodableP", "lowercased"]
+- !private ["7Apodini12_AnyEndpointP", "absolutePath"]
+- !private ["7Apodini12_AnyEndpointP", "createConnectionContext"]
+- !private ["7Apodini12_AnyEndpointP", "exportParameters"]
+- !private ["7Apodini12_AnyEndpointP", "operation"]
+- !private ["7Apodini12_AnyEndpointP", "relationships"]
+- !private ["7Apodini21_AnyEndpointParameterP", "initLosslessStringConvertibleParameterValue"]
+- !private ["7Apodini21_AnyEndpointParameterP", "name"]
+- !private ["7Apodini21_AnyEndpointParameterP", "parameterType"]
+- !private ["7Apodini21_AnyEndpointParameterP", "pathId"]
+- !private ["7Apodini25_AnyEndpointPathParameterP", "name"]
+- !private ["7Apodini25_AnyEndpointPathParameterP", "pathId"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "asPathString"]
+- !private ["s14_ArrayProtocolP", "build"]
+- ["s14_ArrayProtocolP", "individual"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "asPathString"]
+- !private ["s24_DestructorSafeContainerP", "build"]
+- ["s24_DestructorSafeContainerP", "individual"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "asPathString"]
+- !private ["s19_HasContiguousBytesP", "build"]
+- ["s19_HasContiguousBytesP", "individual"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asPathString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "build"]
+- ["s35_HasCustomAnyHashableRepresentationP", "individual"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "asPathString"]
+- !private ["s21_ObjectiveCBridgeableP", "build"]
+- ["s21_ObjectiveCBridgeableP", "individual"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["7Apodini14_PathComponentP", "lowercased"]
+- !private ["So13CKRecordValueP", "lowercased"]
+depends-nominal:
+- "7Apodini11AnyEndpointP"
+- "7Apodini20AnyEndpointParameterP"
+- "7Apodini24AnyEndpointPathParameterP"
+- !private "7Apodini0A5ErrorV"
+- !private "5Vapor11ApplicationC"
+- !private "7Apodini11ApplicationC"
+- "Sa"
+- "7Apodini21BaseInterfaceExporterP"
+- "SK"
+- "5Vapor11BindAddressO"
+- !private "5Vapor7RequestC4BodyV"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "5Vapor22CodingKeyRepresentableP"
+- "Sl"
+- !private "SL"
+- "7Apodini9ComponentP"
+- !private "5Vapor10HTTPServerC13ConfigurationV"
+- !private "7Apodini13ConfigurationP"
+- !private "5Vapor10HTTPServerC13ConfigurationV"
+- "7Apodini13ConfigurationP"
+- !private "5Vapor10HTTPServerC13ConfigurationV"
+- "5Vapor7ContentP"
+- !private "5Vapor16ContentContainerP"
+- !private "5Vapor14ContentDecoderP"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "7Runtime18DefaultConstructorP"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "7Apodini8EndpointV"
+- !private "7Apodini17EndpointParameterV"
+- !private "7Apodini21EndpointPathParameterV"
+- !private "7Apodini20EndpointRelationshipV"
+- !private "7Apodini21EnvironmentAccessibleP"
+- "SQ"
+- "s5ErrorP"
+- !private "7Apodini9ErrorTypeO"
+- !private "7Apodini15ExporterRequestP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "5Vapor11ApplicationC4HTTPV"
+- !private "8NIOHTTP110HTTPMethodO"
+- "5Vapor10HTTPServerC"
+- "SH"
+- !private "7GraphQL16IndexPathElementP"
+- "7Apodini17InterfaceExporterP"
+- !private "10Foundation11JSONDecoderC"
+- !private "7Logging6LoggerV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "12MultipartKit0A15PartConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "4Yams17NodeRepresentableP"
+- !private "Sj"
+- "10OpenAPIKit0A13APISchemaTypeP"
+- "7Apodini9OperationO"
+- "7Apodini13ParameterTypeO"
+- !private "10RoutingKit10ParametersV"
+- "7Apodini11PathBuilderP"
+- !private "7Apodini21PathBuilderWithResultP"
+- "7Apodini13PathComponentP"
+- !private "10RoutingKit13PathComponentO"
+- !private "7Apodini13PathComponentP"
+- !private "10RoutingKit13PathComponentO"
+- "7Apodini14PropertyOptionP"
+- "7Apodini17RESTConfigurationV"
+- !private "7Apodini19RESTEndpointHandlerC"
+- "7Apodini21RESTInterfaceExporterC"
+- "7Apodini15RESTPathBuilderV"
+- "Sk"
+- "Sm"
+- !private "SY"
+- "7Apodini9ReducibleP"
+- "5Vapor7RequestC"
+- "5Vapor16RequestDecodableP"
+- "5Vapor17ResponseEncodableP"
+- "7Apodini21ResponseTransformableP"
+- !private "5Vapor6RoutesC"
+- !private "5Vapor13RoutesBuilderP"
+- !private "4Yams19ScalarConstructibleP"
+- !private "4Yams19ScalarRepresentableP"
+- "ST"
+- "5Vapor6ServerP"
+- !private "5Vapor11ApplicationC4HTTPV6ServerV"
+- !private "7Apodini13StandardErrorP"
+- !private "7Apodini28StandardErrorCompliantOptionP"
+- "7Apodini20StandardErrorContextP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7GraphQL30TypeResolveResultRepresentableP"
+- !private "5Vapor17URLQueryContainerP"
+- !private "5Vapor27URLQueryFragmentConvertibleP"
+- "10OpenAPIKit11ValidatableP"
+- !private "7Apodini11ApplicationC8VaporAppV"
+- !private "7Apodini15WebServiceModelC"
+- !private "7Apodini13WithEventLoopP"
+- !private "4Yams13YAMLEncodableP"
+- !private "7Apodini12_AnyEndpointP"
+- !private "7Apodini21_AnyEndpointParameterP"
+- !private "7Apodini25_AnyEndpointPathParameterP"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "7Apodini14_PathComponentP"
+- !private "So13CKRecordValueP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Network.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/os.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CryptoKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dtls1.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs12.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_e_os2.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509v3.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_base64.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rc4.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_md4.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_poly1305.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_md5.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs7.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pkcs8.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_curve25519.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_chacha.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_sha.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dsa.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ecdsa.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rsa.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ex_data.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1_mac.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_obj_mac.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cmac.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hmac.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ec.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_aead.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_thread.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_nid.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ripemd.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_rand.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_engine.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_base.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hkdf.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_conf.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_opensslconf.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_buf.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bytestring.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_arm_arch.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_dh.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ecdh.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_lhash.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_siphash.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_blowfish.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_obj.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_stack.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_safestack.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_type_check.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/Yams/Sources/CYaml/include/yaml.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pool.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_is_boringssl.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_mem.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_pem.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_boringssl_prefix_symbols_asm.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_span.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bn.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_trust_token.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_bio.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_crypto.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_evp.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ossl_typ.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_buffer.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cipher.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/c_nio_http_parser.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/vapor/Sources/CURLParser/include/urlparser.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/multipart-kit/Sources/CMultipartParser/include/multipartparser.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_err.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_aes.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_des.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_boringssl_prefix_symbols.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include/COpenCombineHelpers.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_hrss.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_objects.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_asn1t.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cast.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_digest.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/AssociatedTypeRequirementsKit/Sources/CContext/include/CContext.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_cpu.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_opensslv.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_ec_key.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL_x509_vfy.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/vapor/Sources/CBase32/include/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/Yams/Sources/CYaml/include/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/vapor/Sources/CBcrypt/include/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Network.framework/Headers/Network.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "87295be386468b3e4d66aecbc77af1e5"

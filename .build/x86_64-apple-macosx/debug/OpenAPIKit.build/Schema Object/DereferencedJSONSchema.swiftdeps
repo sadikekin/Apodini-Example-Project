@@ -1,0 +1,1033 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DereferencedJSONSchema"
+provides-nominal:
+- "10OpenAPIKit22DereferencedJSONSchemaO"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- "10OpenAPIKit10JSONSchemaO"
+provides-member:
+- ["10OpenAPIKit22DereferencedJSONSchemaO", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "objectContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "arrayContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "ArrayContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "ObjectContext"]
+provides-dynamic-lookup:
+depends-top-level:
+- "!"
+- "=="
+- !private "??"
+- "AnyCodable"
+- "AnyHashable"
+- !private "Array"
+- "ArrayContext"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CoreContext"
+- "DereferencedJSONSchema"
+- "Either"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Int"
+- "IntegerContext"
+- !private "IntegerLiteralType"
+- "JSONSchema"
+- "JSONSchemaContext"
+- "JSONTypeFormat"
+- "KeyPath"
+- "LocallyDereferenceable"
+- "NumericContext"
+- "ObjectContext"
+- "OpenAPI"
+- "OpenAPIFormat"
+- "Set"
+- "String"
+- "StringContext"
+- !private "_minItems"
+- !private "_minProperties"
+- !private "_uniqueItems"
+- !private "additionalProperties"
+- !private "dereferenced"
+- !private "items"
+- !private "jsonSchema"
+- !private "max"
+- !private "maxItems"
+- !private "maxProperties"
+- !private "properties"
+- !private "requiredProperties"
+depends-member:
+- !private ["10OpenAPIKit10AnyCodableV", ""]
+- ["10OpenAPIKit14JSONTypeFormatO03AnyD0O", ""]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "keys"]
+- !private ["Sa", "map"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "=="]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "AnyHashable"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "Bool"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "DereferencedJSONSchema"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "Int"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "JSONSchema"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "OpenAPI"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "Set"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", ""]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "__derived_struct_equals"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "_minItems"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "_minItems"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "_uniqueItems"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "_uniqueItems"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "init"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "init"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "items"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "items"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "jsonSchemaArrayContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "maxItems"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "maxItems"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "minItems"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "minItems"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV", "uniqueItems"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "uniqueItems"]
+- ["10OpenAPIKit14JSONTypeFormatO05ArrayD0O", ""]
+- !private ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "keys"]
+- !private ["SK", "map"]
+- ["10OpenAPIKit14JSONTypeFormatO07BooleanD0O", ""]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", ""]
+- !private ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", ""]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "mapValues"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "noComponents"]
+- !private ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "init"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "map"]
+- !private ["Sl", "mapValues"]
+- !private ["Sl", "subscript"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "ArrayContext"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "CoreContext"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "DereferencedJSONSchema"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "DereferencedSelf"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "IntegerContext"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "NumericContext"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "ObjectContext"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "StringContext"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "_dereferenced"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "all"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "allowedValues"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "any"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "array"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "boolean"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "callAsFunction"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "defaultValue"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "deprecated"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "dereferenced"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "description"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "discriminator"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "example"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "externalDocs"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "formatString"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "fragment"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "integer"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "not"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "nullable"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "number"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "object"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "one"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "readOnly"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "reference"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "required"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "string"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "subscript"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "title"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "writeOnly"]
+- !private ["10OpenAPIKit0A3APIO10ComponentsV", "noComponents"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "keys"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", ""]
+- ["s28CustomDebugStringConvertibleP", "a"]
+- ["s28CustomDebugStringConvertibleP", "b"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "mapValues"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "a"]
+- ["s17CustomReflectableP", "b"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "mapValues"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "a"]
+- ["s23CustomStringConvertibleP", "b"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "mapValues"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "keys"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "ArrayContext"]
+- ["Se", "CoreContext"]
+- ["Se", "Default_DereferencedSelf"]
+- !private ["Se", "DereferencedJSONSchema"]
+- ["Se", "DereferencedSelf"]
+- ["Se", "IntegerContext"]
+- ["Se", "NumericContext"]
+- ["Se", "ObjectContext"]
+- ["Se", "StringContext"]
+- ["Se", ""]
+- ["Se", "_Default_DereferencedSelf"]
+- ["Se", "_dereferenced"]
+- !private ["Se", "_minItems"]
+- !private ["Se", "_minProperties"]
+- !private ["Se", "_uniqueItems"]
+- ["Se", "a"]
+- !private ["Se", "additionalProperties"]
+- ["Se", "all"]
+- !private ["Se", "allowedValues"]
+- ["Se", "any"]
+- ["Se", "array"]
+- ["Se", "b"]
+- ["Se", "boolean"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "count"]
+- !private ["Se", "defaultValue"]
+- !private ["Se", "deprecated"]
+- ["Se", "dereferenced"]
+- !private ["Se", "description"]
+- !private ["Se", "discriminator"]
+- !private ["Se", "example"]
+- !private ["Se", "externalDocs"]
+- !private ["Se", "filter"]
+- !private ["Se", "formatString"]
+- ["Se", "fragment"]
+- !private ["Se", "init"]
+- ["Se", "integer"]
+- !private ["Se", "items"]
+- !private ["Se", "keys"]
+- !private ["Se", "map"]
+- !private ["Se", "mapValues"]
+- !private ["Se", "maxItems"]
+- !private ["Se", "maxProperties"]
+- !private ["Se", "minItems"]
+- !private ["Se", "minProperties"]
+- !private ["Se", "noComponents"]
+- ["Se", "not"]
+- !private ["Se", "nullable"]
+- ["Se", "number"]
+- ["Se", "object"]
+- ["Se", "one"]
+- !private ["Se", "properties"]
+- !private ["Se", "readOnly"]
+- ["Se", "reference"]
+- !private ["Se", "required"]
+- ["Se", "string"]
+- !private ["Se", "subscript"]
+- !private ["Se", "title"]
+- !private ["Se", "uniqueItems"]
+- !private ["Se", "writeOnly"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "=="]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "AnyCodable"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "AnyHashable"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "Array"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "ArrayContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "Bool"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "CoreContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "DereferencedJSONSchema"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "Either"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "Equatable"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "Int"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "IntegerContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "JSONSchema"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "JSONTypeFormat"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "KeyPath"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "NumericContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "ObjectContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "OpenAPI"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "OpenAPIFormat"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "Set"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "String"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "StringContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "__derived_enum_equals"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "_minItems"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "_minProperties"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "_uniqueItems"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "additionalProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "all"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "allowedValues"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "any"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "array"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "arrayContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "boolean"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "defaultValue"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "deprecated"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "description"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "discriminator"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "example"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "externalDocs"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "formatString"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "fragment"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "integer"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "items"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "jsonSchema"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "max"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "maxItems"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "maxProperties"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "minItems"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "minProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "not"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "nullable"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "number"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "object"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "objectContext"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "one"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "properties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "readOnly"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "required"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "requiredProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "string"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "subscript"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "title"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO", "uniqueItems"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO", "writeOnly"]
+- !private ["SD", "filter"]
+- !private ["SD", "init"]
+- !private ["SD", "keys"]
+- !private ["SD", "mapValues"]
+- !private ["SD", "subscript"]
+- !private ["10OpenAPIKit0A3APIO13DiscriminatorV", ""]
+- ["10OpenAPIKit6EitherO", ""]
+- ["10OpenAPIKit6EitherO", "a"]
+- ["10OpenAPIKit6EitherO", "b"]
+- ["SE", "ArrayContext"]
+- ["SE", "CoreContext"]
+- ["SE", "Default_DereferencedSelf"]
+- !private ["SE", "DereferencedJSONSchema"]
+- ["SE", "DereferencedSelf"]
+- ["SE", "IntegerContext"]
+- ["SE", "NumericContext"]
+- ["SE", "ObjectContext"]
+- ["SE", "StringContext"]
+- ["SE", ""]
+- ["SE", "_Default_DereferencedSelf"]
+- ["SE", "_dereferenced"]
+- !private ["SE", "_minItems"]
+- !private ["SE", "_minProperties"]
+- !private ["SE", "_uniqueItems"]
+- ["SE", "a"]
+- !private ["SE", "additionalProperties"]
+- ["SE", "all"]
+- !private ["SE", "allowedValues"]
+- ["SE", "any"]
+- ["SE", "array"]
+- ["SE", "b"]
+- ["SE", "boolean"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "count"]
+- !private ["SE", "defaultValue"]
+- !private ["SE", "deprecated"]
+- ["SE", "dereferenced"]
+- !private ["SE", "description"]
+- !private ["SE", "discriminator"]
+- !private ["SE", "example"]
+- !private ["SE", "externalDocs"]
+- !private ["SE", "filter"]
+- !private ["SE", "formatString"]
+- ["SE", "fragment"]
+- !private ["SE", "init"]
+- ["SE", "integer"]
+- !private ["SE", "items"]
+- !private ["SE", "keys"]
+- !private ["SE", "map"]
+- !private ["SE", "mapValues"]
+- !private ["SE", "maxItems"]
+- !private ["SE", "maxProperties"]
+- !private ["SE", "minItems"]
+- !private ["SE", "minProperties"]
+- !private ["SE", "noComponents"]
+- ["SE", "not"]
+- !private ["SE", "nullable"]
+- ["SE", "number"]
+- ["SE", "object"]
+- ["SE", "one"]
+- !private ["SE", "properties"]
+- !private ["SE", "readOnly"]
+- ["SE", "reference"]
+- !private ["SE", "required"]
+- ["SE", "string"]
+- !private ["SE", "subscript"]
+- !private ["SE", "title"]
+- !private ["SE", "uniqueItems"]
+- !private ["SE", "writeOnly"]
+- ["SQ", "=="]
+- ["SQ", "AnyFormat"]
+- !private ["SQ", "Array"]
+- ["SQ", "ArrayContext"]
+- ["SQ", "ArrayFormat"]
+- ["SQ", "BooleanFormat"]
+- ["SQ", "CoreContext"]
+- ["SQ", "Default_DereferencedSelf"]
+- !private ["SQ", "DereferencedJSONSchema"]
+- ["SQ", "DereferencedSelf"]
+- ["SQ", "Equatable"]
+- ["SQ", "IntegerContext"]
+- ["SQ", "IntegerFormat"]
+- ["SQ", "NumberFormat"]
+- ["SQ", "NumericContext"]
+- ["SQ", "ObjectContext"]
+- ["SQ", "ObjectFormat"]
+- !private ["SQ", "String"]
+- ["SQ", "StringContext"]
+- ["SQ", "StringFormat"]
+- ["SQ", ""]
+- ["SQ", "_Default_DereferencedSelf"]
+- !private ["SQ", "__derived_enum_equals"]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_dereferenced"]
+- !private ["SQ", "_minItems"]
+- !private ["SQ", "_minProperties"]
+- !private ["SQ", "_uniqueItems"]
+- ["SQ", "a"]
+- !private ["SQ", "additionalProperties"]
+- ["SQ", "all"]
+- ["SQ", "allowedValues"]
+- ["SQ", "any"]
+- ["SQ", "array"]
+- ["SQ", "b"]
+- ["SQ", "boolean"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "count"]
+- ["SQ", "defaultValue"]
+- ["SQ", "deprecated"]
+- ["SQ", "dereferenced"]
+- ["SQ", "description"]
+- ["SQ", "discriminator"]
+- ["SQ", "example"]
+- ["SQ", "externalDocs"]
+- !private ["SQ", "filter"]
+- ["SQ", "formatString"]
+- ["SQ", "fragment"]
+- !private ["SQ", "init"]
+- ["SQ", "integer"]
+- !private ["SQ", "items"]
+- !private ["SQ", "jsonSchema"]
+- !private ["SQ", "jsonSchemaArrayContext"]
+- !private ["SQ", "jsonSchemaObjectContext"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "map"]
+- !private ["SQ", "mapValues"]
+- !private ["SQ", "max"]
+- !private ["SQ", "maxItems"]
+- !private ["SQ", "maxProperties"]
+- !private ["SQ", "minItems"]
+- !private ["SQ", "minProperties"]
+- !private ["SQ", "noComponents"]
+- ["SQ", "not"]
+- ["SQ", "nullable"]
+- ["SQ", "number"]
+- ["SQ", "object"]
+- ["SQ", "one"]
+- !private ["SQ", "properties"]
+- ["SQ", "readOnly"]
+- ["SQ", "reference"]
+- ["SQ", "required"]
+- !private ["SQ", "requiredProperties"]
+- ["SQ", "string"]
+- ["SQ", "subscript"]
+- ["SQ", "title"]
+- !private ["SQ", "uniqueItems"]
+- ["SQ", "writeOnly"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "keys"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filter"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "mapValues"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s23ExpressibleByNilLiteralP", "a"]
+- ["s23ExpressibleByNilLiteralP", "b"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["10OpenAPIKit0A3APIO21ExternalDocumentationV", ""]
+- !private ["SH", "_dereferenced"]
+- ["SH", "a"]
+- ["SH", "b"]
+- !private ["SH", "count"]
+- !private ["SH", "dereferenced"]
+- !private ["SH", "filter"]
+- !private ["SH", "init"]
+- !private ["SH", "keys"]
+- !private ["SH", "map"]
+- !private ["SH", "mapValues"]
+- !private ["SH", "subscript"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", ""]
+- ["10OpenAPIKit14JSONTypeFormatO07IntegerD0O", ""]
+- !private ["10OpenAPIKit13JSONReferenceO", ""]
+- !private ["10OpenAPIKit13JSONReferenceO", "_dereferenced"]
+- !private ["10OpenAPIKit13JSONReferenceO", "dereferenced"]
+- ["10OpenAPIKit10JSONSchemaO", "AnyHashable"]
+- ["10OpenAPIKit10JSONSchemaO", "ArrayContext"]
+- ["10OpenAPIKit10JSONSchemaO", "CoreContext"]
+- ["10OpenAPIKit10JSONSchemaO", "Default_DereferencedSelf"]
+- ["10OpenAPIKit10JSONSchemaO", "DereferencedJSONSchema"]
+- ["10OpenAPIKit10JSONSchemaO", "DereferencedSelf"]
+- ["10OpenAPIKit10JSONSchemaO", "IntegerContext"]
+- ["10OpenAPIKit10JSONSchemaO", "NumericContext"]
+- ["10OpenAPIKit10JSONSchemaO", "ObjectContext"]
+- ["10OpenAPIKit10JSONSchemaO", "OpenAPI"]
+- ["10OpenAPIKit10JSONSchemaO", "Set"]
+- ["10OpenAPIKit10JSONSchemaO", "StringContext"]
+- ["10OpenAPIKit10JSONSchemaO", ""]
+- ["10OpenAPIKit10JSONSchemaO", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit10JSONSchemaO", "_dereferenced"]
+- ["10OpenAPIKit10JSONSchemaO", "all"]
+- !private ["10OpenAPIKit10JSONSchemaO", "allowedValues"]
+- ["10OpenAPIKit10JSONSchemaO", "any"]
+- ["10OpenAPIKit10JSONSchemaO", "array"]
+- ["10OpenAPIKit10JSONSchemaO", "boolean"]
+- !private ["10OpenAPIKit10JSONSchemaO", "callAsFunction"]
+- !private ["10OpenAPIKit10JSONSchemaO", "defaultValue"]
+- !private ["10OpenAPIKit10JSONSchemaO", "deprecated"]
+- ["10OpenAPIKit10JSONSchemaO", "dereferenced"]
+- !private ["10OpenAPIKit10JSONSchemaO", "description"]
+- !private ["10OpenAPIKit10JSONSchemaO", "discriminator"]
+- !private ["10OpenAPIKit10JSONSchemaO", "example"]
+- !private ["10OpenAPIKit10JSONSchemaO", "externalDocs"]
+- !private ["10OpenAPIKit10JSONSchemaO", "formatString"]
+- ["10OpenAPIKit10JSONSchemaO", "fragment"]
+- ["10OpenAPIKit10JSONSchemaO", "integer"]
+- ["10OpenAPIKit10JSONSchemaO", "not"]
+- !private ["10OpenAPIKit10JSONSchemaO", "nullable"]
+- ["10OpenAPIKit10JSONSchemaO", "number"]
+- ["10OpenAPIKit10JSONSchemaO", "object"]
+- ["10OpenAPIKit10JSONSchemaO", "one"]
+- !private ["10OpenAPIKit10JSONSchemaO", "readOnly"]
+- ["10OpenAPIKit10JSONSchemaO", "reference"]
+- !private ["10OpenAPIKit10JSONSchemaO", "required"]
+- ["10OpenAPIKit10JSONSchemaO", "string"]
+- !private ["10OpenAPIKit10JSONSchemaO", "subscript"]
+- !private ["10OpenAPIKit10JSONSchemaO", "title"]
+- !private ["10OpenAPIKit10JSONSchemaO", "writeOnly"]
+- ["10OpenAPIKit17JSONSchemaContextP", "=="]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "Array"]
+- ["10OpenAPIKit17JSONSchemaContextP", "ArrayContext"]
+- ["10OpenAPIKit17JSONSchemaContextP", "CoreContext"]
+- ["10OpenAPIKit17JSONSchemaContextP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "DereferencedJSONSchema"]
+- ["10OpenAPIKit17JSONSchemaContextP", "DereferencedSelf"]
+- ["10OpenAPIKit17JSONSchemaContextP", "Equatable"]
+- ["10OpenAPIKit17JSONSchemaContextP", "IntegerContext"]
+- ["10OpenAPIKit17JSONSchemaContextP", "NumericContext"]
+- ["10OpenAPIKit17JSONSchemaContextP", "ObjectContext"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "String"]
+- ["10OpenAPIKit17JSONSchemaContextP", "StringContext"]
+- ["10OpenAPIKit17JSONSchemaContextP", ""]
+- ["10OpenAPIKit17JSONSchemaContextP", "_Default_DereferencedSelf"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "__derived_enum_equals"]
+- ["10OpenAPIKit17JSONSchemaContextP", "_dereferenced"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_minItems"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_minProperties"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_uniqueItems"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "additionalProperties"]
+- ["10OpenAPIKit17JSONSchemaContextP", "all"]
+- ["10OpenAPIKit17JSONSchemaContextP", "allowedValues"]
+- ["10OpenAPIKit17JSONSchemaContextP", "any"]
+- ["10OpenAPIKit17JSONSchemaContextP", "array"]
+- ["10OpenAPIKit17JSONSchemaContextP", "boolean"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "callAsFunction"]
+- ["10OpenAPIKit17JSONSchemaContextP", "defaultValue"]
+- ["10OpenAPIKit17JSONSchemaContextP", "deprecated"]
+- ["10OpenAPIKit17JSONSchemaContextP", "dereferenced"]
+- ["10OpenAPIKit17JSONSchemaContextP", "description"]
+- ["10OpenAPIKit17JSONSchemaContextP", "discriminator"]
+- ["10OpenAPIKit17JSONSchemaContextP", "example"]
+- ["10OpenAPIKit17JSONSchemaContextP", "externalDocs"]
+- ["10OpenAPIKit17JSONSchemaContextP", "formatString"]
+- ["10OpenAPIKit17JSONSchemaContextP", "fragment"]
+- ["10OpenAPIKit17JSONSchemaContextP", "integer"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "items"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "jsonSchema"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "max"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "maxItems"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "maxProperties"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "minItems"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "minProperties"]
+- ["10OpenAPIKit17JSONSchemaContextP", "not"]
+- ["10OpenAPIKit17JSONSchemaContextP", "nullable"]
+- ["10OpenAPIKit17JSONSchemaContextP", "number"]
+- ["10OpenAPIKit17JSONSchemaContextP", "object"]
+- ["10OpenAPIKit17JSONSchemaContextP", "one"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "properties"]
+- ["10OpenAPIKit17JSONSchemaContextP", "readOnly"]
+- ["10OpenAPIKit17JSONSchemaContextP", "reference"]
+- ["10OpenAPIKit17JSONSchemaContextP", "required"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "requiredProperties"]
+- ["10OpenAPIKit17JSONSchemaContextP", "string"]
+- ["10OpenAPIKit17JSONSchemaContextP", "subscript"]
+- ["10OpenAPIKit17JSONSchemaContextP", "title"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "uniqueItems"]
+- ["10OpenAPIKit17JSONSchemaContextP", "writeOnly"]
+- ["10OpenAPIKit14JSONTypeFormatO", "AnyFormat"]
+- ["10OpenAPIKit14JSONTypeFormatO", "ArrayFormat"]
+- ["10OpenAPIKit14JSONTypeFormatO", "BooleanFormat"]
+- ["10OpenAPIKit14JSONTypeFormatO", "IntegerFormat"]
+- ["10OpenAPIKit14JSONTypeFormatO", "NumberFormat"]
+- ["10OpenAPIKit14JSONTypeFormatO", "ObjectFormat"]
+- ["10OpenAPIKit14JSONTypeFormatO", "StringFormat"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "ArrayContext"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "CoreContext"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "DereferencedJSONSchema"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "DereferencedSelf"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "IntegerContext"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "NumericContext"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "ObjectContext"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "StringContext"]
+- ["10OpenAPIKit22LocallyDereferenceableP", ""]
+- ["10OpenAPIKit22LocallyDereferenceableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "_dereferenced"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "a"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "all"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "allowedValues"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "any"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "array"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "b"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "boolean"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "callAsFunction"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "defaultValue"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "deprecated"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "dereferenced"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "description"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "discriminator"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "example"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "externalDocs"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "formatString"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "fragment"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "integer"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "not"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "nullable"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "number"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "object"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "one"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "readOnly"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "reference"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "required"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "string"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "subscript"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "title"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "writeOnly"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "keys"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "keys"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["10OpenAPIKit14JSONTypeFormatO06NumberD0O", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "=="]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "AnyHashable"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "Array"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "Bool"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "DereferencedJSONSchema"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "Either"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "Int"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "JSONSchema"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "OpenAPI"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "Set"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "String"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", ""]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", ""]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "__derived_struct_equals"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "_minProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "_minProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "additionalProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "additionalProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "init"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "init"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "jsonSchemaObjectContext"]
+- !private ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "max"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "maxProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "maxProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "minProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "minProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "optionalProperties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "properties"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "properties"]
+- ["10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV", "requiredProperties"]
+- ["10OpenAPIKit14JSONTypeFormatO06ObjectD0O", ""]
+- ["10OpenAPIKit0A3APIO", "Components"]
+- ["10OpenAPIKit0A3APIO", "Discriminator"]
+- ["10OpenAPIKit0A3APIO", "ExternalDocumentation"]
+- ["10OpenAPIKit0A13APISchemaTypeP", "a"]
+- ["10OpenAPIKit0A13APISchemaTypeP", "b"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "count"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "filter"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "init"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "keys"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "map"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "mapValues"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "subscript"]
+- ["Sq", "a"]
+- ["Sq", "b"]
+- !private ["Sq", "map"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", ""]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "keys"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "keys"]
+- !private ["Sm", "map"]
+- ["SY", ""]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "keys"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "mapValues"]
+- !private ["ST", "subscript"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", ""]
+- ["10OpenAPIKit14JSONTypeFormatO06StringD0O", ""]
+- ["10OpenAPIKit10SwiftTypedP", ""]
+- ["10OpenAPIKit11ValidatableP", "ArrayContext"]
+- ["10OpenAPIKit11ValidatableP", "CoreContext"]
+- ["10OpenAPIKit11ValidatableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit11ValidatableP", "DereferencedJSONSchema"]
+- ["10OpenAPIKit11ValidatableP", "DereferencedSelf"]
+- ["10OpenAPIKit11ValidatableP", "IntegerContext"]
+- ["10OpenAPIKit11ValidatableP", "NumericContext"]
+- ["10OpenAPIKit11ValidatableP", "ObjectContext"]
+- ["10OpenAPIKit11ValidatableP", "StringContext"]
+- ["10OpenAPIKit11ValidatableP", ""]
+- ["10OpenAPIKit11ValidatableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit11ValidatableP", "_dereferenced"]
+- ["10OpenAPIKit11ValidatableP", "a"]
+- ["10OpenAPIKit11ValidatableP", "all"]
+- !private ["10OpenAPIKit11ValidatableP", "allowedValues"]
+- ["10OpenAPIKit11ValidatableP", "any"]
+- ["10OpenAPIKit11ValidatableP", "array"]
+- ["10OpenAPIKit11ValidatableP", "b"]
+- ["10OpenAPIKit11ValidatableP", "boolean"]
+- !private ["10OpenAPIKit11ValidatableP", "callAsFunction"]
+- !private ["10OpenAPIKit11ValidatableP", "count"]
+- !private ["10OpenAPIKit11ValidatableP", "defaultValue"]
+- !private ["10OpenAPIKit11ValidatableP", "deprecated"]
+- ["10OpenAPIKit11ValidatableP", "dereferenced"]
+- !private ["10OpenAPIKit11ValidatableP", "description"]
+- !private ["10OpenAPIKit11ValidatableP", "discriminator"]
+- !private ["10OpenAPIKit11ValidatableP", "example"]
+- !private ["10OpenAPIKit11ValidatableP", "externalDocs"]
+- !private ["10OpenAPIKit11ValidatableP", "filter"]
+- !private ["10OpenAPIKit11ValidatableP", "formatString"]
+- ["10OpenAPIKit11ValidatableP", "fragment"]
+- !private ["10OpenAPIKit11ValidatableP", "init"]
+- ["10OpenAPIKit11ValidatableP", "integer"]
+- !private ["10OpenAPIKit11ValidatableP", "keys"]
+- !private ["10OpenAPIKit11ValidatableP", "map"]
+- !private ["10OpenAPIKit11ValidatableP", "mapValues"]
+- !private ["10OpenAPIKit11ValidatableP", "noComponents"]
+- ["10OpenAPIKit11ValidatableP", "not"]
+- !private ["10OpenAPIKit11ValidatableP", "nullable"]
+- ["10OpenAPIKit11ValidatableP", "number"]
+- ["10OpenAPIKit11ValidatableP", "object"]
+- ["10OpenAPIKit11ValidatableP", "one"]
+- !private ["10OpenAPIKit11ValidatableP", "readOnly"]
+- ["10OpenAPIKit11ValidatableP", "reference"]
+- !private ["10OpenAPIKit11ValidatableP", "required"]
+- ["10OpenAPIKit11ValidatableP", "string"]
+- !private ["10OpenAPIKit11ValidatableP", "subscript"]
+- !private ["10OpenAPIKit11ValidatableP", "title"]
+- !private ["10OpenAPIKit11ValidatableP", "writeOnly"]
+- ["10OpenAPIKit16VendorExtendableP", ""]
+- !private ["10OpenAPIKit16VendorExtendableP", "noComponents"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "keys"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "keys"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "keys"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "mapValues"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "a"]
+- ["s21_ObjectiveCBridgeableP", "b"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "mapValues"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["10OpenAPIKit01_A12APIReferenceP", "_dereferenced"]
+- !private ["10OpenAPIKit01_A12APIReferenceP", "dereferenced"]
+depends-nominal:
+- !private "10OpenAPIKit10AnyCodableV"
+- "10OpenAPIKit14JSONTypeFormatO03AnyD0O"
+- !private "Sa"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO12ArrayContextV"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit14JSONTypeFormatO05ArrayD0O"
+- !private "SK"
+- "10OpenAPIKit14JSONTypeFormatO07BooleanD0O"
+- !private "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- !private "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- !private "s7CVarArgP"
+- !private "10OpenAPIKit23CodableVendorExtendableP"
+- !private "Sl"
+- "10OpenAPIKit28ComponentDictionaryLocatableP"
+- !private "10OpenAPIKit0A3APIO10ComponentsV"
+- !private "10Foundation15ContiguousBytesP"
+- "10OpenAPIKit10JSONSchemaO11CoreContextV"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "10OpenAPIKit22DereferencedJSONSchemaO"
+- !private "SD"
+- !private "10OpenAPIKit0A3APIO13DiscriminatorV"
+- "10OpenAPIKit6EitherO"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "10OpenAPIKit0A3APIO21ExternalDocumentationV"
+- "SH"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV"
+- "10OpenAPIKit14JSONTypeFormatO07IntegerD0O"
+- !private "10OpenAPIKit13JSONReferenceO"
+- "10OpenAPIKit10JSONSchemaO"
+- "10OpenAPIKit17JSONSchemaContextP"
+- "10OpenAPIKit14JSONTypeFormatO"
+- "10OpenAPIKit22LocallyDereferenceableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "10OpenAPIKit14JSONTypeFormatO06NumberD0O"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit22DereferencedJSONSchemaO13ObjectContextV"
+- "10OpenAPIKit14JSONTypeFormatO06ObjectD0O"
+- "10OpenAPIKit0A3APIO"
+- "10OpenAPIKit0A13APISchemaTypeP"
+- "Sq"
+- !private "10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- "10OpenAPIKit10JSONSchemaO13StringContextV"
+- "10OpenAPIKit14JSONTypeFormatO06StringD0O"
+- "10OpenAPIKit10SwiftTypedP"
+- "10OpenAPIKit11ValidatableP"
+- "10OpenAPIKit16VendorExtendableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "10OpenAPIKit01_A12APIReferenceP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f29280516c483d4ee51d45facf2256d3"

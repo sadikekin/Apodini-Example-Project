@@ -1,0 +1,1905 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GraphQLType"
+- "GraphQLInputType"
+- "isInputType"
+- "GraphQLOutputType"
+- "GraphQLLeafType"
+- "isLeafType"
+- "GraphQLCompositeType"
+- "GraphQLTypeReferenceContainer"
+- "GraphQLAbstractType"
+- "GraphQLNullableType"
+- "getNullableType"
+- "GraphQLNamedType"
+- "getNamedType"
+- "GraphQLWrapperType"
+- "GraphQLScalarType"
+- "GraphQLObjectType"
+- "defineFieldMap"
+- "defineArgumentMap"
+- "defineInterfaces"
+- "TypeResolveResultRepresentable"
+- "TypeResolveResult"
+- "GraphQLTypeResolve"
+- "GraphQLIsTypeOf"
+- "GraphQLFieldResolve"
+- "GraphQLFieldResolveInput"
+- "GraphQLResolveInfo"
+- "GraphQLFieldMap"
+- "GraphQLField"
+- "GraphQLFieldDefinitionMap"
+- "GraphQLFieldDefinition"
+- "GraphQLArgumentConfigMap"
+- "GraphQLArgument"
+- "GraphQLArgumentDefinition"
+- "GraphQLInterfaceType"
+- "GraphQLUnionType"
+- "defineTypes"
+- "GraphQLEnumType"
+- "defineEnumValues"
+- "GraphQLEnumValueMap"
+- "GraphQLEnumValue"
+- "GraphQLEnumValueDefinition"
+- "GraphQLInputObjectType"
+- "defineInputObjectFieldMap"
+- "InputObjectField"
+- "InputObjectConfigFieldMap"
+- "InputObjectFieldDefinition"
+- "InputObjectFieldMap"
+- "GraphQLList"
+- "GraphQLNonNull"
+- "GraphQLTypeReference"
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+provides-nominal:
+- "7GraphQL0A6QLTypeP"
+- "7GraphQL0A12QLScalarTypeC"
+- "7GraphQL0A12QLObjectTypeC"
+- "7GraphQL0A15QLInterfaceTypeC"
+- "7GraphQL0A11QLUnionTypeC"
+- "7GraphQL0A10QLEnumTypeC"
+- "7GraphQL0A17QLInputObjectTypeC"
+- "7GraphQL0A6QLListC"
+- "7GraphQL0A9QLNonNullC"
+- "7GraphQL0A11QLInputTypeP"
+- "7GraphQL0A12QLOutputTypeP"
+- "7GraphQL0A10QLLeafTypeP"
+- "7GraphQL0A15QLCompositeTypeP"
+- "7GraphQL0A24QLTypeReferenceContainerP"
+- "7GraphQL0A14QLAbstractTypeP"
+- "7GraphQL0A14QLNullableTypeP"
+- "7GraphQL0A11QLNamedTypeP"
+- "7GraphQL0A13QLWrapperTypeP"
+- "7GraphQL30TypeResolveResultRepresentableP"
+- "SS"
+- "7GraphQL17TypeResolveResultO"
+- "7GraphQL0A13QLResolveInfoV"
+- "7GraphQL0A7QLFieldV"
+- "7GraphQL0A17QLFieldDefinitionC"
+- "7GraphQL0A10QLArgumentV"
+- "7GraphQL0A20QLArgumentDefinitionV"
+- "7GraphQL0A11QLEnumValueV"
+- "7GraphQL0A21QLEnumValueDefinitionV"
+- "7GraphQL16InputObjectFieldV"
+- "7GraphQL26InputObjectFieldDefinitionV"
+- "7GraphQL0A15QLTypeReferenceC"
+provides-member:
+- ["7GraphQL0A6QLTypeP", ""]
+- ["7GraphQL0A12QLScalarTypeC", ""]
+- ["7GraphQL0A12QLObjectTypeC", ""]
+- ["7GraphQL0A15QLInterfaceTypeC", ""]
+- ["7GraphQL0A11QLUnionTypeC", ""]
+- ["7GraphQL0A10QLEnumTypeC", ""]
+- ["7GraphQL0A17QLInputObjectTypeC", ""]
+- ["7GraphQL0A6QLListC", ""]
+- ["7GraphQL0A9QLNonNullC", ""]
+- ["7GraphQL0A11QLInputTypeP", ""]
+- ["7GraphQL0A12QLOutputTypeP", ""]
+- ["7GraphQL0A10QLLeafTypeP", ""]
+- ["7GraphQL0A15QLCompositeTypeP", ""]
+- ["7GraphQL0A24QLTypeReferenceContainerP", ""]
+- ["7GraphQL0A14QLAbstractTypeP", ""]
+- ["7GraphQL0A14QLNullableTypeP", ""]
+- ["7GraphQL0A11QLNamedTypeP", ""]
+- ["7GraphQL0A13QLWrapperTypeP", ""]
+- ["7GraphQL30TypeResolveResultRepresentableP", ""]
+- ["SS", ""]
+- ["7GraphQL17TypeResolveResultO", ""]
+- ["7GraphQL0A13QLResolveInfoV", ""]
+- ["7GraphQL0A7QLFieldV", ""]
+- ["7GraphQL0A17QLFieldDefinitionC", ""]
+- ["7GraphQL0A10QLArgumentV", ""]
+- ["7GraphQL0A20QLArgumentDefinitionV", ""]
+- ["7GraphQL0A11QLEnumValueV", ""]
+- ["7GraphQL0A21QLEnumValueDefinitionV", ""]
+- ["7GraphQL16InputObjectFieldV", ""]
+- ["7GraphQL26InputObjectFieldDefinitionV", ""]
+- ["7GraphQL0A15QLTypeReferenceC", ""]
+provides-dynamic-lookup:
+- "=="
+- "args"
+- "debugDescription"
+- "deprecationReason"
+- "description"
+- "encode"
+- "fields"
+- "hash"
+- "hashValue"
+- "interfaces"
+- "isDeprecated"
+- "isTypeOf"
+- "kind"
+- "name"
+- "nameLookup"
+- "ofType"
+- "parseLiteral"
+- "parseValue"
+- "possibleTypeNames"
+- "replaceTypeReferences"
+- "resolve"
+- "resolveType"
+- "serialize"
+- "subscript"
+- "type"
+- "typeResolveResult"
+- "types"
+- "valueLookup"
+- "values"
+- "wrappedType"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- "=="
+- !private "??"
+- !private "AnyEncodable"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "CodingKey"
+- "CodingKeys"
+- "CustomDebugStringConvertible"
+- !private "Dictionary"
+- "Encodable"
+- "Encoder"
+- "EnumValue"
+- "EventLoopGroup"
+- "Field"
+- !private "FloatLiteralType"
+- "FragmentDefinition"
+- "Future"
+- "GraphQLAbstractType"
+- "GraphQLArgument"
+- "GraphQLArgumentConfigMap"
+- "GraphQLArgumentDefinition"
+- "GraphQLCompositeType"
+- "GraphQLEnumType"
+- "GraphQLEnumValue"
+- "GraphQLEnumValueDefinition"
+- "GraphQLEnumValueMap"
+- !private "GraphQLError"
+- "GraphQLField"
+- "GraphQLFieldDefinition"
+- "GraphQLFieldDefinitionMap"
+- "GraphQLFieldMap"
+- "GraphQLFieldResolve"
+- "GraphQLFieldResolveInput"
+- "GraphQLInputObjectType"
+- "GraphQLInputType"
+- "GraphQLInterfaceType"
+- "GraphQLIsTypeOf"
+- "GraphQLLeafType"
+- "GraphQLList"
+- "GraphQLNamedType"
+- "GraphQLNonNull"
+- "GraphQLNullableType"
+- "GraphQLObjectType"
+- "GraphQLOutputType"
+- "GraphQLResolveInfo"
+- "GraphQLScalarType"
+- "GraphQLSchema"
+- "GraphQLType"
+- "GraphQLTypeReference"
+- "GraphQLTypeReferenceContainer"
+- "GraphQLTypeResolve"
+- "GraphQLUnionType"
+- "GraphQLWrapperType"
+- "Hashable"
+- "Hasher"
+- "IndexPath"
+- "InputObjectConfigFieldMap"
+- "InputObjectField"
+- "InputObjectFieldDefinition"
+- "InputObjectFieldMap"
+- !private "IntegerLiteralType"
+- "KeySubscriptable"
+- "Map"
+- !private "ObjectIdentifier"
+- "OperationDefinition"
+- "String"
+- "StringLiteralType"
+- "TypeKind"
+- "TypeMap"
+- "TypeResolveResult"
+- "TypeResolveResultRepresentable"
+- !private "UnicodeScalarType"
+- "Value"
+- !private "_findStringSwitchCase"
+- !private "assertValid"
+- "defineArgumentMap"
+- "defineEnumValues"
+- "defineFieldMap"
+- "defineInputObjectFieldMap"
+- "defineInterfaces"
+- "defineTypes"
+- !private "fields"
+- "getNamedType"
+- "getNullableType"
+- "isInputType"
+- "isLeafType"
+- !private "map"
+- !private "name"
+- !private "nameLookup"
+- !private "ofType"
+- !private "resolveTypeReference"
+- !private "type"
+- !private "valueLookup"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["7GraphQL12AnyEncodableC", ""]
+- !private ["7GraphQL12AnyEncodableC", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "isEmpty"]
+- ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "isEmpty"]
+- ["SK", "typeResolveResult"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "typeResolveResult"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "args"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "defaultValue"]
+- ["s9CodingKeyP", "deprecationReason"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "fields"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "interfaces"]
+- ["s9CodingKeyP", "isDeprecated"]
+- ["s9CodingKeyP", "kind"]
+- ["s9CodingKeyP", "name"]
+- ["s9CodingKeyP", "ofType"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s9CodingKeyP", "type"]
+- ["s9CodingKeyP", "typeResolveResult"]
+- ["s9CodingKeyP", "types"]
+- ["s9CodingKeyP", "values"]
+- ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- ["Sl", "typeResolveResult"]
+- ["SL", ""]
+- !private ["SL", "init"]
+- ["SL", "typeResolveResult"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "AnyEncodable"]
+- !private ["s28CustomDebugStringConvertibleP", "CodingKeys"]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "GraphQLError"]
+- !private ["s28CustomDebugStringConvertibleP", "GraphQLList"]
+- !private ["s28CustomDebugStringConvertibleP", "GraphQLNonNull"]
+- ["s28CustomDebugStringConvertibleP", "GraphQLType"]
+- !private ["s28CustomDebugStringConvertibleP", "GraphQLTypeReference"]
+- ["s28CustomDebugStringConvertibleP", "GraphQLTypeResolve"]
+- ["s28CustomDebugStringConvertibleP", "Map"]
+- !private ["s28CustomDebugStringConvertibleP", "ObjectIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "TypeMap"]
+- ["s28CustomDebugStringConvertibleP", "Value"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "args"]
+- !private ["s28CustomDebugStringConvertibleP", "assertValid"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "defaultValue"]
+- !private ["s28CustomDebugStringConvertibleP", "defineEnumValues"]
+- !private ["s28CustomDebugStringConvertibleP", "defineFieldMap"]
+- !private ["s28CustomDebugStringConvertibleP", "defineInputObjectFieldMap"]
+- !private ["s28CustomDebugStringConvertibleP", "defineInterfaces"]
+- !private ["s28CustomDebugStringConvertibleP", "defineTypes"]
+- ["s28CustomDebugStringConvertibleP", "deprecationReason"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "fields"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "interfaces"]
+- ["s28CustomDebugStringConvertibleP", "isDeprecated"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isTypeOf"]
+- ["s28CustomDebugStringConvertibleP", "kind"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "nameLookup"]
+- !private ["s28CustomDebugStringConvertibleP", "null"]
+- ["s28CustomDebugStringConvertibleP", "ofType"]
+- ["s28CustomDebugStringConvertibleP", "parseLiteral"]
+- ["s28CustomDebugStringConvertibleP", "parseValue"]
+- !private ["s28CustomDebugStringConvertibleP", "possibleTypeNames"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "replaceTypeReferences"]
+- ["s28CustomDebugStringConvertibleP", "resolveType"]
+- !private ["s28CustomDebugStringConvertibleP", "resolveTypeReference"]
+- ["s28CustomDebugStringConvertibleP", "serialize"]
+- ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "type"]
+- ["s28CustomDebugStringConvertibleP", "typeResolveResult"]
+- ["s28CustomDebugStringConvertibleP", "types"]
+- !private ["s28CustomDebugStringConvertibleP", "valueLookup"]
+- ["s28CustomDebugStringConvertibleP", "values"]
+- ["s28CustomDebugStringConvertibleP", "wrappedType"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "typeResolveResult"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "args"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "defaultValue"]
+- ["s23CustomStringConvertibleP", "deprecationReason"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "fields"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "interfaces"]
+- ["s23CustomStringConvertibleP", "isDeprecated"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "kind"]
+- ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "null"]
+- ["s23CustomStringConvertibleP", "ofType"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "type"]
+- ["s23CustomStringConvertibleP", "typeResolveResult"]
+- ["s23CustomStringConvertibleP", "types"]
+- ["s23CustomStringConvertibleP", "values"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["Se", "append"]
+- !private ["Se", "description"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "null"]
+- ["Se", "string"]
+- !private ["Se", "subscript"]
+- ["Se", "typeResolveResult"]
+- !private ["7Runtime18DefaultConstructorP", "append"]
+- !private ["7Runtime18DefaultConstructorP", "init"]
+- !private ["7Runtime18DefaultConstructorP", "isEmpty"]
+- !private ["7Runtime18DefaultConstructorP", "subscript"]
+- ["7Runtime18DefaultConstructorP", "typeResolveResult"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "init"]
+- !private ["SD", "isEmpty"]
+- !private ["SD", "subscript"]
+- ["SE", "=="]
+- !private ["SE", "AnyEncodable"]
+- ["SE", "CodingKey"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "GraphQLError"]
+- !private ["SE", "GraphQLList"]
+- !private ["SE", "GraphQLNonNull"]
+- ["SE", "GraphQLType"]
+- !private ["SE", "GraphQLTypeReference"]
+- ["SE", "GraphQLTypeResolve"]
+- ["SE", "Map"]
+- !private ["SE", "ObjectIdentifier"]
+- ["SE", "String"]
+- ["SE", "TypeMap"]
+- ["SE", "Value"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "append"]
+- !private ["SE", "args"]
+- !private ["SE", "assertValid"]
+- ["SE", "debugDescription"]
+- !private ["SE", "defaultValue"]
+- !private ["SE", "defineEnumValues"]
+- !private ["SE", "defineFieldMap"]
+- !private ["SE", "defineInputObjectFieldMap"]
+- !private ["SE", "defineInterfaces"]
+- !private ["SE", "defineTypes"]
+- !private ["SE", "deprecationReason"]
+- !private ["SE", "description"]
+- ["SE", "encode"]
+- ["SE", "enum"]
+- !private ["SE", "fields"]
+- !private ["SE", "findStringSwitchCase"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- !private ["SE", "init"]
+- ["SE", "inputObject"]
+- ["SE", "interface"]
+- !private ["SE", "interfaces"]
+- !private ["SE", "isDeprecated"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "isTypeOf"]
+- !private ["SE", "kind"]
+- ["SE", "list"]
+- !private ["SE", "map"]
+- ["SE", "name"]
+- !private ["SE", "nameLookup"]
+- ["SE", "nonNull"]
+- !private ["SE", "null"]
+- ["SE", "object"]
+- !private ["SE", "ofType"]
+- ["SE", "parseLiteral"]
+- ["SE", "parseValue"]
+- !private ["SE", "possibleTypeNames"]
+- !private ["SE", "rawValue"]
+- ["SE", "replaceTypeReferences"]
+- !private ["SE", "resolve"]
+- ["SE", "resolveType"]
+- !private ["SE", "resolveTypeReference"]
+- ["SE", "scalar"]
+- ["SE", "serialize"]
+- ["SE", "string"]
+- ["SE", "subscript"]
+- !private ["SE", "type"]
+- ["SE", "typeReference"]
+- ["SE", "typeResolveResult"]
+- !private ["SE", "types"]
+- ["SE", "union"]
+- !private ["SE", "value"]
+- !private ["SE", "valueLookup"]
+- !private ["SE", "values"]
+- ["SE", "wrappedType"]
+- !private ["s7EncoderP", "container"]
+- !private ["7GraphQL9EnumValueC", ""]
+- !private ["7GraphQL9EnumValueC", "value"]
+- ["SQ", "=="]
+- !private ["SQ", "AnyEncodable"]
+- !private ["SQ", "CodingKeys"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "GraphQLError"]
+- !private ["SQ", "GraphQLList"]
+- !private ["SQ", "GraphQLNonNull"]
+- !private ["SQ", "GraphQLTypeReference"]
+- !private ["SQ", "Map"]
+- !private ["SQ", "ObjectIdentifier"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- ["SQ", "args"]
+- !private ["SQ", "assertValid"]
+- ["SQ", "debugDescription"]
+- ["SQ", "defaultValue"]
+- !private ["SQ", "defineEnumValues"]
+- !private ["SQ", "defineFieldMap"]
+- !private ["SQ", "defineInputObjectFieldMap"]
+- !private ["SQ", "defineInterfaces"]
+- !private ["SQ", "defineTypes"]
+- ["SQ", "deprecationReason"]
+- ["SQ", "description"]
+- ["SQ", "encode"]
+- ["SQ", "enum"]
+- ["SQ", "fields"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "inputObject"]
+- ["SQ", "intValue"]
+- ["SQ", "interface"]
+- ["SQ", "interfaces"]
+- ["SQ", "isDeprecated"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isTypeOf"]
+- ["SQ", "kind"]
+- ["SQ", "list"]
+- !private ["SQ", "map"]
+- ["SQ", "name"]
+- !private ["SQ", "nameLookup"]
+- ["SQ", "nonNull"]
+- !private ["SQ", "null"]
+- ["SQ", "object"]
+- ["SQ", "ofType"]
+- ["SQ", "parseLiteral"]
+- ["SQ", "parseValue"]
+- !private ["SQ", "possibleTypeNames"]
+- ["SQ", "rawValue"]
+- ["SQ", "replaceTypeReferences"]
+- ["SQ", "resolveType"]
+- !private ["SQ", "resolveTypeReference"]
+- ["SQ", "scalar"]
+- ["SQ", "serialize"]
+- ["SQ", "string"]
+- ["SQ", "stringValue"]
+- ["SQ", "subscript"]
+- ["SQ", "type"]
+- ["SQ", "typeReference"]
+- ["SQ", "typeResolveResult"]
+- ["SQ", "types"]
+- ["SQ", "union"]
+- !private ["SQ", "value"]
+- !private ["SQ", "valueLookup"]
+- ["SQ", "values"]
+- ["SQ", "wrappedType"]
+- !private ["s5ErrorP", "init"]
+- !private ["3NIO9EventLoopP", "makeSucceededFuture"]
+- !private ["3NIO14EventLoopGroupP", ""]
+- !private ["3NIO14EventLoopGroupP", "makeSucceededFuture"]
+- !private ["3NIO14EventLoopGroupP", "next"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "description"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "null"]
+- ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "description"]
+- !private ["s27ExpressibleByBooleanLiteralP", "null"]
+- ["s27ExpressibleByBooleanLiteralP", "string"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "description"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "null"]
+- ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "description"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "null"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "typeResolveResult"]
+- !private ["s25ExpressibleByFloatLiteralP", "description"]
+- !private ["s25ExpressibleByFloatLiteralP", "null"]
+- ["s25ExpressibleByFloatLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "description"]
+- !private ["s27ExpressibleByIntegerLiteralP", "null"]
+- ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "description"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "null"]
+- ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "typeResolveResult"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "description"]
+- !private ["s26ExpressibleByStringLiteralP", "null"]
+- ["s26ExpressibleByStringLiteralP", "string"]
+- ["s26ExpressibleByStringLiteralP", "typeResolveResult"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "description"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "null"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "typeResolveResult"]
+- ["7GraphQL0A14QLAbstractTypeP", "=="]
+- !private ["7GraphQL0A14QLAbstractTypeP", "CodingKeys"]
+- ["7GraphQL0A14QLAbstractTypeP", "GraphQLTypeResolve"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A14QLAbstractTypeP", ""]
+- !private ["7GraphQL0A14QLAbstractTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A14QLAbstractTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "assertValid"]
+- ["7GraphQL0A14QLAbstractTypeP", "debugDescription"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "defineFieldMap"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "defineTypes"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "description"]
+- ["7GraphQL0A14QLAbstractTypeP", "encode"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "fields"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A14QLAbstractTypeP", "hash"]
+- ["7GraphQL0A14QLAbstractTypeP", "hashValue"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "interfaces"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "kind"]
+- ["7GraphQL0A14QLAbstractTypeP", "name"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "possibleTypeNames"]
+- ["7GraphQL0A14QLAbstractTypeP", "replaceTypeReferences"]
+- ["7GraphQL0A14QLAbstractTypeP", "resolveType"]
+- ["7GraphQL0A14QLAbstractTypeP", "subscript"]
+- !private ["7GraphQL0A14QLAbstractTypeP", "types"]
+- ["7GraphQL0A10QLArgumentV", "GraphQLInputType"]
+- ["7GraphQL0A10QLArgumentV", "Map"]
+- ["7GraphQL0A10QLArgumentV", "String"]
+- ["7GraphQL0A10QLArgumentV", "defaultValue"]
+- ["7GraphQL0A10QLArgumentV", "description"]
+- ["7GraphQL0A10QLArgumentV", "init"]
+- ["7GraphQL0A10QLArgumentV", "type"]
+- !private ["7GraphQL0A20QLArgumentDefinitionV", "AnyEncodable"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "CodingKey"]
+- !private ["7GraphQL0A20QLArgumentDefinitionV", "CodingKeys"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "Encoder"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "GraphQLInputType"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "Map"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "String"]
+- ["7GraphQL0A20QLArgumentDefinitionV", ""]
+- !private ["7GraphQL0A20QLArgumentDefinitionV", "_findStringSwitchCase"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "defaultValue"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "description"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "encode"]
+- !private ["7GraphQL0A20QLArgumentDefinitionV", "findStringSwitchCase"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "init"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "name"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "subscript"]
+- ["7GraphQL0A20QLArgumentDefinitionV", "type"]
+- ["7GraphQL0A15QLCompositeTypeP", "=="]
+- !private ["7GraphQL0A15QLCompositeTypeP", "CodingKeys"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A15QLCompositeTypeP", ""]
+- !private ["7GraphQL0A15QLCompositeTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A15QLCompositeTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "assertValid"]
+- ["7GraphQL0A15QLCompositeTypeP", "debugDescription"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "defineFieldMap"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "defineInterfaces"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "defineTypes"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "description"]
+- ["7GraphQL0A15QLCompositeTypeP", "encode"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "fields"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A15QLCompositeTypeP", "hash"]
+- ["7GraphQL0A15QLCompositeTypeP", "hashValue"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "interfaces"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "isTypeOf"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "kind"]
+- ["7GraphQL0A15QLCompositeTypeP", "name"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "possibleTypeNames"]
+- ["7GraphQL0A15QLCompositeTypeP", "replaceTypeReferences"]
+- ["7GraphQL0A15QLCompositeTypeP", "resolveType"]
+- ["7GraphQL0A15QLCompositeTypeP", "subscript"]
+- ["7GraphQL0A15QLCompositeTypeP", "typeResolveResult"]
+- !private ["7GraphQL0A15QLCompositeTypeP", "types"]
+- ["7GraphQL0A10QLEnumTypeC", "=="]
+- ["7GraphQL0A10QLEnumTypeC", "Bool"]
+- ["7GraphQL0A10QLEnumTypeC", "CodingKey"]
+- ["7GraphQL0A10QLEnumTypeC", "CodingKeys"]
+- !private ["7GraphQL0A10QLEnumTypeC", "EnumValue"]
+- ["7GraphQL0A10QLEnumTypeC", "GraphQLEnumType"]
+- ["7GraphQL0A10QLEnumTypeC", "GraphQLEnumValueDefinition"]
+- ["7GraphQL0A10QLEnumTypeC", "GraphQLEnumValueMap"]
+- ["7GraphQL0A10QLEnumTypeC", "Hasher"]
+- ["7GraphQL0A10QLEnumTypeC", "Map"]
+- !private ["7GraphQL0A10QLEnumTypeC", "ObjectIdentifier"]
+- ["7GraphQL0A10QLEnumTypeC", "String"]
+- ["7GraphQL0A10QLEnumTypeC", "TypeKind"]
+- ["7GraphQL0A10QLEnumTypeC", "Value"]
+- ["7GraphQL0A10QLEnumTypeC", ""]
+- !private ["7GraphQL0A10QLEnumTypeC", "_findStringSwitchCase"]
+- ["7GraphQL0A10QLEnumTypeC", "_rawHashValue"]
+- !private ["7GraphQL0A10QLEnumTypeC", "assertValid"]
+- ["7GraphQL0A10QLEnumTypeC", "debugDescription"]
+- !private ["7GraphQL0A10QLEnumTypeC", "defineEnumValues"]
+- ["7GraphQL0A10QLEnumTypeC", "deinit"]
+- ["7GraphQL0A10QLEnumTypeC", "description"]
+- ["7GraphQL0A10QLEnumTypeC", "encode"]
+- !private ["7GraphQL0A10QLEnumTypeC", "findStringSwitchCase"]
+- ["7GraphQL0A10QLEnumTypeC", "hash"]
+- ["7GraphQL0A10QLEnumTypeC", "hashValue"]
+- ["7GraphQL0A10QLEnumTypeC", "init"]
+- ["7GraphQL0A10QLEnumTypeC", "kind"]
+- !private ["7GraphQL0A10QLEnumTypeC", "map"]
+- ["7GraphQL0A10QLEnumTypeC", "name"]
+- ["7GraphQL0A10QLEnumTypeC", "nameLookup"]
+- ["7GraphQL0A10QLEnumTypeC", "parseLiteral"]
+- ["7GraphQL0A10QLEnumTypeC", "parseValue"]
+- ["7GraphQL0A10QLEnumTypeC", "serialize"]
+- ["7GraphQL0A10QLEnumTypeC", "subscript"]
+- ["7GraphQL0A10QLEnumTypeC", "valueLookup"]
+- ["7GraphQL0A10QLEnumTypeC", "values"]
+- ["7GraphQL0A11QLEnumValueV", "Map"]
+- ["7GraphQL0A11QLEnumValueV", "String"]
+- ["7GraphQL0A11QLEnumValueV", "deprecationReason"]
+- ["7GraphQL0A11QLEnumValueV", "description"]
+- ["7GraphQL0A11QLEnumValueV", "init"]
+- ["7GraphQL0A11QLEnumValueV", "value"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "Bool"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "CodingKey"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "CodingKeys"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "Map"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "String"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", ""]
+- !private ["7GraphQL0A21QLEnumValueDefinitionV", "_findStringSwitchCase"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "deprecationReason"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "description"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "encode"]
+- !private ["7GraphQL0A21QLEnumValueDefinitionV", "findStringSwitchCase"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "init"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "isDeprecated"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "name"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "subscript"]
+- ["7GraphQL0A21QLEnumValueDefinitionV", "value"]
+- !private ["7GraphQL0A7QLErrorV", ""]
+- !private ["7GraphQL0A7QLErrorV", "init"]
+- ["7GraphQL0A7QLFieldV", "GraphQLArgumentConfigMap"]
+- ["7GraphQL0A7QLFieldV", "GraphQLFieldResolve"]
+- ["7GraphQL0A7QLFieldV", "GraphQLFieldResolveInput"]
+- ["7GraphQL0A7QLFieldV", "GraphQLOutputType"]
+- ["7GraphQL0A7QLFieldV", "String"]
+- ["7GraphQL0A7QLFieldV", "args"]
+- ["7GraphQL0A7QLFieldV", "deprecationReason"]
+- ["7GraphQL0A7QLFieldV", "description"]
+- ["7GraphQL0A7QLFieldV", "init"]
+- ["7GraphQL0A7QLFieldV", "resolve"]
+- ["7GraphQL0A7QLFieldV", "type"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "AnyEncodable"]
+- ["7GraphQL0A17QLFieldDefinitionC", "Bool"]
+- ["7GraphQL0A17QLFieldDefinitionC", "CodingKey"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "CodingKeys"]
+- ["7GraphQL0A17QLFieldDefinitionC", "Encoder"]
+- ["7GraphQL0A17QLFieldDefinitionC", "GraphQLArgumentDefinition"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "GraphQLError"]
+- ["7GraphQL0A17QLFieldDefinitionC", "GraphQLFieldResolve"]
+- ["7GraphQL0A17QLFieldDefinitionC", "GraphQLOutputType"]
+- ["7GraphQL0A17QLFieldDefinitionC", "String"]
+- ["7GraphQL0A17QLFieldDefinitionC", "TypeMap"]
+- ["7GraphQL0A17QLFieldDefinitionC", ""]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "_findStringSwitchCase"]
+- ["7GraphQL0A17QLFieldDefinitionC", "args"]
+- ["7GraphQL0A17QLFieldDefinitionC", "deinit"]
+- ["7GraphQL0A17QLFieldDefinitionC", "deprecationReason"]
+- ["7GraphQL0A17QLFieldDefinitionC", "description"]
+- ["7GraphQL0A17QLFieldDefinitionC", "encode"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "findStringSwitchCase"]
+- ["7GraphQL0A17QLFieldDefinitionC", "init"]
+- ["7GraphQL0A17QLFieldDefinitionC", "isDeprecated"]
+- ["7GraphQL0A17QLFieldDefinitionC", "name"]
+- ["7GraphQL0A17QLFieldDefinitionC", "replaceTypeReferences"]
+- ["7GraphQL0A17QLFieldDefinitionC", "resolve"]
+- !private ["7GraphQL0A17QLFieldDefinitionC", "resolveTypeReference"]
+- ["7GraphQL0A17QLFieldDefinitionC", "subscript"]
+- ["7GraphQL0A17QLFieldDefinitionC", "type"]
+- ["7GraphQL0A17QLInputObjectTypeC", "=="]
+- ["7GraphQL0A17QLInputObjectTypeC", "Bool"]
+- ["7GraphQL0A17QLInputObjectTypeC", "CodingKey"]
+- ["7GraphQL0A17QLInputObjectTypeC", "CodingKeys"]
+- ["7GraphQL0A17QLInputObjectTypeC", "GraphQLInputObjectType"]
+- ["7GraphQL0A17QLInputObjectTypeC", "Hasher"]
+- ["7GraphQL0A17QLInputObjectTypeC", "InputObjectConfigFieldMap"]
+- ["7GraphQL0A17QLInputObjectTypeC", "InputObjectFieldMap"]
+- !private ["7GraphQL0A17QLInputObjectTypeC", "ObjectIdentifier"]
+- ["7GraphQL0A17QLInputObjectTypeC", "String"]
+- ["7GraphQL0A17QLInputObjectTypeC", "TypeKind"]
+- ["7GraphQL0A17QLInputObjectTypeC", ""]
+- !private ["7GraphQL0A17QLInputObjectTypeC", "_findStringSwitchCase"]
+- ["7GraphQL0A17QLInputObjectTypeC", "_rawHashValue"]
+- !private ["7GraphQL0A17QLInputObjectTypeC", "assertValid"]
+- ["7GraphQL0A17QLInputObjectTypeC", "debugDescription"]
+- !private ["7GraphQL0A17QLInputObjectTypeC", "defineInputObjectFieldMap"]
+- ["7GraphQL0A17QLInputObjectTypeC", "deinit"]
+- ["7GraphQL0A17QLInputObjectTypeC", "description"]
+- ["7GraphQL0A17QLInputObjectTypeC", "encode"]
+- ["7GraphQL0A17QLInputObjectTypeC", "fields"]
+- !private ["7GraphQL0A17QLInputObjectTypeC", "findStringSwitchCase"]
+- ["7GraphQL0A17QLInputObjectTypeC", "hash"]
+- ["7GraphQL0A17QLInputObjectTypeC", "hashValue"]
+- ["7GraphQL0A17QLInputObjectTypeC", "init"]
+- ["7GraphQL0A17QLInputObjectTypeC", "kind"]
+- ["7GraphQL0A17QLInputObjectTypeC", "name"]
+- ["7GraphQL0A17QLInputObjectTypeC", "subscript"]
+- ["7GraphQL0A11QLInputTypeP", "=="]
+- !private ["7GraphQL0A11QLInputTypeP", "AnyEncodable"]
+- !private ["7GraphQL0A11QLInputTypeP", "CodingKeys"]
+- !private ["7GraphQL0A11QLInputTypeP", "GraphQLError"]
+- !private ["7GraphQL0A11QLInputTypeP", "GraphQLList"]
+- !private ["7GraphQL0A11QLInputTypeP", "GraphQLNonNull"]
+- !private ["7GraphQL0A11QLInputTypeP", "GraphQLTypeReference"]
+- !private ["7GraphQL0A11QLInputTypeP", "Map"]
+- !private ["7GraphQL0A11QLInputTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A11QLInputTypeP", ""]
+- !private ["7GraphQL0A11QLInputTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A11QLInputTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A11QLInputTypeP", "assertValid"]
+- ["7GraphQL0A11QLInputTypeP", "debugDescription"]
+- !private ["7GraphQL0A11QLInputTypeP", "defineEnumValues"]
+- !private ["7GraphQL0A11QLInputTypeP", "defineInputObjectFieldMap"]
+- !private ["7GraphQL0A11QLInputTypeP", "description"]
+- ["7GraphQL0A11QLInputTypeP", "encode"]
+- !private ["7GraphQL0A11QLInputTypeP", "fields"]
+- !private ["7GraphQL0A11QLInputTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A11QLInputTypeP", "hash"]
+- ["7GraphQL0A11QLInputTypeP", "hashValue"]
+- !private ["7GraphQL0A11QLInputTypeP", "init"]
+- !private ["7GraphQL0A11QLInputTypeP", "kind"]
+- !private ["7GraphQL0A11QLInputTypeP", "map"]
+- ["7GraphQL0A11QLInputTypeP", "name"]
+- !private ["7GraphQL0A11QLInputTypeP", "nameLookup"]
+- !private ["7GraphQL0A11QLInputTypeP", "ofType"]
+- ["7GraphQL0A11QLInputTypeP", "parseLiteral"]
+- ["7GraphQL0A11QLInputTypeP", "parseValue"]
+- !private ["7GraphQL0A11QLInputTypeP", "resolveTypeReference"]
+- ["7GraphQL0A11QLInputTypeP", "serialize"]
+- ["7GraphQL0A11QLInputTypeP", "subscript"]
+- !private ["7GraphQL0A11QLInputTypeP", "valueLookup"]
+- !private ["7GraphQL0A11QLInputTypeP", "values"]
+- ["7GraphQL0A11QLInputTypeP", "wrappedType"]
+- ["7GraphQL0A15QLInterfaceTypeC", "=="]
+- ["7GraphQL0A15QLInterfaceTypeC", "Bool"]
+- ["7GraphQL0A15QLInterfaceTypeC", "CodingKey"]
+- ["7GraphQL0A15QLInterfaceTypeC", "CodingKeys"]
+- ["7GraphQL0A15QLInterfaceTypeC", "GraphQLFieldDefinitionMap"]
+- ["7GraphQL0A15QLInterfaceTypeC", "GraphQLFieldMap"]
+- ["7GraphQL0A15QLInterfaceTypeC", "GraphQLInterfaceType"]
+- ["7GraphQL0A15QLInterfaceTypeC", "GraphQLTypeResolve"]
+- ["7GraphQL0A15QLInterfaceTypeC", "Hasher"]
+- !private ["7GraphQL0A15QLInterfaceTypeC", "ObjectIdentifier"]
+- ["7GraphQL0A15QLInterfaceTypeC", "String"]
+- ["7GraphQL0A15QLInterfaceTypeC", "TypeKind"]
+- ["7GraphQL0A15QLInterfaceTypeC", "TypeMap"]
+- ["7GraphQL0A15QLInterfaceTypeC", ""]
+- !private ["7GraphQL0A15QLInterfaceTypeC", "_findStringSwitchCase"]
+- ["7GraphQL0A15QLInterfaceTypeC", "_rawHashValue"]
+- !private ["7GraphQL0A15QLInterfaceTypeC", "assertValid"]
+- ["7GraphQL0A15QLInterfaceTypeC", "debugDescription"]
+- !private ["7GraphQL0A15QLInterfaceTypeC", "defineFieldMap"]
+- ["7GraphQL0A15QLInterfaceTypeC", "deinit"]
+- ["7GraphQL0A15QLInterfaceTypeC", "description"]
+- ["7GraphQL0A15QLInterfaceTypeC", "encode"]
+- ["7GraphQL0A15QLInterfaceTypeC", "fields"]
+- !private ["7GraphQL0A15QLInterfaceTypeC", "findStringSwitchCase"]
+- ["7GraphQL0A15QLInterfaceTypeC", "hash"]
+- ["7GraphQL0A15QLInterfaceTypeC", "hashValue"]
+- ["7GraphQL0A15QLInterfaceTypeC", "init"]
+- ["7GraphQL0A15QLInterfaceTypeC", "interfaces"]
+- ["7GraphQL0A15QLInterfaceTypeC", "kind"]
+- ["7GraphQL0A15QLInterfaceTypeC", "name"]
+- ["7GraphQL0A15QLInterfaceTypeC", "replaceTypeReferences"]
+- ["7GraphQL0A15QLInterfaceTypeC", "resolveType"]
+- ["7GraphQL0A15QLInterfaceTypeC", "subscript"]
+- ["7GraphQL0A10QLLeafTypeP", "=="]
+- !private ["7GraphQL0A10QLLeafTypeP", "CodingKeys"]
+- ["7GraphQL0A10QLLeafTypeP", "Map"]
+- !private ["7GraphQL0A10QLLeafTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A10QLLeafTypeP", "Value"]
+- ["7GraphQL0A10QLLeafTypeP", ""]
+- !private ["7GraphQL0A10QLLeafTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A10QLLeafTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A10QLLeafTypeP", "assertValid"]
+- ["7GraphQL0A10QLLeafTypeP", "debugDescription"]
+- !private ["7GraphQL0A10QLLeafTypeP", "defineEnumValues"]
+- !private ["7GraphQL0A10QLLeafTypeP", "description"]
+- ["7GraphQL0A10QLLeafTypeP", "encode"]
+- !private ["7GraphQL0A10QLLeafTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A10QLLeafTypeP", "hash"]
+- ["7GraphQL0A10QLLeafTypeP", "hashValue"]
+- !private ["7GraphQL0A10QLLeafTypeP", "kind"]
+- !private ["7GraphQL0A10QLLeafTypeP", "map"]
+- ["7GraphQL0A10QLLeafTypeP", "name"]
+- !private ["7GraphQL0A10QLLeafTypeP", "nameLookup"]
+- ["7GraphQL0A10QLLeafTypeP", "parseLiteral"]
+- ["7GraphQL0A10QLLeafTypeP", "parseValue"]
+- ["7GraphQL0A10QLLeafTypeP", "serialize"]
+- ["7GraphQL0A10QLLeafTypeP", "subscript"]
+- !private ["7GraphQL0A10QLLeafTypeP", "valueLookup"]
+- !private ["7GraphQL0A10QLLeafTypeP", "values"]
+- ["7GraphQL0A6QLListC", "=="]
+- !private ["7GraphQL0A6QLListC", "AnyEncodable"]
+- ["7GraphQL0A6QLListC", "Bool"]
+- ["7GraphQL0A6QLListC", "CodingKey"]
+- !private ["7GraphQL0A6QLListC", "CodingKeys"]
+- ["7GraphQL0A6QLListC", "Encoder"]
+- ["7GraphQL0A6QLListC", "GraphQLList"]
+- ["7GraphQL0A6QLListC", "GraphQLType"]
+- !private ["7GraphQL0A6QLListC", "GraphQLTypeReference"]
+- ["7GraphQL0A6QLListC", "Hasher"]
+- !private ["7GraphQL0A6QLListC", "ObjectIdentifier"]
+- ["7GraphQL0A6QLListC", "String"]
+- ["7GraphQL0A6QLListC", "TypeKind"]
+- ["7GraphQL0A6QLListC", "TypeMap"]
+- ["7GraphQL0A6QLListC", ""]
+- !private ["7GraphQL0A6QLListC", "_findStringSwitchCase"]
+- ["7GraphQL0A6QLListC", "_rawHashValue"]
+- ["7GraphQL0A6QLListC", "debugDescription"]
+- ["7GraphQL0A6QLListC", "deinit"]
+- ["7GraphQL0A6QLListC", "encode"]
+- !private ["7GraphQL0A6QLListC", "findStringSwitchCase"]
+- ["7GraphQL0A6QLListC", "hash"]
+- ["7GraphQL0A6QLListC", "hashValue"]
+- ["7GraphQL0A6QLListC", "init"]
+- ["7GraphQL0A6QLListC", "kind"]
+- ["7GraphQL0A6QLListC", "ofType"]
+- ["7GraphQL0A6QLListC", "replaceTypeReferences"]
+- !private ["7GraphQL0A6QLListC", "resolveTypeReference"]
+- ["7GraphQL0A6QLListC", "subscript"]
+- ["7GraphQL0A6QLListC", "wrappedType"]
+- ["7GraphQL0A11QLNamedTypeP", "=="]
+- !private ["7GraphQL0A11QLNamedTypeP", "CodingKeys"]
+- ["7GraphQL0A11QLNamedTypeP", "GraphQLTypeResolve"]
+- ["7GraphQL0A11QLNamedTypeP", "Map"]
+- !private ["7GraphQL0A11QLNamedTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A11QLNamedTypeP", "String"]
+- ["7GraphQL0A11QLNamedTypeP", "TypeMap"]
+- ["7GraphQL0A11QLNamedTypeP", "Value"]
+- ["7GraphQL0A11QLNamedTypeP", ""]
+- !private ["7GraphQL0A11QLNamedTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A11QLNamedTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A11QLNamedTypeP", "assertValid"]
+- ["7GraphQL0A11QLNamedTypeP", "debugDescription"]
+- !private ["7GraphQL0A11QLNamedTypeP", "defineEnumValues"]
+- !private ["7GraphQL0A11QLNamedTypeP", "defineFieldMap"]
+- !private ["7GraphQL0A11QLNamedTypeP", "defineInputObjectFieldMap"]
+- !private ["7GraphQL0A11QLNamedTypeP", "defineInterfaces"]
+- !private ["7GraphQL0A11QLNamedTypeP", "defineTypes"]
+- !private ["7GraphQL0A11QLNamedTypeP", "description"]
+- ["7GraphQL0A11QLNamedTypeP", "encode"]
+- !private ["7GraphQL0A11QLNamedTypeP", "fields"]
+- !private ["7GraphQL0A11QLNamedTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A11QLNamedTypeP", "hash"]
+- ["7GraphQL0A11QLNamedTypeP", "hashValue"]
+- !private ["7GraphQL0A11QLNamedTypeP", "init"]
+- !private ["7GraphQL0A11QLNamedTypeP", "interfaces"]
+- !private ["7GraphQL0A11QLNamedTypeP", "isTypeOf"]
+- !private ["7GraphQL0A11QLNamedTypeP", "kind"]
+- !private ["7GraphQL0A11QLNamedTypeP", "map"]
+- ["7GraphQL0A11QLNamedTypeP", "name"]
+- !private ["7GraphQL0A11QLNamedTypeP", "nameLookup"]
+- ["7GraphQL0A11QLNamedTypeP", "parseLiteral"]
+- ["7GraphQL0A11QLNamedTypeP", "parseValue"]
+- !private ["7GraphQL0A11QLNamedTypeP", "possibleTypeNames"]
+- ["7GraphQL0A11QLNamedTypeP", "replaceTypeReferences"]
+- ["7GraphQL0A11QLNamedTypeP", "resolveType"]
+- ["7GraphQL0A11QLNamedTypeP", "serialize"]
+- ["7GraphQL0A11QLNamedTypeP", "subscript"]
+- ["7GraphQL0A11QLNamedTypeP", "typeResolveResult"]
+- !private ["7GraphQL0A11QLNamedTypeP", "types"]
+- !private ["7GraphQL0A11QLNamedTypeP", "valueLookup"]
+- !private ["7GraphQL0A11QLNamedTypeP", "values"]
+- ["7GraphQL0A9QLNonNullC", "=="]
+- !private ["7GraphQL0A9QLNonNullC", "AnyEncodable"]
+- ["7GraphQL0A9QLNonNullC", "Bool"]
+- ["7GraphQL0A9QLNonNullC", "CodingKey"]
+- !private ["7GraphQL0A9QLNonNullC", "CodingKeys"]
+- ["7GraphQL0A9QLNonNullC", "Encoder"]
+- !private ["7GraphQL0A9QLNonNullC", "GraphQLError"]
+- ["7GraphQL0A9QLNonNullC", "GraphQLNonNull"]
+- ["7GraphQL0A9QLNonNullC", "GraphQLNullableType"]
+- ["7GraphQL0A9QLNonNullC", "GraphQLType"]
+- !private ["7GraphQL0A9QLNonNullC", "GraphQLTypeReference"]
+- ["7GraphQL0A9QLNonNullC", "Hasher"]
+- !private ["7GraphQL0A9QLNonNullC", "ObjectIdentifier"]
+- ["7GraphQL0A9QLNonNullC", "String"]
+- ["7GraphQL0A9QLNonNullC", "TypeKind"]
+- ["7GraphQL0A9QLNonNullC", "TypeMap"]
+- ["7GraphQL0A9QLNonNullC", ""]
+- !private ["7GraphQL0A9QLNonNullC", "_findStringSwitchCase"]
+- ["7GraphQL0A9QLNonNullC", "_rawHashValue"]
+- ["7GraphQL0A9QLNonNullC", "debugDescription"]
+- ["7GraphQL0A9QLNonNullC", "deinit"]
+- ["7GraphQL0A9QLNonNullC", "encode"]
+- !private ["7GraphQL0A9QLNonNullC", "findStringSwitchCase"]
+- ["7GraphQL0A9QLNonNullC", "hash"]
+- ["7GraphQL0A9QLNonNullC", "hashValue"]
+- ["7GraphQL0A9QLNonNullC", "init"]
+- ["7GraphQL0A9QLNonNullC", "kind"]
+- ["7GraphQL0A9QLNonNullC", "ofType"]
+- ["7GraphQL0A9QLNonNullC", "replaceTypeReferences"]
+- !private ["7GraphQL0A9QLNonNullC", "resolveTypeReference"]
+- ["7GraphQL0A9QLNonNullC", "subscript"]
+- ["7GraphQL0A9QLNonNullC", "wrappedType"]
+- ["7GraphQL0A14QLNullableTypeP", "=="]
+- !private ["7GraphQL0A14QLNullableTypeP", "AnyEncodable"]
+- !private ["7GraphQL0A14QLNullableTypeP", "CodingKeys"]
+- !private ["7GraphQL0A14QLNullableTypeP", "GraphQLList"]
+- !private ["7GraphQL0A14QLNullableTypeP", "GraphQLTypeReference"]
+- ["7GraphQL0A14QLNullableTypeP", "GraphQLTypeResolve"]
+- ["7GraphQL0A14QLNullableTypeP", "Map"]
+- !private ["7GraphQL0A14QLNullableTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A14QLNullableTypeP", "String"]
+- ["7GraphQL0A14QLNullableTypeP", "TypeMap"]
+- ["7GraphQL0A14QLNullableTypeP", "Value"]
+- ["7GraphQL0A14QLNullableTypeP", ""]
+- !private ["7GraphQL0A14QLNullableTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A14QLNullableTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A14QLNullableTypeP", "assertValid"]
+- ["7GraphQL0A14QLNullableTypeP", "debugDescription"]
+- !private ["7GraphQL0A14QLNullableTypeP", "defineEnumValues"]
+- !private ["7GraphQL0A14QLNullableTypeP", "defineFieldMap"]
+- !private ["7GraphQL0A14QLNullableTypeP", "defineInputObjectFieldMap"]
+- !private ["7GraphQL0A14QLNullableTypeP", "defineInterfaces"]
+- !private ["7GraphQL0A14QLNullableTypeP", "defineTypes"]
+- !private ["7GraphQL0A14QLNullableTypeP", "description"]
+- ["7GraphQL0A14QLNullableTypeP", "encode"]
+- !private ["7GraphQL0A14QLNullableTypeP", "fields"]
+- !private ["7GraphQL0A14QLNullableTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A14QLNullableTypeP", "hash"]
+- ["7GraphQL0A14QLNullableTypeP", "hashValue"]
+- !private ["7GraphQL0A14QLNullableTypeP", "init"]
+- !private ["7GraphQL0A14QLNullableTypeP", "interfaces"]
+- !private ["7GraphQL0A14QLNullableTypeP", "isTypeOf"]
+- !private ["7GraphQL0A14QLNullableTypeP", "kind"]
+- !private ["7GraphQL0A14QLNullableTypeP", "map"]
+- ["7GraphQL0A14QLNullableTypeP", "name"]
+- !private ["7GraphQL0A14QLNullableTypeP", "nameLookup"]
+- !private ["7GraphQL0A14QLNullableTypeP", "ofType"]
+- ["7GraphQL0A14QLNullableTypeP", "parseLiteral"]
+- ["7GraphQL0A14QLNullableTypeP", "parseValue"]
+- !private ["7GraphQL0A14QLNullableTypeP", "possibleTypeNames"]
+- ["7GraphQL0A14QLNullableTypeP", "replaceTypeReferences"]
+- ["7GraphQL0A14QLNullableTypeP", "resolveType"]
+- !private ["7GraphQL0A14QLNullableTypeP", "resolveTypeReference"]
+- ["7GraphQL0A14QLNullableTypeP", "serialize"]
+- ["7GraphQL0A14QLNullableTypeP", "subscript"]
+- ["7GraphQL0A14QLNullableTypeP", "typeResolveResult"]
+- !private ["7GraphQL0A14QLNullableTypeP", "types"]
+- !private ["7GraphQL0A14QLNullableTypeP", "valueLookup"]
+- !private ["7GraphQL0A14QLNullableTypeP", "values"]
+- ["7GraphQL0A14QLNullableTypeP", "wrappedType"]
+- ["7GraphQL0A12QLObjectTypeC", "=="]
+- ["7GraphQL0A12QLObjectTypeC", "Bool"]
+- ["7GraphQL0A12QLObjectTypeC", "CodingKey"]
+- ["7GraphQL0A12QLObjectTypeC", "CodingKeys"]
+- ["7GraphQL0A12QLObjectTypeC", "GraphQLFieldDefinitionMap"]
+- ["7GraphQL0A12QLObjectTypeC", "GraphQLFieldMap"]
+- ["7GraphQL0A12QLObjectTypeC", "GraphQLInterfaceType"]
+- ["7GraphQL0A12QLObjectTypeC", "GraphQLIsTypeOf"]
+- ["7GraphQL0A12QLObjectTypeC", "GraphQLObjectType"]
+- ["7GraphQL0A12QLObjectTypeC", "Hasher"]
+- !private ["7GraphQL0A12QLObjectTypeC", "ObjectIdentifier"]
+- ["7GraphQL0A12QLObjectTypeC", "String"]
+- ["7GraphQL0A12QLObjectTypeC", "TypeKind"]
+- ["7GraphQL0A12QLObjectTypeC", "TypeMap"]
+- ["7GraphQL0A12QLObjectTypeC", "TypeResolveResult"]
+- ["7GraphQL0A12QLObjectTypeC", ""]
+- !private ["7GraphQL0A12QLObjectTypeC", "_findStringSwitchCase"]
+- ["7GraphQL0A12QLObjectTypeC", "_rawHashValue"]
+- !private ["7GraphQL0A12QLObjectTypeC", "assertValid"]
+- ["7GraphQL0A12QLObjectTypeC", "debugDescription"]
+- !private ["7GraphQL0A12QLObjectTypeC", "defineFieldMap"]
+- !private ["7GraphQL0A12QLObjectTypeC", "defineInterfaces"]
+- ["7GraphQL0A12QLObjectTypeC", "deinit"]
+- ["7GraphQL0A12QLObjectTypeC", "description"]
+- ["7GraphQL0A12QLObjectTypeC", "encode"]
+- ["7GraphQL0A12QLObjectTypeC", "fields"]
+- !private ["7GraphQL0A12QLObjectTypeC", "findStringSwitchCase"]
+- ["7GraphQL0A12QLObjectTypeC", "hash"]
+- ["7GraphQL0A12QLObjectTypeC", "hashValue"]
+- ["7GraphQL0A12QLObjectTypeC", "init"]
+- ["7GraphQL0A12QLObjectTypeC", "interfaces"]
+- ["7GraphQL0A12QLObjectTypeC", "isTypeOf"]
+- ["7GraphQL0A12QLObjectTypeC", "kind"]
+- ["7GraphQL0A12QLObjectTypeC", "name"]
+- ["7GraphQL0A12QLObjectTypeC", "replaceTypeReferences"]
+- ["7GraphQL0A12QLObjectTypeC", "subscript"]
+- ["7GraphQL0A12QLObjectTypeC", "typeResolveResult"]
+- ["7GraphQL0A12QLOutputTypeP", "=="]
+- !private ["7GraphQL0A12QLOutputTypeP", "AnyEncodable"]
+- !private ["7GraphQL0A12QLOutputTypeP", "CodingKeys"]
+- !private ["7GraphQL0A12QLOutputTypeP", "GraphQLError"]
+- !private ["7GraphQL0A12QLOutputTypeP", "GraphQLList"]
+- !private ["7GraphQL0A12QLOutputTypeP", "GraphQLNonNull"]
+- !private ["7GraphQL0A12QLOutputTypeP", "GraphQLTypeReference"]
+- !private ["7GraphQL0A12QLOutputTypeP", "Map"]
+- !private ["7GraphQL0A12QLOutputTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A12QLOutputTypeP", ""]
+- !private ["7GraphQL0A12QLOutputTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A12QLOutputTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A12QLOutputTypeP", "assertValid"]
+- ["7GraphQL0A12QLOutputTypeP", "debugDescription"]
+- !private ["7GraphQL0A12QLOutputTypeP", "defineEnumValues"]
+- !private ["7GraphQL0A12QLOutputTypeP", "defineFieldMap"]
+- !private ["7GraphQL0A12QLOutputTypeP", "defineInterfaces"]
+- !private ["7GraphQL0A12QLOutputTypeP", "defineTypes"]
+- !private ["7GraphQL0A12QLOutputTypeP", "description"]
+- ["7GraphQL0A12QLOutputTypeP", "encode"]
+- !private ["7GraphQL0A12QLOutputTypeP", "fields"]
+- !private ["7GraphQL0A12QLOutputTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A12QLOutputTypeP", "hash"]
+- ["7GraphQL0A12QLOutputTypeP", "hashValue"]
+- !private ["7GraphQL0A12QLOutputTypeP", "init"]
+- !private ["7GraphQL0A12QLOutputTypeP", "interfaces"]
+- !private ["7GraphQL0A12QLOutputTypeP", "isTypeOf"]
+- !private ["7GraphQL0A12QLOutputTypeP", "kind"]
+- !private ["7GraphQL0A12QLOutputTypeP", "map"]
+- ["7GraphQL0A12QLOutputTypeP", "name"]
+- !private ["7GraphQL0A12QLOutputTypeP", "nameLookup"]
+- !private ["7GraphQL0A12QLOutputTypeP", "ofType"]
+- ["7GraphQL0A12QLOutputTypeP", "parseLiteral"]
+- ["7GraphQL0A12QLOutputTypeP", "parseValue"]
+- !private ["7GraphQL0A12QLOutputTypeP", "possibleTypeNames"]
+- ["7GraphQL0A12QLOutputTypeP", "replaceTypeReferences"]
+- ["7GraphQL0A12QLOutputTypeP", "resolveType"]
+- !private ["7GraphQL0A12QLOutputTypeP", "resolveTypeReference"]
+- ["7GraphQL0A12QLOutputTypeP", "serialize"]
+- ["7GraphQL0A12QLOutputTypeP", "subscript"]
+- ["7GraphQL0A12QLOutputTypeP", "typeResolveResult"]
+- !private ["7GraphQL0A12QLOutputTypeP", "types"]
+- !private ["7GraphQL0A12QLOutputTypeP", "valueLookup"]
+- !private ["7GraphQL0A12QLOutputTypeP", "values"]
+- ["7GraphQL0A12QLOutputTypeP", "wrappedType"]
+- ["7GraphQL0A13QLResolveInfoV", "Field"]
+- ["7GraphQL0A13QLResolveInfoV", "FragmentDefinition"]
+- ["7GraphQL0A13QLResolveInfoV", "GraphQLCompositeType"]
+- ["7GraphQL0A13QLResolveInfoV", "GraphQLOutputType"]
+- ["7GraphQL0A13QLResolveInfoV", "GraphQLSchema"]
+- ["7GraphQL0A13QLResolveInfoV", "IndexPath"]
+- ["7GraphQL0A13QLResolveInfoV", "OperationDefinition"]
+- ["7GraphQL0A13QLResolveInfoV", "String"]
+- ["7GraphQL0A13QLResolveInfoV", "fieldASTs"]
+- ["7GraphQL0A13QLResolveInfoV", "fieldName"]
+- ["7GraphQL0A13QLResolveInfoV", "fragments"]
+- ["7GraphQL0A13QLResolveInfoV", "init"]
+- ["7GraphQL0A13QLResolveInfoV", "operation"]
+- ["7GraphQL0A13QLResolveInfoV", "parentType"]
+- ["7GraphQL0A13QLResolveInfoV", "path"]
+- ["7GraphQL0A13QLResolveInfoV", "returnType"]
+- ["7GraphQL0A13QLResolveInfoV", "rootValue"]
+- ["7GraphQL0A13QLResolveInfoV", "schema"]
+- ["7GraphQL0A13QLResolveInfoV", "variableValues"]
+- ["7GraphQL0A12QLScalarTypeC", "=="]
+- ["7GraphQL0A12QLScalarTypeC", "Bool"]
+- ["7GraphQL0A12QLScalarTypeC", "CodingKey"]
+- ["7GraphQL0A12QLScalarTypeC", "CodingKeys"]
+- ["7GraphQL0A12QLScalarTypeC", "GraphQLScalarType"]
+- ["7GraphQL0A12QLScalarTypeC", "Hasher"]
+- ["7GraphQL0A12QLScalarTypeC", "Map"]
+- !private ["7GraphQL0A12QLScalarTypeC", "ObjectIdentifier"]
+- ["7GraphQL0A12QLScalarTypeC", "String"]
+- ["7GraphQL0A12QLScalarTypeC", "TypeKind"]
+- ["7GraphQL0A12QLScalarTypeC", "Value"]
+- ["7GraphQL0A12QLScalarTypeC", ""]
+- !private ["7GraphQL0A12QLScalarTypeC", "_findStringSwitchCase"]
+- ["7GraphQL0A12QLScalarTypeC", "_rawHashValue"]
+- !private ["7GraphQL0A12QLScalarTypeC", "assertValid"]
+- ["7GraphQL0A12QLScalarTypeC", "debugDescription"]
+- ["7GraphQL0A12QLScalarTypeC", "deinit"]
+- ["7GraphQL0A12QLScalarTypeC", "description"]
+- ["7GraphQL0A12QLScalarTypeC", "encode"]
+- !private ["7GraphQL0A12QLScalarTypeC", "findStringSwitchCase"]
+- ["7GraphQL0A12QLScalarTypeC", "hash"]
+- ["7GraphQL0A12QLScalarTypeC", "hashValue"]
+- ["7GraphQL0A12QLScalarTypeC", "init"]
+- ["7GraphQL0A12QLScalarTypeC", "kind"]
+- ["7GraphQL0A12QLScalarTypeC", "name"]
+- ["7GraphQL0A12QLScalarTypeC", "parseLiteral"]
+- ["7GraphQL0A12QLScalarTypeC", "parseValue"]
+- ["7GraphQL0A12QLScalarTypeC", "serialize"]
+- ["7GraphQL0A12QLScalarTypeC", "subscript"]
+- ["7GraphQL0A6QLTypeP", "=="]
+- !private ["7GraphQL0A6QLTypeP", "AnyEncodable"]
+- !private ["7GraphQL0A6QLTypeP", "CodingKeys"]
+- !private ["7GraphQL0A6QLTypeP", "GraphQLError"]
+- !private ["7GraphQL0A6QLTypeP", "GraphQLList"]
+- !private ["7GraphQL0A6QLTypeP", "GraphQLNonNull"]
+- ["7GraphQL0A6QLTypeP", "GraphQLType"]
+- !private ["7GraphQL0A6QLTypeP", "GraphQLTypeReference"]
+- ["7GraphQL0A6QLTypeP", "GraphQLTypeResolve"]
+- ["7GraphQL0A6QLTypeP", "Map"]
+- !private ["7GraphQL0A6QLTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A6QLTypeP", "String"]
+- ["7GraphQL0A6QLTypeP", "TypeMap"]
+- ["7GraphQL0A6QLTypeP", "Value"]
+- ["7GraphQL0A6QLTypeP", ""]
+- !private ["7GraphQL0A6QLTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A6QLTypeP", "_rawHashValue"]
+- !private ["7GraphQL0A6QLTypeP", "assertValid"]
+- ["7GraphQL0A6QLTypeP", "debugDescription"]
+- !private ["7GraphQL0A6QLTypeP", "defineEnumValues"]
+- !private ["7GraphQL0A6QLTypeP", "defineFieldMap"]
+- !private ["7GraphQL0A6QLTypeP", "defineInputObjectFieldMap"]
+- !private ["7GraphQL0A6QLTypeP", "defineInterfaces"]
+- !private ["7GraphQL0A6QLTypeP", "defineTypes"]
+- !private ["7GraphQL0A6QLTypeP", "description"]
+- ["7GraphQL0A6QLTypeP", "encode"]
+- !private ["7GraphQL0A6QLTypeP", "fields"]
+- !private ["7GraphQL0A6QLTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A6QLTypeP", "hash"]
+- ["7GraphQL0A6QLTypeP", "hashValue"]
+- !private ["7GraphQL0A6QLTypeP", "init"]
+- !private ["7GraphQL0A6QLTypeP", "interfaces"]
+- !private ["7GraphQL0A6QLTypeP", "isTypeOf"]
+- !private ["7GraphQL0A6QLTypeP", "kind"]
+- !private ["7GraphQL0A6QLTypeP", "map"]
+- ["7GraphQL0A6QLTypeP", "name"]
+- !private ["7GraphQL0A6QLTypeP", "nameLookup"]
+- !private ["7GraphQL0A6QLTypeP", "ofType"]
+- ["7GraphQL0A6QLTypeP", "parseLiteral"]
+- ["7GraphQL0A6QLTypeP", "parseValue"]
+- !private ["7GraphQL0A6QLTypeP", "possibleTypeNames"]
+- ["7GraphQL0A6QLTypeP", "replaceTypeReferences"]
+- ["7GraphQL0A6QLTypeP", "resolveType"]
+- !private ["7GraphQL0A6QLTypeP", "resolveTypeReference"]
+- ["7GraphQL0A6QLTypeP", "serialize"]
+- ["7GraphQL0A6QLTypeP", "subscript"]
+- ["7GraphQL0A6QLTypeP", "typeResolveResult"]
+- !private ["7GraphQL0A6QLTypeP", "types"]
+- !private ["7GraphQL0A6QLTypeP", "valueLookup"]
+- !private ["7GraphQL0A6QLTypeP", "values"]
+- ["7GraphQL0A6QLTypeP", "wrappedType"]
+- ["7GraphQL0A15QLTypeReferenceC", "CodingKey"]
+- ["7GraphQL0A15QLTypeReferenceC", "CodingKeys"]
+- ["7GraphQL0A15QLTypeReferenceC", "String"]
+- ["7GraphQL0A15QLTypeReferenceC", "TypeKind"]
+- ["7GraphQL0A15QLTypeReferenceC", ""]
+- !private ["7GraphQL0A15QLTypeReferenceC", "_findStringSwitchCase"]
+- ["7GraphQL0A15QLTypeReferenceC", "debugDescription"]
+- ["7GraphQL0A15QLTypeReferenceC", "deinit"]
+- ["7GraphQL0A15QLTypeReferenceC", "encode"]
+- !private ["7GraphQL0A15QLTypeReferenceC", "findStringSwitchCase"]
+- ["7GraphQL0A15QLTypeReferenceC", "init"]
+- ["7GraphQL0A15QLTypeReferenceC", "kind"]
+- ["7GraphQL0A15QLTypeReferenceC", "name"]
+- ["7GraphQL0A15QLTypeReferenceC", "subscript"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "=="]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "CodingKeys"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "ObjectIdentifier"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "TypeMap"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", ""]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "_findStringSwitchCase"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "_rawHashValue"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "assertValid"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "debugDescription"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "defineFieldMap"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "defineInterfaces"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "description"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "encode"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "fields"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "findStringSwitchCase"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "hash"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "hashValue"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "interfaces"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "isTypeOf"]
+- !private ["7GraphQL0A24QLTypeReferenceContainerP", "kind"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "name"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "replaceTypeReferences"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "resolveType"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "subscript"]
+- ["7GraphQL0A24QLTypeReferenceContainerP", "typeResolveResult"]
+- ["7GraphQL0A11QLUnionTypeC", "=="]
+- ["7GraphQL0A11QLUnionTypeC", "Bool"]
+- ["7GraphQL0A11QLUnionTypeC", "CodingKey"]
+- ["7GraphQL0A11QLUnionTypeC", "CodingKeys"]
+- ["7GraphQL0A11QLUnionTypeC", "GraphQLObjectType"]
+- ["7GraphQL0A11QLUnionTypeC", "GraphQLTypeResolve"]
+- ["7GraphQL0A11QLUnionTypeC", "GraphQLUnionType"]
+- ["7GraphQL0A11QLUnionTypeC", "Hasher"]
+- !private ["7GraphQL0A11QLUnionTypeC", "ObjectIdentifier"]
+- ["7GraphQL0A11QLUnionTypeC", "String"]
+- ["7GraphQL0A11QLUnionTypeC", "TypeKind"]
+- ["7GraphQL0A11QLUnionTypeC", ""]
+- !private ["7GraphQL0A11QLUnionTypeC", "_findStringSwitchCase"]
+- ["7GraphQL0A11QLUnionTypeC", "_rawHashValue"]
+- !private ["7GraphQL0A11QLUnionTypeC", "assertValid"]
+- ["7GraphQL0A11QLUnionTypeC", "debugDescription"]
+- !private ["7GraphQL0A11QLUnionTypeC", "defineTypes"]
+- ["7GraphQL0A11QLUnionTypeC", "deinit"]
+- ["7GraphQL0A11QLUnionTypeC", "description"]
+- ["7GraphQL0A11QLUnionTypeC", "encode"]
+- !private ["7GraphQL0A11QLUnionTypeC", "findStringSwitchCase"]
+- ["7GraphQL0A11QLUnionTypeC", "hash"]
+- ["7GraphQL0A11QLUnionTypeC", "hashValue"]
+- ["7GraphQL0A11QLUnionTypeC", "init"]
+- ["7GraphQL0A11QLUnionTypeC", "kind"]
+- ["7GraphQL0A11QLUnionTypeC", "name"]
+- ["7GraphQL0A11QLUnionTypeC", "possibleTypeNames"]
+- ["7GraphQL0A11QLUnionTypeC", "resolveType"]
+- ["7GraphQL0A11QLUnionTypeC", "subscript"]
+- ["7GraphQL0A11QLUnionTypeC", "types"]
+- ["7GraphQL0A13QLWrapperTypeP", "=="]
+- !private ["7GraphQL0A13QLWrapperTypeP", "AnyEncodable"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "CodingKeys"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "GraphQLError"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "GraphQLList"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "GraphQLNonNull"]
+- ["7GraphQL0A13QLWrapperTypeP", "GraphQLType"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "GraphQLTypeReference"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "ObjectIdentifier"]
+- ["7GraphQL0A13QLWrapperTypeP", ""]
+- !private ["7GraphQL0A13QLWrapperTypeP", "_findStringSwitchCase"]
+- ["7GraphQL0A13QLWrapperTypeP", "_rawHashValue"]
+- ["7GraphQL0A13QLWrapperTypeP", "debugDescription"]
+- ["7GraphQL0A13QLWrapperTypeP", "encode"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "findStringSwitchCase"]
+- ["7GraphQL0A13QLWrapperTypeP", "hash"]
+- ["7GraphQL0A13QLWrapperTypeP", "hashValue"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "init"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "kind"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "ofType"]
+- !private ["7GraphQL0A13QLWrapperTypeP", "resolveTypeReference"]
+- ["7GraphQL0A13QLWrapperTypeP", "subscript"]
+- ["7GraphQL0A13QLWrapperTypeP", "wrappedType"]
+- ["SH", "=="]
+- !private ["SH", "AnyEncodable"]
+- !private ["SH", "CodingKeys"]
+- ["SH", "Default_RawValue"]
+- !private ["SH", "GraphQLError"]
+- !private ["SH", "GraphQLList"]
+- !private ["SH", "GraphQLNonNull"]
+- !private ["SH", "GraphQLTypeReference"]
+- !private ["SH", "Map"]
+- !private ["SH", "ObjectIdentifier"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "args"]
+- !private ["SH", "assertValid"]
+- ["SH", "debugDescription"]
+- ["SH", "defaultValue"]
+- !private ["SH", "defineEnumValues"]
+- !private ["SH", "defineFieldMap"]
+- !private ["SH", "defineInputObjectFieldMap"]
+- !private ["SH", "defineInterfaces"]
+- !private ["SH", "defineTypes"]
+- ["SH", "deprecationReason"]
+- ["SH", "description"]
+- ["SH", "encode"]
+- ["SH", "enum"]
+- ["SH", "fields"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "inputObject"]
+- ["SH", "intValue"]
+- ["SH", "interface"]
+- ["SH", "interfaces"]
+- ["SH", "isDeprecated"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isTypeOf"]
+- ["SH", "kind"]
+- ["SH", "list"]
+- !private ["SH", "map"]
+- ["SH", "name"]
+- !private ["SH", "nameLookup"]
+- ["SH", "nonNull"]
+- !private ["SH", "null"]
+- ["SH", "object"]
+- ["SH", "ofType"]
+- ["SH", "parseLiteral"]
+- ["SH", "parseValue"]
+- !private ["SH", "possibleTypeNames"]
+- ["SH", "rawValue"]
+- ["SH", "replaceTypeReferences"]
+- ["SH", "resolveType"]
+- !private ["SH", "resolveTypeReference"]
+- ["SH", "scalar"]
+- ["SH", "serialize"]
+- ["SH", "string"]
+- ["SH", "stringValue"]
+- ["SH", "subscript"]
+- ["SH", "type"]
+- ["SH", "typeReference"]
+- ["SH", "typeResolveResult"]
+- ["SH", "types"]
+- ["SH", "union"]
+- !private ["SH", "valueLookup"]
+- ["SH", "values"]
+- ["SH", "wrappedType"]
+- !private ["s6HasherV", "combine"]
+- ["7GraphQL16IndexPathElementP", "typeResolveResult"]
+- ["7GraphQL16InputObjectFieldV", "GraphQLInputType"]
+- ["7GraphQL16InputObjectFieldV", "Map"]
+- ["7GraphQL16InputObjectFieldV", "String"]
+- ["7GraphQL16InputObjectFieldV", "defaultValue"]
+- ["7GraphQL16InputObjectFieldV", "description"]
+- ["7GraphQL16InputObjectFieldV", "init"]
+- ["7GraphQL16InputObjectFieldV", "type"]
+- !private ["7GraphQL26InputObjectFieldDefinitionV", "AnyEncodable"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "CodingKey"]
+- !private ["7GraphQL26InputObjectFieldDefinitionV", "CodingKeys"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "Encoder"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "GraphQLInputType"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "String"]
+- ["7GraphQL26InputObjectFieldDefinitionV", ""]
+- !private ["7GraphQL26InputObjectFieldDefinitionV", "_findStringSwitchCase"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "defaultValue"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "description"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "encode"]
+- !private ["7GraphQL26InputObjectFieldDefinitionV", "findStringSwitchCase"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "init"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "name"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "subscript"]
+- ["7GraphQL26InputObjectFieldDefinitionV", "type"]
+- ["7GraphQL16KeySubscriptableP", "=="]
+- !private ["7GraphQL16KeySubscriptableP", "AnyEncodable"]
+- ["7GraphQL16KeySubscriptableP", "CodingKey"]
+- !private ["7GraphQL16KeySubscriptableP", "CodingKeys"]
+- !private ["7GraphQL16KeySubscriptableP", "GraphQLError"]
+- !private ["7GraphQL16KeySubscriptableP", "GraphQLList"]
+- !private ["7GraphQL16KeySubscriptableP", "GraphQLNonNull"]
+- ["7GraphQL16KeySubscriptableP", "GraphQLType"]
+- !private ["7GraphQL16KeySubscriptableP", "GraphQLTypeReference"]
+- ["7GraphQL16KeySubscriptableP", "GraphQLTypeResolve"]
+- ["7GraphQL16KeySubscriptableP", "Map"]
+- !private ["7GraphQL16KeySubscriptableP", "ObjectIdentifier"]
+- ["7GraphQL16KeySubscriptableP", "String"]
+- ["7GraphQL16KeySubscriptableP", "TypeMap"]
+- ["7GraphQL16KeySubscriptableP", "Value"]
+- ["7GraphQL16KeySubscriptableP", ""]
+- !private ["7GraphQL16KeySubscriptableP", "_findStringSwitchCase"]
+- ["7GraphQL16KeySubscriptableP", "_rawHashValue"]
+- !private ["7GraphQL16KeySubscriptableP", "args"]
+- !private ["7GraphQL16KeySubscriptableP", "assertValid"]
+- ["7GraphQL16KeySubscriptableP", "debugDescription"]
+- !private ["7GraphQL16KeySubscriptableP", "defaultValue"]
+- !private ["7GraphQL16KeySubscriptableP", "defineEnumValues"]
+- !private ["7GraphQL16KeySubscriptableP", "defineFieldMap"]
+- !private ["7GraphQL16KeySubscriptableP", "defineInputObjectFieldMap"]
+- !private ["7GraphQL16KeySubscriptableP", "defineInterfaces"]
+- !private ["7GraphQL16KeySubscriptableP", "defineTypes"]
+- !private ["7GraphQL16KeySubscriptableP", "deprecationReason"]
+- !private ["7GraphQL16KeySubscriptableP", "description"]
+- ["7GraphQL16KeySubscriptableP", "encode"]
+- !private ["7GraphQL16KeySubscriptableP", "fields"]
+- !private ["7GraphQL16KeySubscriptableP", "findStringSwitchCase"]
+- ["7GraphQL16KeySubscriptableP", "hash"]
+- ["7GraphQL16KeySubscriptableP", "hashValue"]
+- !private ["7GraphQL16KeySubscriptableP", "init"]
+- !private ["7GraphQL16KeySubscriptableP", "interfaces"]
+- !private ["7GraphQL16KeySubscriptableP", "isDeprecated"]
+- !private ["7GraphQL16KeySubscriptableP", "isTypeOf"]
+- !private ["7GraphQL16KeySubscriptableP", "kind"]
+- !private ["7GraphQL16KeySubscriptableP", "map"]
+- ["7GraphQL16KeySubscriptableP", "name"]
+- !private ["7GraphQL16KeySubscriptableP", "nameLookup"]
+- !private ["7GraphQL16KeySubscriptableP", "ofType"]
+- ["7GraphQL16KeySubscriptableP", "parseLiteral"]
+- ["7GraphQL16KeySubscriptableP", "parseValue"]
+- !private ["7GraphQL16KeySubscriptableP", "possibleTypeNames"]
+- ["7GraphQL16KeySubscriptableP", "replaceTypeReferences"]
+- !private ["7GraphQL16KeySubscriptableP", "resolve"]
+- ["7GraphQL16KeySubscriptableP", "resolveType"]
+- !private ["7GraphQL16KeySubscriptableP", "resolveTypeReference"]
+- ["7GraphQL16KeySubscriptableP", "serialize"]
+- ["7GraphQL16KeySubscriptableP", "subscript"]
+- !private ["7GraphQL16KeySubscriptableP", "type"]
+- ["7GraphQL16KeySubscriptableP", "typeResolveResult"]
+- !private ["7GraphQL16KeySubscriptableP", "types"]
+- !private ["7GraphQL16KeySubscriptableP", "value"]
+- !private ["7GraphQL16KeySubscriptableP", "valueLookup"]
+- !private ["7GraphQL16KeySubscriptableP", "values"]
+- ["7GraphQL16KeySubscriptableP", "wrappedType"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", "typeResolveResult"]
+- ["7GraphQL3MapO", ""]
+- !private ["7GraphQL3MapO", "description"]
+- !private ["7GraphQL3MapO", "null"]
+- ["7GraphQL3MapO", "string"]
+- ["s10MirrorPathP", "typeResolveResult"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["7GraphQL4NodeP", ""]
+- !private ["7GraphQL4NodeP", "value"]
+- !private ["SO", "init"]
+- !private ["Sq", "map"]
+- !private ["7GraphQL16OptionalProtocolP", "map"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "isEmpty"]
+- ["Sm", "typeResolveResult"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "args"]
+- ["SY", "debugDescription"]
+- ["SY", "defaultValue"]
+- ["SY", "deprecationReason"]
+- ["SY", "description"]
+- ["SY", "enum"]
+- ["SY", "fields"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "inputObject"]
+- ["SY", "intValue"]
+- ["SY", "interface"]
+- ["SY", "interfaces"]
+- ["SY", "isDeprecated"]
+- ["SY", "kind"]
+- ["SY", "list"]
+- ["SY", "name"]
+- ["SY", "nonNull"]
+- ["SY", "object"]
+- ["SY", "ofType"]
+- ["SY", "rawValue"]
+- ["SY", "scalar"]
+- ["SY", "stringValue"]
+- ["SY", "type"]
+- ["SY", "typeReference"]
+- ["SY", "types"]
+- ["SY", "union"]
+- ["SY", "values"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- ["ST", "typeResolveResult"]
+- ["SS", "TypeResolveResult"]
+- ["SS", ""]
+- ["SS", "typeResolveResult"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["Sy", "typeResolveResult"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "typeResolveResult"]
+- ["s20TextOutputStreamableP", ""]
+- ["s20TextOutputStreamableP", "typeResolveResult"]
+- !private ["7GraphQL8TypeKindO", "RawValue"]
+- ["7GraphQL8TypeKindO", ""]
+- ["7GraphQL8TypeKindO", "enum"]
+- ["7GraphQL8TypeKindO", "inputObject"]
+- ["7GraphQL8TypeKindO", "interface"]
+- ["7GraphQL8TypeKindO", "list"]
+- ["7GraphQL8TypeKindO", "nonNull"]
+- ["7GraphQL8TypeKindO", "object"]
+- !private ["7GraphQL8TypeKindO", "rawValue"]
+- ["7GraphQL8TypeKindO", "scalar"]
+- ["7GraphQL8TypeKindO", "typeReference"]
+- ["7GraphQL8TypeKindO", "union"]
+- ["7GraphQL17TypeResolveResultO", "GraphQLObjectType"]
+- ["7GraphQL17TypeResolveResultO", "String"]
+- ["7GraphQL17TypeResolveResultO", "name"]
+- ["7GraphQL17TypeResolveResultO", "type"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "=="]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "CodingKeys"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "ObjectIdentifier"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "TypeResolveResult"]
+- ["7GraphQL30TypeResolveResultRepresentableP", ""]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "_findStringSwitchCase"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "_rawHashValue"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "assertValid"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "debugDescription"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "defineFieldMap"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "defineInterfaces"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "description"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "encode"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "fields"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "findStringSwitchCase"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "hash"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "hashValue"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "interfaces"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "isTypeOf"]
+- !private ["7GraphQL30TypeResolveResultRepresentableP", "kind"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "name"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "replaceTypeReferences"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "subscript"]
+- ["7GraphQL30TypeResolveResultRepresentableP", "typeResolveResult"]
+- !private ["7GraphQL5ValueP", "value"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- ["s30_CustomPlaygroundQuickLookableP", "typeResolveResult"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "typeResolveResult"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "typeResolveResult"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "typeResolveResult"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- ["s19_HasContiguousBytesP", "typeResolveResult"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "typeResolveResult"]
+depends-nominal:
+- !private "7GraphQL12AnyEncodableC"
+- !private "Sa"
+- "SK"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "7Runtime18DefaultConstructorP"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- !private "7GraphQL9EnumValueC"
+- "SQ"
+- !private "s5ErrorP"
+- !private "3NIO9EventLoopP"
+- !private "3NIO14EventLoopGroupP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "7GraphQL0A14QLAbstractTypeP"
+- "7GraphQL0A10QLArgumentV"
+- "7GraphQL0A20QLArgumentDefinitionV"
+- "7GraphQL0A15QLCompositeTypeP"
+- "7GraphQL0A10QLEnumTypeC"
+- "7GraphQL0A11QLEnumValueV"
+- "7GraphQL0A21QLEnumValueDefinitionV"
+- !private "7GraphQL0A7QLErrorV"
+- "7GraphQL0A7QLFieldV"
+- "7GraphQL0A17QLFieldDefinitionC"
+- "7GraphQL0A17QLInputObjectTypeC"
+- "7GraphQL0A11QLInputTypeP"
+- "7GraphQL0A15QLInterfaceTypeC"
+- "7GraphQL0A10QLLeafTypeP"
+- "7GraphQL0A6QLListC"
+- "7GraphQL0A11QLNamedTypeP"
+- "7GraphQL0A9QLNonNullC"
+- "7GraphQL0A14QLNullableTypeP"
+- "7GraphQL0A12QLObjectTypeC"
+- "7GraphQL0A12QLOutputTypeP"
+- "7GraphQL0A13QLResolveInfoV"
+- "7GraphQL0A12QLScalarTypeC"
+- "7GraphQL0A6QLTypeP"
+- "7GraphQL0A15QLTypeReferenceC"
+- "7GraphQL0A24QLTypeReferenceContainerP"
+- "7GraphQL0A11QLUnionTypeC"
+- "7GraphQL0A13QLWrapperTypeP"
+- "SH"
+- !private "s6HasherV"
+- "7GraphQL16IndexPathElementP"
+- "7GraphQL16InputObjectFieldV"
+- "7GraphQL26InputObjectFieldDefinitionV"
+- "7GraphQL16KeySubscriptableP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "7GraphQL3MapO"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "7GraphQL4NodeP"
+- !private "SO"
+- !private "Sq"
+- !private "7GraphQL16OptionalProtocolP"
+- !private "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7GraphQL8TypeKindO"
+- "7GraphQL17TypeResolveResultO"
+- "7GraphQL30TypeResolveResultRepresentableP"
+- !private "7GraphQL5ValueP"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/swift-nio/Sources/CNIOWindows/include/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ed7ad6a9a80978b1c7d20c5a56e5c2f1"

@@ -1,0 +1,1881 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONSchemaContext"
+provides-nominal:
+- "10OpenAPIKit17JSONSchemaContextP"
+- "10OpenAPIKit10JSONSchemaO11CoreContextV"
+- "10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO13StringContextV"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit10JSONSchemaO17ContextCodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+provides-member:
+- ["10OpenAPIKit17JSONSchemaContextP", ""]
+- ["10OpenAPIKit10JSONSchemaO", ""]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", ""]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO", "CoreContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "optionalContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "requiredContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "nullableContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "with"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "with"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "with"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "with"]
+- ["10OpenAPIKit10JSONSchemaO", "NumericContext"]
+- ["10OpenAPIKit10JSONSchemaO", "IntegerContext"]
+- ["10OpenAPIKit10JSONSchemaO", "StringContext"]
+- ["10OpenAPIKit10JSONSchemaO", "ArrayContext"]
+- ["10OpenAPIKit10JSONSchemaO", "ObjectContext"]
+- ["10OpenAPIKit10JSONSchemaO", "ContextCodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "CodingKeys"]
+provides-dynamic-lookup:
+depends-top-level:
+- "!"
+- "!="
+- !private "&&"
+- "=="
+- !private ">"
+- !private "??"
+- "AnyCodable"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Bound"
+- "Codable"
+- "CodingKey"
+- !private "CodingKeys"
+- "CoreContext"
+- "Decodable"
+- "Decoder"
+- !private "Dictionary"
+- "Double"
+- "Either"
+- "Encodable"
+- "Encoder"
+- "Equatable"
+- !private "FloatLiteralType"
+- "Format"
+- "InconsistencyError"
+- "Int"
+- !private "IntegerLiteralType"
+- "JSONSchema"
+- "JSONSchemaContext"
+- !private "JSONTypeFormat"
+- "NumericContext"
+- "OpenAPI"
+- "OpenAPIFormat"
+- "Permissions"
+- !private "Self"
+- "String"
+- "StringLiteralType"
+- !private "_deprecated"
+- !private "_findStringSwitchCase"
+- !private "_minItems"
+- !private "_minLength"
+- !private "_minProperties"
+- !private "_nullable"
+- !private "_permissions"
+- !private "_uniqueItems"
+- !private "additionalProperties"
+- !private "allowedValues"
+- !private "defaultValue"
+- !private "deprecated"
+- !private "description"
+- !private "discriminator"
+- !private "example"
+- !private "externalDocs"
+- !private "format"
+- !private "items"
+- !private "max"
+- !private "maxItems"
+- !private "maxLength"
+- !private "maxProperties"
+- !private "maximum"
+- !private "minimum"
+- !private "multipleOf"
+- !private "nullable"
+- !private "pattern"
+- !private "permissions"
+- !private "properties"
+- !private "required"
+- !private "requiredProperties"
+- !private "title"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["10OpenAPIKit10AnyCodableV", ""]
+- !private ["10OpenAPIKit10AnyCodableV", "init"]
+- ["10OpenAPIKit14JSONTypeFormatO03AnyD0O", ""]
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "keys"]
+- !private ["Sa", "sorted"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "=="]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "CodingKey"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "Decoder"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "Encoder"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "Int"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "JSONSchema"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "String"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "__derived_struct_equals"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "_minItems"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "_uniqueItems"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "encode"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "init"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "items"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "maxItems"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "minItems"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV", "uniqueItems"]
+- !private ["SK", ""]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "keys"]
+- !private ["SK", "sorted"]
+- !private ["SB", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- ["10OpenAPIKit14JSONTypeFormatO07BooleanD0O", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "=="]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "=="]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "Double"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "Int"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "__derived_struct_equals"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "__derived_struct_equals"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "defaultExclusion"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "defaultExclusion"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "exclusive"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "exclusive"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "init"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "init"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV", "value"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV", "value"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "keys"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "additionalProperties"]
+- !private ["s9CodingKeyP", "allowedValues"]
+- ["s9CodingKeyP", "debugDescription"]
+- !private ["s9CodingKeyP", "defaultValue"]
+- !private ["s9CodingKeyP", "deprecated"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "discriminator"]
+- !private ["s9CodingKeyP", "example"]
+- !private ["s9CodingKeyP", "exclusiveMaximum"]
+- !private ["s9CodingKeyP", "exclusiveMinimum"]
+- !private ["s9CodingKeyP", "externalDocs"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- !private ["s9CodingKeyP", "format"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "items"]
+- !private ["s9CodingKeyP", "maxItems"]
+- !private ["s9CodingKeyP", "maxLength"]
+- !private ["s9CodingKeyP", "maxProperties"]
+- !private ["s9CodingKeyP", "maximum"]
+- !private ["s9CodingKeyP", "minItems"]
+- !private ["s9CodingKeyP", "minLength"]
+- !private ["s9CodingKeyP", "minProperties"]
+- !private ["s9CodingKeyP", "minimum"]
+- !private ["s9CodingKeyP", "multipleOf"]
+- !private ["s9CodingKeyP", "nullable"]
+- !private ["s9CodingKeyP", "pattern"]
+- !private ["s9CodingKeyP", "properties"]
+- ["s9CodingKeyP", "rawValue"]
+- !private ["s9CodingKeyP", "readOnly"]
+- !private ["s9CodingKeyP", "required"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "title"]
+- !private ["s9CodingKeyP", "type"]
+- !private ["s9CodingKeyP", "uniqueItems"]
+- !private ["s9CodingKeyP", "writeOnly"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "=="]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "=="]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "=="]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "=="]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "=="]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "_Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "_Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "_Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "_Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "_Default_RawValue"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "additionalProperties"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "debugDescription"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "debugDescription"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "debugDescription"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "debugDescription"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "debugDescription"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "description"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "description"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "description"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "description"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "description"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "exclusiveMaximum"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "exclusiveMaximum"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "exclusiveMinimum"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "exclusiveMinimum"]
+- !private ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "init"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "init"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "init"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "init"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "init"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "intValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "intValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "intValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "intValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "intValue"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "items"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "maxItems"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "maxLength"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "maxProperties"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "maximum"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "maximum"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "minItems"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "minLength"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "minProperties"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "minimum"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "minimum"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "multipleOf"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "multipleOf"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "pattern"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "properties"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "required"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "stringValue"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO", "stringValue"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO", "stringValue"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO", "stringValue"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO", "stringValue"]
+- ["10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO", "uniqueItems"]
+- !private ["Sl", ""]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "sorted"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "AnyCodable"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "Array"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "Bound"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "Codable"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "ContextCodingKeys"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "CoreContext"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "Double"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "Equatable"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "Int"]
+- ["10OpenAPIKit28ComponentDictionaryLocatableP", "JSONSchemaContext"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_deprecated"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_minItems"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_minLength"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_minProperties"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_nullable"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_permissions"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "_uniqueItems"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "allowedValues"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "callAsFunction"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "defaultValue"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "deprecated"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "description"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "discriminator"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "example"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "externalDocs"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "findStringSwitchCase"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "format"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "fragment"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "max"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "maximum"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "minItems"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "minLength"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "minProperties"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "minimum"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "multipleOf"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "nullable"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "optionalSchemaObject"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "permissions"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "properties"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "required"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "requiredProperties"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "title"]
+- !private ["10OpenAPIKit28ComponentDictionaryLocatableP", "uniqueItems"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "=="]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", ""]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "_Default_RawValue"]
+- !private ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "allowedValues"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "debugDescription"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "defaultValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "deprecated"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "description"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "discriminator"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "example"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "externalDocs"]
+- !private ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "format"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "init"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "intValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "nullable"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "readOnly"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "stringValue"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "title"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "type"]
+- ["10OpenAPIKit10JSONSchemaO17ContextCodingKeysO", "writeOnly"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "keys"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "=="]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "AnyCodable"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "Codable"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "CoreContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "Decoder"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "Encoder"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV", "Format"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV", "InconsistencyError"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "JSONSchema"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV", "JSONTypeFormat"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "OpenAPI"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "OpenAPIFormat"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "Permissions"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "String"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "__derived_struct_equals"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "_deprecated"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "_nullable"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "_permissions"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "allowedValues"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "defaultValue"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "deprecated"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "description"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "discriminator"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "encode"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "example"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "externalDocs"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "format"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "formatString"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "init"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "isEmpty"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "nullable"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "nullableContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "optionalContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "permissions"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "readOnly"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "required"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "requiredContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "title"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "with"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV", "writeOnly"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "additionalProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "allowedValues"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultValue"]
+- !private ["s28CustomDebugStringConvertibleP", "deprecated"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "discriminator"]
+- !private ["s28CustomDebugStringConvertibleP", "example"]
+- !private ["s28CustomDebugStringConvertibleP", "exclusiveMaximum"]
+- !private ["s28CustomDebugStringConvertibleP", "exclusiveMinimum"]
+- !private ["s28CustomDebugStringConvertibleP", "externalDocs"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "format"]
+- !private ["s28CustomDebugStringConvertibleP", "fragment"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "maxItems"]
+- !private ["s28CustomDebugStringConvertibleP", "maxLength"]
+- !private ["s28CustomDebugStringConvertibleP", "maxProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "maximum"]
+- !private ["s28CustomDebugStringConvertibleP", "minItems"]
+- !private ["s28CustomDebugStringConvertibleP", "minLength"]
+- !private ["s28CustomDebugStringConvertibleP", "minProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "minimum"]
+- !private ["s28CustomDebugStringConvertibleP", "multipleOf"]
+- !private ["s28CustomDebugStringConvertibleP", "nullable"]
+- !private ["s28CustomDebugStringConvertibleP", "pattern"]
+- !private ["s28CustomDebugStringConvertibleP", "properties"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "readOnly"]
+- !private ["s28CustomDebugStringConvertibleP", "readWrite"]
+- !private ["s28CustomDebugStringConvertibleP", "required"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "uniqueItems"]
+- !private ["s28CustomDebugStringConvertibleP", "writeOnly"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "fragment"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "readOnly"]
+- !private ["s17CustomReflectableP", "readWrite"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "writeOnly"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "additionalProperties"]
+- !private ["s23CustomStringConvertibleP", "allowedValues"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "defaultValue"]
+- !private ["s23CustomStringConvertibleP", "deprecated"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "discriminator"]
+- !private ["s23CustomStringConvertibleP", "example"]
+- !private ["s23CustomStringConvertibleP", "exclusiveMaximum"]
+- !private ["s23CustomStringConvertibleP", "exclusiveMinimum"]
+- !private ["s23CustomStringConvertibleP", "externalDocs"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "format"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "items"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- !private ["s23CustomStringConvertibleP", "maxItems"]
+- !private ["s23CustomStringConvertibleP", "maxLength"]
+- !private ["s23CustomStringConvertibleP", "maxProperties"]
+- !private ["s23CustomStringConvertibleP", "maximum"]
+- !private ["s23CustomStringConvertibleP", "minItems"]
+- !private ["s23CustomStringConvertibleP", "minLength"]
+- !private ["s23CustomStringConvertibleP", "minProperties"]
+- !private ["s23CustomStringConvertibleP", "minimum"]
+- !private ["s23CustomStringConvertibleP", "multipleOf"]
+- !private ["s23CustomStringConvertibleP", "nullable"]
+- !private ["s23CustomStringConvertibleP", "pattern"]
+- !private ["s23CustomStringConvertibleP", "properties"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "readOnly"]
+- !private ["s23CustomStringConvertibleP", "required"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "uniqueItems"]
+- !private ["s23CustomStringConvertibleP", "writeOnly"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "keys"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- ["Se", "=="]
+- !private ["Se", "AnyCodable"]
+- !private ["Se", "Array"]
+- !private ["Se", "Bool"]
+- !private ["Se", "Bound"]
+- ["Se", "Codable"]
+- ["Se", "CodingKey"]
+- !private ["Se", "CodingKeys"]
+- !private ["Se", "ContextCodingKeys"]
+- ["Se", "CoreContext"]
+- ["Se", "Default_RawValue"]
+- !private ["Se", "Double"]
+- !private ["Se", "Either"]
+- ["Se", "Equatable"]
+- !private ["Se", "Format"]
+- !private ["Se", "InconsistencyError"]
+- !private ["Se", "Int"]
+- !private ["Se", "JSONSchema"]
+- ["Se", "JSONSchemaContext"]
+- !private ["Se", "JSONTypeFormat"]
+- !private ["Se", "OpenAPI"]
+- ["Se", "Permissions"]
+- ["Se", "RawValue"]
+- !private ["Se", "Self"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_deprecated"]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_minItems"]
+- !private ["Se", "_minLength"]
+- !private ["Se", "_minProperties"]
+- !private ["Se", "_nullable"]
+- !private ["Se", "_permissions"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "_uniqueItems"]
+- !private ["Se", "additionalProperties"]
+- ["Se", "allowedValues"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- ["Se", "defaultValue"]
+- ["Se", "deprecated"]
+- ["Se", "description"]
+- ["Se", "discriminator"]
+- ["Se", "encode"]
+- ["Se", "example"]
+- ["Se", "externalDocs"]
+- !private ["Se", "filter"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "forEach"]
+- !private ["Se", "format"]
+- ["Se", "formatString"]
+- !private ["Se", "fragment"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "items"]
+- !private ["Se", "jsonType"]
+- !private ["Se", "keys"]
+- !private ["Se", "map"]
+- !private ["Se", "max"]
+- !private ["Se", "maxItems"]
+- !private ["Se", "maxLength"]
+- !private ["Se", "maxProperties"]
+- !private ["Se", "maximum"]
+- !private ["Se", "minItems"]
+- !private ["Se", "minLength"]
+- !private ["Se", "minProperties"]
+- !private ["Se", "minimum"]
+- !private ["Se", "multipleOf"]
+- ["Se", "nullable"]
+- !private ["Se", "optionalSchemaObject"]
+- !private ["Se", "pattern"]
+- !private ["Se", "permissions"]
+- !private ["Se", "properties"]
+- ["Se", "rawValue"]
+- ["Se", "readOnly"]
+- ["Se", "readWrite"]
+- ["Se", "required"]
+- !private ["Se", "requiredProperties"]
+- !private ["Se", "sorted"]
+- !private ["Se", "subscript"]
+- ["Se", "title"]
+- !private ["Se", "uniqueItems"]
+- !private ["Se", "unspecified"]
+- ["Se", "writeOnly"]
+- !private ["s7DecoderP", "codingPath"]
+- !private ["s7DecoderP", "container"]
+- !private ["SD", "count"]
+- !private ["SD", "filter"]
+- !private ["SD", "forEach"]
+- !private ["SD", "keys"]
+- !private ["SD", "subscript"]
+- !private ["10OpenAPIKit0A3APIO13DiscriminatorV", ""]
+- !private ["Sd", "init"]
+- !private ["10OpenAPIKit6EitherO", ""]
+- ["SE", "=="]
+- !private ["SE", "AnyCodable"]
+- !private ["SE", "Array"]
+- !private ["SE", "Bool"]
+- !private ["SE", "Bound"]
+- ["SE", "Codable"]
+- ["SE", "CodingKey"]
+- !private ["SE", "CodingKeys"]
+- !private ["SE", "ContextCodingKeys"]
+- ["SE", "CoreContext"]
+- ["SE", "Default_RawValue"]
+- !private ["SE", "Double"]
+- !private ["SE", "Either"]
+- ["SE", "Equatable"]
+- !private ["SE", "Format"]
+- !private ["SE", "InconsistencyError"]
+- !private ["SE", "Int"]
+- !private ["SE", "JSONSchema"]
+- ["SE", "JSONSchemaContext"]
+- !private ["SE", "JSONTypeFormat"]
+- !private ["SE", "OpenAPI"]
+- ["SE", "Permissions"]
+- ["SE", "RawValue"]
+- !private ["SE", "Self"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_Default_RawValue"]
+- !private ["SE", "_deprecated"]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_minItems"]
+- !private ["SE", "_minLength"]
+- !private ["SE", "_minProperties"]
+- !private ["SE", "_nullable"]
+- !private ["SE", "_permissions"]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "_uniqueItems"]
+- !private ["SE", "additionalProperties"]
+- ["SE", "allowedValues"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- ["SE", "defaultValue"]
+- ["SE", "deprecated"]
+- ["SE", "description"]
+- ["SE", "discriminator"]
+- ["SE", "encode"]
+- ["SE", "example"]
+- ["SE", "externalDocs"]
+- !private ["SE", "filter"]
+- !private ["SE", "findStringSwitchCase"]
+- !private ["SE", "forEach"]
+- !private ["SE", "format"]
+- ["SE", "formatString"]
+- !private ["SE", "fragment"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "items"]
+- !private ["SE", "jsonType"]
+- !private ["SE", "keys"]
+- !private ["SE", "map"]
+- !private ["SE", "max"]
+- !private ["SE", "maxItems"]
+- !private ["SE", "maxLength"]
+- !private ["SE", "maxProperties"]
+- !private ["SE", "maximum"]
+- !private ["SE", "minItems"]
+- !private ["SE", "minLength"]
+- !private ["SE", "minProperties"]
+- !private ["SE", "minimum"]
+- !private ["SE", "multipleOf"]
+- ["SE", "nullable"]
+- !private ["SE", "optionalSchemaObject"]
+- !private ["SE", "pattern"]
+- !private ["SE", "permissions"]
+- !private ["SE", "properties"]
+- ["SE", "rawValue"]
+- ["SE", "readOnly"]
+- ["SE", "readWrite"]
+- ["SE", "required"]
+- !private ["SE", "requiredProperties"]
+- !private ["SE", "sorted"]
+- !private ["SE", "subscript"]
+- ["SE", "title"]
+- !private ["SE", "uniqueItems"]
+- !private ["SE", "unspecified"]
+- ["SE", "writeOnly"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "AnyCodable"]
+- !private ["SQ", "AnyFormat"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "Bool"]
+- !private ["SQ", "Bound"]
+- ["SQ", "Codable"]
+- ["SQ", "CodingKey"]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "ContextCodingKeys"]
+- ["SQ", "CoreContext"]
+- ["SQ", "Default_RawValue"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Either"]
+- ["SQ", "Equatable"]
+- !private ["SQ", "Format"]
+- !private ["SQ", "InconsistencyError"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "JSONSchema"]
+- ["SQ", "JSONSchemaContext"]
+- !private ["SQ", "JSONTypeFormat"]
+- !private ["SQ", "OpenAPI"]
+- ["SQ", "Permissions"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "Self"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "__derived_struct_equals"]
+- !private ["SQ", "_deprecated"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_minItems"]
+- !private ["SQ", "_minLength"]
+- !private ["SQ", "_minProperties"]
+- !private ["SQ", "_nullable"]
+- !private ["SQ", "_permissions"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "_uniqueItems"]
+- !private ["SQ", "additionalProperties"]
+- ["SQ", "allowedValues"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "defaultExclusion"]
+- ["SQ", "defaultValue"]
+- ["SQ", "deprecated"]
+- ["SQ", "description"]
+- ["SQ", "discriminator"]
+- ["SQ", "encode"]
+- ["SQ", "example"]
+- !private ["SQ", "exclusive"]
+- !private ["SQ", "exclusiveMaximum"]
+- !private ["SQ", "exclusiveMinimum"]
+- ["SQ", "externalDocs"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "findStringSwitchCase"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "format"]
+- ["SQ", "formatString"]
+- !private ["SQ", "fragment"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "items"]
+- !private ["SQ", "jsonType"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "map"]
+- !private ["SQ", "max"]
+- !private ["SQ", "maxItems"]
+- !private ["SQ", "maxLength"]
+- !private ["SQ", "maxProperties"]
+- !private ["SQ", "maximum"]
+- !private ["SQ", "minItems"]
+- !private ["SQ", "minLength"]
+- !private ["SQ", "minProperties"]
+- !private ["SQ", "minimum"]
+- !private ["SQ", "multipleOf"]
+- ["SQ", "nullable"]
+- !private ["SQ", "optionalSchemaObject"]
+- !private ["SQ", "pattern"]
+- !private ["SQ", "permissions"]
+- !private ["SQ", "properties"]
+- ["SQ", "rawValue"]
+- ["SQ", "readOnly"]
+- ["SQ", "readWrite"]
+- ["SQ", "required"]
+- !private ["SQ", "requiredProperties"]
+- !private ["SQ", "sorted"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- ["SQ", "title"]
+- !private ["SQ", "type"]
+- !private ["SQ", "uniqueItems"]
+- !private ["SQ", "unspecified"]
+- !private ["SQ", "value"]
+- ["SQ", "writeOnly"]
+- ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "keys"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "filter"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "fragment"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "readOnly"]
+- !private ["s23ExpressibleByNilLiteralP", "readWrite"]
+- !private ["s23ExpressibleByNilLiteralP", "writeOnly"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10OpenAPIKit0A3APIO21ExternalDocumentationV", ""]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", ""]
+- !private ["SF", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "additionalProperties"]
+- !private ["SH", "allowedValues"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- ["SH", "debugDescription"]
+- !private ["SH", "defaultValue"]
+- !private ["SH", "deprecated"]
+- ["SH", "description"]
+- !private ["SH", "discriminator"]
+- ["SH", "encode"]
+- !private ["SH", "example"]
+- !private ["SH", "exclusiveMaximum"]
+- !private ["SH", "exclusiveMinimum"]
+- !private ["SH", "externalDocs"]
+- !private ["SH", "filter"]
+- !private ["SH", "findStringSwitchCase"]
+- !private ["SH", "forEach"]
+- !private ["SH", "format"]
+- !private ["SH", "fragment"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "items"]
+- !private ["SH", "keys"]
+- !private ["SH", "map"]
+- !private ["SH", "maxItems"]
+- !private ["SH", "maxLength"]
+- !private ["SH", "maxProperties"]
+- !private ["SH", "maximum"]
+- !private ["SH", "minItems"]
+- !private ["SH", "minLength"]
+- !private ["SH", "minProperties"]
+- !private ["SH", "minimum"]
+- !private ["SH", "multipleOf"]
+- !private ["SH", "nullable"]
+- !private ["SH", "pattern"]
+- !private ["SH", "properties"]
+- ["SH", "rawValue"]
+- ["SH", "readOnly"]
+- ["SH", "readWrite"]
+- !private ["SH", "required"]
+- !private ["SH", "sorted"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "title"]
+- !private ["SH", "type"]
+- !private ["SH", "uniqueItems"]
+- ["SH", "writeOnly"]
+- !private ["10OpenAPIKit18InconsistencyErrorV", ""]
+- !private ["10OpenAPIKit18InconsistencyErrorV", "init"]
+- !private ["Si", "init"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "=="]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Bound"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "CodingKey"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Decoder"]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Double"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Encoder"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Equatable"]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "InconsistencyError"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "Int"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "NumericContext"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "String"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "__derived_struct_equals"]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "encode"]
+- !private ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "init"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "maximum"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "minimum"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "multipleOf"]
+- ["10OpenAPIKit10JSONSchemaO14IntegerContextV", "numericContext"]
+- ["10OpenAPIKit14JSONTypeFormatO07IntegerD0O", ""]
+- ["10OpenAPIKit10JSONSchemaO", "AnyCodable"]
+- !private ["10OpenAPIKit10JSONSchemaO", "Array"]
+- ["10OpenAPIKit10JSONSchemaO", "ArrayContext"]
+- ["10OpenAPIKit10JSONSchemaO", "Bool"]
+- !private ["10OpenAPIKit10JSONSchemaO", "Bound"]
+- ["10OpenAPIKit10JSONSchemaO", "Codable"]
+- ["10OpenAPIKit10JSONSchemaO", "CodingKey"]
+- ["10OpenAPIKit10JSONSchemaO", "ContextCodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO", "CoreContext"]
+- ["10OpenAPIKit10JSONSchemaO", "Double"]
+- ["10OpenAPIKit10JSONSchemaO", "Either"]
+- ["10OpenAPIKit10JSONSchemaO", "Equatable"]
+- ["10OpenAPIKit10JSONSchemaO", "Int"]
+- ["10OpenAPIKit10JSONSchemaO", "IntegerContext"]
+- ["10OpenAPIKit10JSONSchemaO", "JSONSchema"]
+- ["10OpenAPIKit10JSONSchemaO", "JSONSchemaContext"]
+- ["10OpenAPIKit10JSONSchemaO", "NumericContext"]
+- ["10OpenAPIKit10JSONSchemaO", "ObjectContext"]
+- ["10OpenAPIKit10JSONSchemaO", "OpenAPI"]
+- ["10OpenAPIKit10JSONSchemaO", "OpenAPIFormat"]
+- ["10OpenAPIKit10JSONSchemaO", "String"]
+- ["10OpenAPIKit10JSONSchemaO", "StringContext"]
+- ["10OpenAPIKit10JSONSchemaO", ""]
+- !private ["10OpenAPIKit10JSONSchemaO", "_deprecated"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_minItems"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_minLength"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_minProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_nullable"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_permissions"]
+- !private ["10OpenAPIKit10JSONSchemaO", "_uniqueItems"]
+- !private ["10OpenAPIKit10JSONSchemaO", "allowedValues"]
+- !private ["10OpenAPIKit10JSONSchemaO", "callAsFunction"]
+- !private ["10OpenAPIKit10JSONSchemaO", "defaultValue"]
+- !private ["10OpenAPIKit10JSONSchemaO", "deprecated"]
+- !private ["10OpenAPIKit10JSONSchemaO", "description"]
+- !private ["10OpenAPIKit10JSONSchemaO", "discriminator"]
+- !private ["10OpenAPIKit10JSONSchemaO", "example"]
+- !private ["10OpenAPIKit10JSONSchemaO", "externalDocs"]
+- !private ["10OpenAPIKit10JSONSchemaO", "findStringSwitchCase"]
+- !private ["10OpenAPIKit10JSONSchemaO", "format"]
+- !private ["10OpenAPIKit10JSONSchemaO", "fragment"]
+- !private ["10OpenAPIKit10JSONSchemaO", "max"]
+- !private ["10OpenAPIKit10JSONSchemaO", "maximum"]
+- !private ["10OpenAPIKit10JSONSchemaO", "minItems"]
+- !private ["10OpenAPIKit10JSONSchemaO", "minLength"]
+- !private ["10OpenAPIKit10JSONSchemaO", "minProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO", "minimum"]
+- !private ["10OpenAPIKit10JSONSchemaO", "multipleOf"]
+- !private ["10OpenAPIKit10JSONSchemaO", "nullable"]
+- !private ["10OpenAPIKit10JSONSchemaO", "optionalSchemaObject"]
+- !private ["10OpenAPIKit10JSONSchemaO", "permissions"]
+- !private ["10OpenAPIKit10JSONSchemaO", "properties"]
+- !private ["10OpenAPIKit10JSONSchemaO", "required"]
+- !private ["10OpenAPIKit10JSONSchemaO", "requiredProperties"]
+- !private ["10OpenAPIKit10JSONSchemaO", "title"]
+- !private ["10OpenAPIKit10JSONSchemaO", "uniqueItems"]
+- ["10OpenAPIKit17JSONSchemaContextP", "=="]
+- ["10OpenAPIKit17JSONSchemaContextP", "AnyCodable"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "Array"]
+- ["10OpenAPIKit17JSONSchemaContextP", "Bool"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "Bound"]
+- ["10OpenAPIKit17JSONSchemaContextP", "Codable"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "ContextCodingKeys"]
+- ["10OpenAPIKit17JSONSchemaContextP", "CoreContext"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "Double"]
+- ["10OpenAPIKit17JSONSchemaContextP", "Equatable"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "Format"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "InconsistencyError"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "Int"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "JSONSchema"]
+- ["10OpenAPIKit17JSONSchemaContextP", "JSONSchemaContext"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "JSONTypeFormat"]
+- ["10OpenAPIKit17JSONSchemaContextP", "OpenAPI"]
+- ["10OpenAPIKit17JSONSchemaContextP", "Permissions"]
+- ["10OpenAPIKit17JSONSchemaContextP", "String"]
+- ["10OpenAPIKit17JSONSchemaContextP", ""]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "__derived_struct_equals"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_deprecated"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_minItems"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_minLength"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_minProperties"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_nullable"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_permissions"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "_uniqueItems"]
+- ["10OpenAPIKit17JSONSchemaContextP", "allowedValues"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "callAsFunction"]
+- ["10OpenAPIKit17JSONSchemaContextP", "defaultValue"]
+- ["10OpenAPIKit17JSONSchemaContextP", "deprecated"]
+- ["10OpenAPIKit17JSONSchemaContextP", "description"]
+- ["10OpenAPIKit17JSONSchemaContextP", "discriminator"]
+- ["10OpenAPIKit17JSONSchemaContextP", "encode"]
+- ["10OpenAPIKit17JSONSchemaContextP", "example"]
+- ["10OpenAPIKit17JSONSchemaContextP", "externalDocs"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "findStringSwitchCase"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "format"]
+- ["10OpenAPIKit17JSONSchemaContextP", "formatString"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "fragment"]
+- ["10OpenAPIKit17JSONSchemaContextP", "init"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "max"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "maximum"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "minItems"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "minLength"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "minProperties"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "minimum"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "multipleOf"]
+- ["10OpenAPIKit17JSONSchemaContextP", "nullable"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "optionalSchemaObject"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "permissions"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "properties"]
+- ["10OpenAPIKit17JSONSchemaContextP", "readOnly"]
+- ["10OpenAPIKit17JSONSchemaContextP", "required"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "requiredProperties"]
+- ["10OpenAPIKit17JSONSchemaContextP", "title"]
+- !private ["10OpenAPIKit17JSONSchemaContextP", "uniqueItems"]
+- ["10OpenAPIKit17JSONSchemaContextP", "writeOnly"]
+- !private ["10OpenAPIKit8JSONTypeO", ""]
+- !private ["10OpenAPIKit14JSONTypeFormatO", "AnyFormat"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["SD4KeysV", "contains"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "AnyCodable"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "Array"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "Bound"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "Codable"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "ContextCodingKeys"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "CoreContext"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "Double"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "Equatable"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "Int"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "JSONSchemaContext"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_deprecated"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_minItems"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_minLength"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_minProperties"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_nullable"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_permissions"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "_uniqueItems"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "allowedValues"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "callAsFunction"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "defaultValue"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "deprecated"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "description"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "discriminator"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "example"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "externalDocs"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "findStringSwitchCase"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "format"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "fragment"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "max"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "maximum"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "minItems"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "minLength"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "minProperties"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "minimum"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "multipleOf"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "nullable"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "optionalSchemaObject"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "permissions"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "properties"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "required"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "requiredProperties"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "title"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "uniqueItems"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "forEach"]
+- !private ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "keys"]
+- !private ["SM", "sorted"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "keys"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- !private ["So8NSCodingP", ""]
+- ["10OpenAPIKit14JSONTypeFormatO06NumberD0O", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "=="]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "Bound"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "CodingKey"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "Decoder"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "Double"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "Encoder"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "Equatable"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "String"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "__derived_struct_equals"]
+- !private ["10OpenAPIKit10JSONSchemaO14NumericContextV", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "encode"]
+- !private ["10OpenAPIKit10JSONSchemaO14NumericContextV", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "init"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "maximum"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "minimum"]
+- ["10OpenAPIKit10JSONSchemaO14NumericContextV", "multipleOf"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "=="]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Array"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Bool"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "CodingKey"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Decoder"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Either"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Encoder"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Int"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "JSONSchema"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "Self"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "String"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "__derived_struct_equals"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "_minProperties"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "additionalProperties"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "encode"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "init"]
+- !private ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "max"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "maxProperties"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "minProperties"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "optionalProperties"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "properties"]
+- ["10OpenAPIKit10JSONSchemaO13ObjectContextV", "requiredProperties"]
+- ["10OpenAPIKit0A3APIO", "Discriminator"]
+- ["10OpenAPIKit0A3APIO", "ExternalDocumentation"]
+- !private ["10OpenAPIKit0A8APIErrorP", "init"]
+- !private ["10OpenAPIKit0A9APIFormatP", "RawValue"]
+- !private ["10OpenAPIKit0A9APIFormatP", "jsonType"]
+- !private ["10OpenAPIKit0A9APIFormatP", "rawValue"]
+- !private ["10OpenAPIKit0A9APIFormatP", "unspecified"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "contains"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "count"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "filter"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "forEach"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "fragment"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "init"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "isEmpty"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "keys"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "map"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "readOnly"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "readWrite"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "sorted"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "subscript"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "writeOnly"]
+- !private ["Sq", "fragment"]
+- !private ["Sq", "map"]
+- !private ["Sq", "readOnly"]
+- !private ["Sq", "readWrite"]
+- !private ["Sq", "writeOnly"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "=="]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "CoreContext"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "Default_RawValue"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "OpenAPIFormat"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "RawValue"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", ""]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "_Default_RawValue"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "_rawHashValue"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "encode"]
+- !private ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "hash"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "hashValue"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "init"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "rawValue"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "readOnly"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "readWrite"]
+- ["10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO", "writeOnly"]
+- !private ["Sk", ""]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "keys"]
+- !private ["Sk", "sorted"]
+- !private ["Sm", ""]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "keys"]
+- !private ["Sm", "sorted"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "additionalProperties"]
+- !private ["SY", "allowedValues"]
+- ["SY", "debugDescription"]
+- !private ["SY", "defaultValue"]
+- !private ["SY", "deprecated"]
+- ["SY", "description"]
+- !private ["SY", "discriminator"]
+- ["SY", "encode"]
+- !private ["SY", "example"]
+- !private ["SY", "exclusiveMaximum"]
+- !private ["SY", "exclusiveMinimum"]
+- !private ["SY", "externalDocs"]
+- !private ["SY", "findStringSwitchCase"]
+- !private ["SY", "format"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "items"]
+- !private ["SY", "jsonType"]
+- !private ["SY", "maxItems"]
+- !private ["SY", "maxLength"]
+- !private ["SY", "maxProperties"]
+- !private ["SY", "maximum"]
+- !private ["SY", "minItems"]
+- !private ["SY", "minLength"]
+- !private ["SY", "minProperties"]
+- !private ["SY", "minimum"]
+- !private ["SY", "multipleOf"]
+- !private ["SY", "nullable"]
+- !private ["SY", "pattern"]
+- !private ["SY", "properties"]
+- ["SY", "rawValue"]
+- ["SY", "readOnly"]
+- ["SY", "readWrite"]
+- !private ["SY", "required"]
+- ["SY", "stringValue"]
+- !private ["SY", "title"]
+- !private ["SY", "type"]
+- !private ["SY", "uniqueItems"]
+- !private ["SY", "unspecified"]
+- ["SY", "writeOnly"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "keys"]
+- !private ["ST", "sorted"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "=="]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "CodingKey"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "CodingKeys"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "Decoder"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "Encoder"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "Int"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "String"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", ""]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "__derived_struct_equals"]
+- !private ["10OpenAPIKit10JSONSchemaO13StringContextV", "_findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "_minLength"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "encode"]
+- !private ["10OpenAPIKit10JSONSchemaO13StringContextV", "findStringSwitchCase"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "init"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "maxLength"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "minLength"]
+- ["10OpenAPIKit10JSONSchemaO13StringContextV", "pattern"]
+- ["10OpenAPIKit14JSONTypeFormatO06StringD0O", ""]
+- !private ["10OpenAPIKit10SwiftTypedP", "RawValue"]
+- ["10OpenAPIKit10SwiftTypedP", ""]
+- !private ["10OpenAPIKit10SwiftTypedP", "jsonType"]
+- !private ["10OpenAPIKit10SwiftTypedP", "rawValue"]
+- !private ["10OpenAPIKit10SwiftTypedP", "unspecified"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10OpenAPIKit11ValidatableP", "AnyCodable"]
+- !private ["10OpenAPIKit11ValidatableP", "Array"]
+- !private ["10OpenAPIKit11ValidatableP", "Bound"]
+- ["10OpenAPIKit11ValidatableP", "Codable"]
+- !private ["10OpenAPIKit11ValidatableP", "ContextCodingKeys"]
+- ["10OpenAPIKit11ValidatableP", "CoreContext"]
+- !private ["10OpenAPIKit11ValidatableP", "Double"]
+- ["10OpenAPIKit11ValidatableP", "Equatable"]
+- !private ["10OpenAPIKit11ValidatableP", "Int"]
+- ["10OpenAPIKit11ValidatableP", "JSONSchemaContext"]
+- !private ["10OpenAPIKit11ValidatableP", "RawValue"]
+- ["10OpenAPIKit11ValidatableP", ""]
+- !private ["10OpenAPIKit11ValidatableP", "_deprecated"]
+- !private ["10OpenAPIKit11ValidatableP", "_findStringSwitchCase"]
+- !private ["10OpenAPIKit11ValidatableP", "_minItems"]
+- !private ["10OpenAPIKit11ValidatableP", "_minLength"]
+- !private ["10OpenAPIKit11ValidatableP", "_minProperties"]
+- !private ["10OpenAPIKit11ValidatableP", "_nullable"]
+- !private ["10OpenAPIKit11ValidatableP", "_permissions"]
+- !private ["10OpenAPIKit11ValidatableP", "_uniqueItems"]
+- !private ["10OpenAPIKit11ValidatableP", "allowedValues"]
+- !private ["10OpenAPIKit11ValidatableP", "callAsFunction"]
+- !private ["10OpenAPIKit11ValidatableP", "contains"]
+- !private ["10OpenAPIKit11ValidatableP", "count"]
+- !private ["10OpenAPIKit11ValidatableP", "defaultValue"]
+- !private ["10OpenAPIKit11ValidatableP", "deprecated"]
+- !private ["10OpenAPIKit11ValidatableP", "description"]
+- !private ["10OpenAPIKit11ValidatableP", "discriminator"]
+- !private ["10OpenAPIKit11ValidatableP", "example"]
+- !private ["10OpenAPIKit11ValidatableP", "externalDocs"]
+- !private ["10OpenAPIKit11ValidatableP", "filter"]
+- !private ["10OpenAPIKit11ValidatableP", "findStringSwitchCase"]
+- !private ["10OpenAPIKit11ValidatableP", "forEach"]
+- !private ["10OpenAPIKit11ValidatableP", "format"]
+- !private ["10OpenAPIKit11ValidatableP", "fragment"]
+- !private ["10OpenAPIKit11ValidatableP", "init"]
+- !private ["10OpenAPIKit11ValidatableP", "isEmpty"]
+- !private ["10OpenAPIKit11ValidatableP", "jsonType"]
+- !private ["10OpenAPIKit11ValidatableP", "keys"]
+- !private ["10OpenAPIKit11ValidatableP", "map"]
+- !private ["10OpenAPIKit11ValidatableP", "max"]
+- !private ["10OpenAPIKit11ValidatableP", "maximum"]
+- !private ["10OpenAPIKit11ValidatableP", "minItems"]
+- !private ["10OpenAPIKit11ValidatableP", "minLength"]
+- !private ["10OpenAPIKit11ValidatableP", "minProperties"]
+- !private ["10OpenAPIKit11ValidatableP", "minimum"]
+- !private ["10OpenAPIKit11ValidatableP", "multipleOf"]
+- !private ["10OpenAPIKit11ValidatableP", "nullable"]
+- !private ["10OpenAPIKit11ValidatableP", "optionalSchemaObject"]
+- !private ["10OpenAPIKit11ValidatableP", "permissions"]
+- !private ["10OpenAPIKit11ValidatableP", "properties"]
+- !private ["10OpenAPIKit11ValidatableP", "rawValue"]
+- !private ["10OpenAPIKit11ValidatableP", "readOnly"]
+- !private ["10OpenAPIKit11ValidatableP", "readWrite"]
+- !private ["10OpenAPIKit11ValidatableP", "required"]
+- !private ["10OpenAPIKit11ValidatableP", "requiredProperties"]
+- !private ["10OpenAPIKit11ValidatableP", "sorted"]
+- !private ["10OpenAPIKit11ValidatableP", "subscript"]
+- !private ["10OpenAPIKit11ValidatableP", "title"]
+- !private ["10OpenAPIKit11ValidatableP", "uniqueItems"]
+- !private ["10OpenAPIKit11ValidatableP", "unspecified"]
+- !private ["10OpenAPIKit11ValidatableP", "writeOnly"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "keys"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "keys"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "keys"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "fragment"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "readOnly"]
+- !private ["s21_ObjectiveCBridgeableP", "readWrite"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "writeOnly"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "10OpenAPIKit10AnyCodableV"
+- "10OpenAPIKit14JSONTypeFormatO03AnyD0O"
+- !private "Sa"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- "10OpenAPIKit14JSONTypeFormatO07BooleanD0O"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV5BoundV"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV5BoundV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- !private "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO13StringContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV10CodingKeysO"
+- "10OpenAPIKit10JSONSchemaO12ArrayContextV10CodingKeysO"
+- !private "Sl"
+- !private "SL"
+- "10OpenAPIKit28ComponentDictionaryLocatableP"
+- "10OpenAPIKit10JSONSchemaO17ContextCodingKeysO"
+- !private "10Foundation15ContiguousBytesP"
+- "10OpenAPIKit10JSONSchemaO11CoreContextV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "SD"
+- !private "10OpenAPIKit0A3APIO13DiscriminatorV"
+- !private "Sd"
+- !private "10OpenAPIKit6EitherO"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10OpenAPIKit0A3APIO21ExternalDocumentationV"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "10OpenAPIKit18InconsistencyErrorV"
+- !private "Si"
+- "10OpenAPIKit10JSONSchemaO14IntegerContextV"
+- "10OpenAPIKit14JSONTypeFormatO07IntegerD0O"
+- "10OpenAPIKit10JSONSchemaO"
+- "10OpenAPIKit17JSONSchemaContextP"
+- !private "10OpenAPIKit8JSONTypeO"
+- !private "10OpenAPIKit14JSONTypeFormatO"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "SD4KeysV"
+- "10OpenAPIKit22LocallyDereferenceableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "10OpenAPIKit14JSONTypeFormatO06NumberD0O"
+- !private "Sj"
+- "10OpenAPIKit10JSONSchemaO14NumericContextV"
+- "10OpenAPIKit10JSONSchemaO13ObjectContextV"
+- "10OpenAPIKit0A3APIO"
+- !private "10OpenAPIKit0A8APIErrorP"
+- !private "10OpenAPIKit0A9APIFormatP"
+- !private "10OpenAPIKit0A13APISchemaTypeP"
+- !private "Sq"
+- "10OpenAPIKit10JSONSchemaO11CoreContextV11PermissionsO"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "10OpenAPIKit10JSONSchemaO13StringContextV"
+- "10OpenAPIKit14JSONTypeFormatO06StringD0O"
+- "10OpenAPIKit10SwiftTypedP"
+- !private "s20TextOutputStreamableP"
+- "10OpenAPIKit11ValidatableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b44df84f79f99e89894c1bfdf91641f0"

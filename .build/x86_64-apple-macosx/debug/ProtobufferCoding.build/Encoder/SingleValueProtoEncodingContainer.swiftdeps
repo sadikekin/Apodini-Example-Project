@@ -1,0 +1,646 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SingleValueProtoEncodingContainer"
+provides-nominal:
+- "17ProtobufferCoding33SingleValueProtoEncodingContainerC"
+provides-member:
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", ""]
+provides-dynamic-lookup:
+- "encode"
+- "encodeArray"
+- "encodeNil"
+- "encodePrimitive"
+- "fieldNumber"
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "CodingKey"
+- "Data"
+- "Double"
+- "Encodable"
+- "Float"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- "InternalProtoEncoder"
+- "InternalProtoEncodingContainer"
+- !private "ProtoError"
+- "SingleValueEncodingContainer"
+- "SingleValueProtoEncodingContainer"
+- "String"
+- !private "StringLiteralType"
+- "T"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "Wrapper"
+- !private "appendData"
+- !private "encode"
+- !private "encodeArray"
+- !private "encodeBool"
+- !private "encodeDouble"
+- !private "encodeFloat"
+- !private "encodeInt"
+- !private "encodeInt32"
+- !private "encodeInt64"
+- !private "encodeOptional"
+- !private "encodePrimitive"
+- !private "encodeRepeatedBool"
+- !private "encodeRepeatedData"
+- !private "encodeRepeatedDouble"
+- !private "encodeRepeatedFloat"
+- !private "encodeRepeatedInt"
+- !private "encodeRepeatedInt32"
+- !private "encodeRepeatedInt64"
+- !private "encodeRepeatedString"
+- !private "encodeRepeatedUInt"
+- !private "encodeRepeatedUInt32"
+- !private "encodeRepeatedUInt64"
+- !private "encodeString"
+- !private "encodeUInt"
+- !private "encodeUInt32"
+- !private "encodeUInt64"
+- !private "fieldNumber"
+- !private "isOptional"
+- !private "isPrimitiveSupported"
+- !private "isPrimitiveSupportedArray"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "contains"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "contains"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["Sz", ""]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", ""]
+- !private ["Sl", "_customIndexOfEquatableElement"]
+- !private ["Sl", "_customLastIndexOfEquatableElement"]
+- !private ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "distance"]
+- !private ["Sl", "endIndex"]
+- !private ["Sl", "formIndex"]
+- !private ["Sl", "index"]
+- !private ["Sl", "indices"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "startIndex"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["7Runtime18DefaultConstructorP", "compactMap"]
+- !private ["7Runtime18DefaultConstructorP", "contains"]
+- !private ["7Runtime18DefaultConstructorP", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", ""]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- ["SE", "encode"]
+- !private ["SE", "init"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "lengthDelimited"]
+- ["SQ", "stringValue"]
+- !private ["s5ErrorP", "decodingError"]
+- !private ["s5ErrorP", "encodingError"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "contains"]
+- !private ["SH", "count"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "lengthDelimited"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Bool"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "CodingKey"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Data"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Double"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Encodable"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Float"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Int"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Int16"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Int32"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Int64"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "Int8"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "InternalProtoEncoder"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "ProtoError"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "String"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "UInt"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "UInt16"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "UInt32"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "UInt64"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "UInt8"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", ""]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "appendData"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "codingPath"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encode"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeArray"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeBool"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeDouble"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeFloat"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeInt"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeInt32"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeInt64"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeNil"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeOptional"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodePrimitive"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedBool"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedData"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedDouble"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedFloat"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedInt"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedInt32"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedInt64"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedString"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedUInt"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedUInt32"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeRepeatedUInt64"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeString"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeUInt"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeUInt32"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "encodeUInt64"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "fieldNumber"]
+- ["17ProtobufferCoding30InternalProtoEncodingContainerC", "init"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "isOptional"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "isPrimitiveSupported"]
+- !private ["17ProtobufferCoding30InternalProtoEncodingContainerC", "isPrimitiveSupportedArray"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "contains"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", ""]
+- !private ["Sj", ""]
+- !private ["Sj", "init"]
+- !private ["17ProtobufferCoding10ProtoErrorO", ""]
+- !private ["17ProtobufferCoding10ProtoErrorO", "decodingError"]
+- !private ["17ProtobufferCoding10ProtoErrorO", "encodingError"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "distance"]
+- !private ["Sk", "index"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["SY", "lengthDelimited"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["s28SingleValueEncodingContainerP", "Bool"]
+- !private ["s28SingleValueEncodingContainerP", "Data"]
+- !private ["s28SingleValueEncodingContainerP", "Double"]
+- !private ["s28SingleValueEncodingContainerP", "Float"]
+- !private ["s28SingleValueEncodingContainerP", "Int"]
+- !private ["s28SingleValueEncodingContainerP", "Int16"]
+- !private ["s28SingleValueEncodingContainerP", "Int32"]
+- !private ["s28SingleValueEncodingContainerP", "Int64"]
+- !private ["s28SingleValueEncodingContainerP", "Int8"]
+- !private ["s28SingleValueEncodingContainerP", "ProtoError"]
+- !private ["s28SingleValueEncodingContainerP", "String"]
+- !private ["s28SingleValueEncodingContainerP", "UInt"]
+- !private ["s28SingleValueEncodingContainerP", "UInt16"]
+- !private ["s28SingleValueEncodingContainerP", "UInt32"]
+- !private ["s28SingleValueEncodingContainerP", "UInt64"]
+- !private ["s28SingleValueEncodingContainerP", "UInt8"]
+- ["s28SingleValueEncodingContainerP", ""]
+- !private ["s28SingleValueEncodingContainerP", "appendData"]
+- ["s28SingleValueEncodingContainerP", "codingPath"]
+- ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["s28SingleValueEncodingContainerP", "encodeArray"]
+- !private ["s28SingleValueEncodingContainerP", "encodeBool"]
+- !private ["s28SingleValueEncodingContainerP", "encodeDouble"]
+- !private ["s28SingleValueEncodingContainerP", "encodeFloat"]
+- !private ["s28SingleValueEncodingContainerP", "encodeInt"]
+- !private ["s28SingleValueEncodingContainerP", "encodeInt32"]
+- !private ["s28SingleValueEncodingContainerP", "encodeInt64"]
+- ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "encodeOptional"]
+- !private ["s28SingleValueEncodingContainerP", "encodePrimitive"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedBool"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedData"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedDouble"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedFloat"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedInt"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedInt32"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedInt64"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedString"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedUInt"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedUInt32"]
+- !private ["s28SingleValueEncodingContainerP", "encodeRepeatedUInt64"]
+- !private ["s28SingleValueEncodingContainerP", "encodeString"]
+- !private ["s28SingleValueEncodingContainerP", "encodeUInt"]
+- !private ["s28SingleValueEncodingContainerP", "encodeUInt32"]
+- !private ["s28SingleValueEncodingContainerP", "encodeUInt64"]
+- !private ["s28SingleValueEncodingContainerP", "fieldNumber"]
+- !private ["s28SingleValueEncodingContainerP", "isOptional"]
+- !private ["s28SingleValueEncodingContainerP", "isPrimitiveSupported"]
+- !private ["s28SingleValueEncodingContainerP", "isPrimitiveSupportedArray"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Bool"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "CodingKey"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Data"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Double"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Encodable"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Float"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Int"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Int16"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Int32"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Int64"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "Int8"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "InternalProtoEncoder"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "ProtoError"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "String"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "UInt"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "UInt16"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "UInt32"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "UInt64"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "UInt8"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", ""]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "appendData"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "codingPath"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "deinit"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encode"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeArray"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeBool"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeDouble"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeFloat"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeInt"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeInt32"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeInt64"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeNil"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeOptional"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodePrimitive"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedBool"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedData"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedDouble"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedFloat"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedInt"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedInt32"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedInt64"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedString"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedUInt"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedUInt32"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeRepeatedUInt64"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeString"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeUInt"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeUInt32"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "encodeUInt64"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "fieldNumber"]
+- ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "init"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "isOptional"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "isPrimitiveSupported"]
+- !private ["17ProtobufferCoding33SingleValueProtoEncodingContainerC", "isPrimitiveSupportedArray"]
+- !private ["Sx", ""]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s5UInt8V", "init"]
+- !private ["SU", "init"]
+- !private ["17ProtobufferCoding8WireTypeO", "lengthDelimited"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s14_StringElementP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "7Runtime18DefaultConstructorP"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- "17ProtobufferCoding30InternalProtoEncodingContainerC"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "Sj"
+- !private "17ProtobufferCoding10ProtoErrorO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- "s28SingleValueEncodingContainerP"
+- "17ProtobufferCoding33SingleValueProtoEncodingContainerC"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s5UInt8V"
+- !private "SU"
+- !private "17ProtobufferCoding8WireTypeO"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/CRuntime.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9dfd90ce56bb603785b95ba4ec36b261"

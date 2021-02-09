@@ -1,0 +1,1546 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "<"
+- "*"
+- "+"
+- "-"
+- "*="
+- "+="
+- "-="
+provides-nominal:
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV16SchedulerOptionsV"
+provides-member:
+- ["So16NSOperationQueueC", ""]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", ""]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", ""]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", ""]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV16SchedulerOptionsV", ""]
+- ["So16NSOperationQueueC", "OCombine"]
+- ["So16NSOperationQueueC", "ocombine"]
+provides-dynamic-lookup:
+- "action"
+- "becomeReady"
+- "cancel"
+- "context"
+- "interval"
+- "isReady"
+- "lock"
+- "main"
+- "ocombine"
+- "once"
+- "operation"
+- "queue"
+- "readyFromAfter"
+- "readyFromAfterLock"
+- "readySchedulingQueue"
+- "repeating"
+depends-top-level:
+- "*"
+- "*="
+- "+"
+- "+="
+- "-"
+- "-="
+- !private "/"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- !private "AnyCancellable"
+- "AssignmentPrecedence"
+- "BinaryInteger"
+- !private "BlockOperation"
+- "Bool"
+- "BooleanLiteralType"
+- "Cancellable"
+- "CancellationContext"
+- "Codable"
+- "Comparable"
+- "Date"
+- "DelayReadyOperation"
+- "DispatchQueue"
+- "DispatchTime"
+- "Double"
+- "ExpressibleByFloatLiteral"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Int"
+- !private "IntegerLiteralType"
+- "OCombine"
+- "Operation"
+- "OperationQueue"
+- "Scheduler"
+- "SchedulerOptions"
+- "SchedulerTimeIntervalConvertible"
+- "SchedulerTimeType"
+- "SignedNumeric"
+- "Stride"
+- "Strideable"
+- "StringLiteralType"
+- "TimeInterval"
+- "UnfairLock"
+- "Void"
+- !private "date"
+- !private "didChangeValue"
+- !private "interval"
+- !private "lock"
+- !private "magnitude"
+- !private "queue"
+- !private "readyFromAfter"
+- !private "readyFromAfterLock"
+- !private "willChangeValue"
+- !private "~="
+depends-member:
+- ["s18AdditiveArithmeticP", "*"]
+- ["s18AdditiveArithmeticP", "*="]
+- ["s18AdditiveArithmeticP", "+"]
+- ["s18AdditiveArithmeticP", "+="]
+- ["s18AdditiveArithmeticP", "-"]
+- ["s18AdditiveArithmeticP", "-="]
+- ["s18AdditiveArithmeticP", "<"]
+- ["s18AdditiveArithmeticP", "<="]
+- ["s18AdditiveArithmeticP", "=="]
+- ["s18AdditiveArithmeticP", ">"]
+- ["s18AdditiveArithmeticP", ">="]
+- ["s18AdditiveArithmeticP", "FloatLiteralType"]
+- ["s18AdditiveArithmeticP", "IntegerLiteralType"]
+- ["s18AdditiveArithmeticP", "Magnitude"]
+- !private ["s18AdditiveArithmeticP", "Stride"]
+- !private ["s18AdditiveArithmeticP", "TimeInterval"]
+- ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "__derived_struct_equals"]
+- !private ["s18AdditiveArithmeticP", "distance"]
+- ["s18AdditiveArithmeticP", "encode"]
+- ["s18AdditiveArithmeticP", "init"]
+- ["s18AdditiveArithmeticP", "magnitude"]
+- ["s18AdditiveArithmeticP", "microseconds"]
+- ["s18AdditiveArithmeticP", "milliseconds"]
+- ["s18AdditiveArithmeticP", "nanoseconds"]
+- ["s18AdditiveArithmeticP", "negate"]
+- ["s18AdditiveArithmeticP", "seconds"]
+- !private ["s18AdditiveArithmeticP", "timeInterval"]
+- ["s18AdditiveArithmeticP", "zero"]
+- !private ["11OpenCombine14AnyCancellableC", "init"]
+- !private ["SB", "distance"]
+- !private ["SB", "init"]
+- !private ["So16NSBlockOperationC", "init"]
+- !private ["s7CVarArgP", "AnyCancellable"]
+- !private ["s7CVarArgP", "BlockOperation"]
+- ["s7CVarArgP", "Cancellable"]
+- !private ["s7CVarArgP", "CancellationContext"]
+- ["s7CVarArgP", "Codable"]
+- ["s7CVarArgP", "Comparable"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "DelayReadyOperation"]
+- ["s7CVarArgP", "DispatchQueue"]
+- ["s7CVarArgP", "ExpressibleByFloatLiteral"]
+- ["s7CVarArgP", "Hashable"]
+- !private ["s7CVarArgP", "OCombine"]
+- ["s7CVarArgP", "Operation"]
+- ["s7CVarArgP", "Scheduler"]
+- ["s7CVarArgP", "SchedulerTimeIntervalConvertible"]
+- !private ["s7CVarArgP", "SchedulerTimeType"]
+- ["s7CVarArgP", "SignedNumeric"]
+- !private ["s7CVarArgP", "Stride"]
+- ["s7CVarArgP", "Strideable"]
+- !private ["s7CVarArgP", "TimeInterval"]
+- ["s7CVarArgP", "UnfairLock"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "action"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "becomeReady"]
+- ["s7CVarArgP", "cancel"]
+- !private ["s7CVarArgP", "context"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "didChangeValue"]
+- !private ["s7CVarArgP", "distance"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interval"]
+- !private ["s7CVarArgP", "isReady"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "magnitude"]
+- !private ["s7CVarArgP", "once"]
+- !private ["s7CVarArgP", "queue"]
+- !private ["s7CVarArgP", "readyFromAfter"]
+- !private ["s7CVarArgP", "readyFromAfterLock"]
+- !private ["s7CVarArgP", "readySchedulingQueue"]
+- !private ["s7CVarArgP", "repeating"]
+- !private ["s7CVarArgP", "willChangeValue"]
+- ["11OpenCombine11CancellableP", "Cancellable"]
+- !private ["11OpenCombine11CancellableP", "CancellationContext"]
+- !private ["11OpenCombine11CancellableP", "DelayReadyOperation"]
+- ["11OpenCombine11CancellableP", "DispatchQueue"]
+- ["11OpenCombine11CancellableP", "UnfairLock"]
+- !private ["11OpenCombine11CancellableP", ""]
+- !private ["11OpenCombine11CancellableP", "action"]
+- !private ["11OpenCombine11CancellableP", "becomeReady"]
+- ["11OpenCombine11CancellableP", "cancel"]
+- !private ["11OpenCombine11CancellableP", "context"]
+- !private ["11OpenCombine11CancellableP", "didChangeValue"]
+- !private ["11OpenCombine11CancellableP", "init"]
+- !private ["11OpenCombine11CancellableP", "interval"]
+- !private ["11OpenCombine11CancellableP", "lock"]
+- !private ["11OpenCombine11CancellableP", "once"]
+- !private ["11OpenCombine11CancellableP", "operation"]
+- !private ["11OpenCombine11CancellableP", "queue"]
+- !private ["11OpenCombine11CancellableP", "readyFromAfter"]
+- !private ["11OpenCombine11CancellableP", "readyFromAfterLock"]
+- !private ["11OpenCombine11CancellableP", "readySchedulingQueue"]
+- !private ["11OpenCombine11CancellableP", "repeating"]
+- !private ["11OpenCombine11CancellableP", "willChangeValue"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["SL", "*"]
+- ["SL", "*="]
+- ["SL", "+"]
+- ["SL", "+="]
+- ["SL", "-"]
+- ["SL", "-="]
+- ["SL", "<"]
+- ["SL", "<="]
+- ["SL", "=="]
+- ["SL", ">"]
+- ["SL", ">="]
+- ["SL", "Codable"]
+- ["SL", "Comparable"]
+- ["SL", "ExpressibleByFloatLiteral"]
+- ["SL", "FloatLiteralType"]
+- ["SL", "IntegerLiteralType"]
+- ["SL", "Magnitude"]
+- ["SL", "SchedulerTimeIntervalConvertible"]
+- !private ["SL", "SchedulerTimeType"]
+- ["SL", "SignedNumeric"]
+- ["SL", "Stride"]
+- !private ["SL", "TimeInterval"]
+- ["SL", ""]
+- !private ["SL", "__derived_struct_equals"]
+- ["SL", "_rawHashValue"]
+- ["SL", "_step"]
+- ["SL", "advanced"]
+- !private ["SL", "date"]
+- ["SL", "distance"]
+- ["SL", "encode"]
+- ["SL", "hash"]
+- ["SL", "hashValue"]
+- ["SL", "init"]
+- ["SL", "magnitude"]
+- ["SL", "microseconds"]
+- ["SL", "milliseconds"]
+- ["SL", "nanoseconds"]
+- ["SL", "negate"]
+- !private ["SL", "now"]
+- ["SL", "seconds"]
+- !private ["SL", "timeInterval"]
+- !private ["SL", "timeIntervalSinceNow"]
+- !private ["SL", "timeIntervalSinceReferenceDate"]
+- ["SL", "zero"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "AnyCancellable"]
+- !private ["s28CustomDebugStringConvertibleP", "BlockOperation"]
+- ["s28CustomDebugStringConvertibleP", "Cancellable"]
+- !private ["s28CustomDebugStringConvertibleP", "CancellationContext"]
+- ["s28CustomDebugStringConvertibleP", "Codable"]
+- ["s28CustomDebugStringConvertibleP", "Comparable"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "DelayReadyOperation"]
+- ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- ["s28CustomDebugStringConvertibleP", "ExpressibleByFloatLiteral"]
+- ["s28CustomDebugStringConvertibleP", "Hashable"]
+- !private ["s28CustomDebugStringConvertibleP", "OCombine"]
+- ["s28CustomDebugStringConvertibleP", "Operation"]
+- ["s28CustomDebugStringConvertibleP", "Scheduler"]
+- ["s28CustomDebugStringConvertibleP", "SchedulerTimeIntervalConvertible"]
+- !private ["s28CustomDebugStringConvertibleP", "SchedulerTimeType"]
+- ["s28CustomDebugStringConvertibleP", "SignedNumeric"]
+- !private ["s28CustomDebugStringConvertibleP", "Stride"]
+- ["s28CustomDebugStringConvertibleP", "Strideable"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- ["s28CustomDebugStringConvertibleP", "UnfairLock"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "action"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "becomeReady"]
+- ["s28CustomDebugStringConvertibleP", "cancel"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "didChangeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "interval"]
+- !private ["s28CustomDebugStringConvertibleP", "isReady"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "magnitude"]
+- !private ["s28CustomDebugStringConvertibleP", "once"]
+- !private ["s28CustomDebugStringConvertibleP", "queue"]
+- !private ["s28CustomDebugStringConvertibleP", "readyFromAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "readyFromAfterLock"]
+- !private ["s28CustomDebugStringConvertibleP", "readySchedulingQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "repeating"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "willChangeValue"]
+- !private ["s17CustomReflectableP", "distance"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceNow"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceReferenceDate"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "AnyCancellable"]
+- !private ["s23CustomStringConvertibleP", "BlockOperation"]
+- ["s23CustomStringConvertibleP", "Cancellable"]
+- !private ["s23CustomStringConvertibleP", "CancellationContext"]
+- ["s23CustomStringConvertibleP", "Codable"]
+- ["s23CustomStringConvertibleP", "Comparable"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "DelayReadyOperation"]
+- ["s23CustomStringConvertibleP", "DispatchQueue"]
+- ["s23CustomStringConvertibleP", "ExpressibleByFloatLiteral"]
+- ["s23CustomStringConvertibleP", "Hashable"]
+- !private ["s23CustomStringConvertibleP", "OCombine"]
+- ["s23CustomStringConvertibleP", "Operation"]
+- ["s23CustomStringConvertibleP", "Scheduler"]
+- ["s23CustomStringConvertibleP", "SchedulerTimeIntervalConvertible"]
+- !private ["s23CustomStringConvertibleP", "SchedulerTimeType"]
+- ["s23CustomStringConvertibleP", "SignedNumeric"]
+- !private ["s23CustomStringConvertibleP", "Stride"]
+- ["s23CustomStringConvertibleP", "Strideable"]
+- !private ["s23CustomStringConvertibleP", "TimeInterval"]
+- ["s23CustomStringConvertibleP", "UnfairLock"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "action"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "becomeReady"]
+- ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "didChangeValue"]
+- !private ["s23CustomStringConvertibleP", "distance"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "interval"]
+- !private ["s23CustomStringConvertibleP", "isReady"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "magnitude"]
+- !private ["s23CustomStringConvertibleP", "once"]
+- !private ["s23CustomStringConvertibleP", "queue"]
+- !private ["s23CustomStringConvertibleP", "readyFromAfter"]
+- !private ["s23CustomStringConvertibleP", "readyFromAfterLock"]
+- !private ["s23CustomStringConvertibleP", "readySchedulingQueue"]
+- !private ["s23CustomStringConvertibleP", "repeating"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", "willChangeValue"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSinceNow"]
+- !private ["10Foundation4DateV", "timeIntervalSinceReferenceDate"]
+- ["Se", "*"]
+- ["Se", "*="]
+- ["Se", "+"]
+- ["Se", "+="]
+- ["Se", "-"]
+- ["Se", "-="]
+- ["Se", "<"]
+- ["Se", "<="]
+- ["Se", "=="]
+- ["Se", ">"]
+- ["Se", ">="]
+- ["Se", "Codable"]
+- ["Se", "Comparable"]
+- ["Se", "ExpressibleByFloatLiteral"]
+- ["Se", "FloatLiteralType"]
+- ["Se", "IntegerLiteralType"]
+- ["Se", "Magnitude"]
+- ["Se", "SchedulerTimeIntervalConvertible"]
+- !private ["Se", "SchedulerTimeType"]
+- ["Se", "SignedNumeric"]
+- ["Se", "Stride"]
+- !private ["Se", "TimeInterval"]
+- ["Se", ""]
+- !private ["Se", "__derived_struct_equals"]
+- ["Se", "_rawHashValue"]
+- ["Se", "_step"]
+- ["Se", "advanced"]
+- !private ["Se", "date"]
+- ["Se", "distance"]
+- ["Se", "encode"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- ["Se", "magnitude"]
+- ["Se", "microseconds"]
+- ["Se", "milliseconds"]
+- ["Se", "nanoseconds"]
+- ["Se", "negate"]
+- ["Se", "seconds"]
+- !private ["Se", "timeInterval"]
+- !private ["Se", "timeIntervalSinceNow"]
+- !private ["Se", "timeIntervalSinceReferenceDate"]
+- ["Se", "zero"]
+- !private ["s7DecoderP", "container"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- ["So17OS_dispatch_queueC", "init"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["Sd", "distance"]
+- !private ["Sd", "init"]
+- ["SE", "*"]
+- ["SE", "*="]
+- ["SE", "+"]
+- ["SE", "+="]
+- ["SE", "-"]
+- ["SE", "-="]
+- ["SE", "<"]
+- ["SE", "<="]
+- ["SE", "=="]
+- ["SE", ">"]
+- ["SE", ">="]
+- ["SE", "Codable"]
+- ["SE", "Comparable"]
+- ["SE", "ExpressibleByFloatLiteral"]
+- ["SE", "FloatLiteralType"]
+- ["SE", "IntegerLiteralType"]
+- ["SE", "Magnitude"]
+- ["SE", "SchedulerTimeIntervalConvertible"]
+- !private ["SE", "SchedulerTimeType"]
+- ["SE", "SignedNumeric"]
+- ["SE", "Stride"]
+- !private ["SE", "TimeInterval"]
+- ["SE", ""]
+- !private ["SE", "__derived_struct_equals"]
+- ["SE", "_rawHashValue"]
+- ["SE", "_step"]
+- ["SE", "advanced"]
+- !private ["SE", "date"]
+- ["SE", "distance"]
+- ["SE", "encode"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "init"]
+- ["SE", "magnitude"]
+- ["SE", "microseconds"]
+- ["SE", "milliseconds"]
+- ["SE", "nanoseconds"]
+- ["SE", "negate"]
+- ["SE", "seconds"]
+- !private ["SE", "timeInterval"]
+- !private ["SE", "timeIntervalSinceNow"]
+- !private ["SE", "timeIntervalSinceReferenceDate"]
+- ["SE", "zero"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "*"]
+- ["SQ", "*="]
+- ["SQ", "+"]
+- ["SQ", "+="]
+- ["SQ", "-"]
+- ["SQ", "-="]
+- ["SQ", "<"]
+- ["SQ", "<="]
+- ["SQ", "=="]
+- ["SQ", ">"]
+- ["SQ", ">="]
+- !private ["SQ", "AnyCancellable"]
+- !private ["SQ", "BlockOperation"]
+- ["SQ", "Cancellable"]
+- !private ["SQ", "CancellationContext"]
+- ["SQ", "Codable"]
+- ["SQ", "Comparable"]
+- !private ["SQ", "Date"]
+- !private ["SQ", "DelayReadyOperation"]
+- ["SQ", "DispatchQueue"]
+- ["SQ", "ExpressibleByFloatLiteral"]
+- ["SQ", "FloatLiteralType"]
+- ["SQ", "Hashable"]
+- ["SQ", "IntegerLiteralType"]
+- ["SQ", "Magnitude"]
+- !private ["SQ", "OCombine"]
+- ["SQ", "Operation"]
+- ["SQ", "Scheduler"]
+- ["SQ", "SchedulerTimeIntervalConvertible"]
+- !private ["SQ", "SchedulerTimeType"]
+- ["SQ", "SignedNumeric"]
+- ["SQ", "Stride"]
+- ["SQ", "Strideable"]
+- !private ["SQ", "TimeInterval"]
+- ["SQ", "UnfairLock"]
+- ["SQ", ""]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_step"]
+- !private ["SQ", "action"]
+- !private ["SQ", "addOperation"]
+- ["SQ", "advanced"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "becomeReady"]
+- ["SQ", "cancel"]
+- !private ["SQ", "context"]
+- !private ["SQ", "date"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "didChangeValue"]
+- ["SQ", "distance"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "interval"]
+- !private ["SQ", "isReady"]
+- !private ["SQ", "lock"]
+- ["SQ", "magnitude"]
+- ["SQ", "microseconds"]
+- ["SQ", "milliseconds"]
+- ["SQ", "nanoseconds"]
+- ["SQ", "negate"]
+- !private ["SQ", "now"]
+- !private ["SQ", "once"]
+- !private ["SQ", "queue"]
+- !private ["SQ", "readyFromAfter"]
+- !private ["SQ", "readyFromAfterLock"]
+- !private ["SQ", "readySchedulingQueue"]
+- !private ["SQ", "repeating"]
+- ["SQ", "seconds"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "timeInterval"]
+- !private ["SQ", "timeIntervalSinceNow"]
+- !private ["SQ", "timeIntervalSinceReferenceDate"]
+- !private ["SQ", "willChangeValue"]
+- ["SQ", "zero"]
+- ["s25ExpressibleByFloatLiteralP", "*"]
+- ["s25ExpressibleByFloatLiteralP", "*="]
+- ["s25ExpressibleByFloatLiteralP", "+"]
+- ["s25ExpressibleByFloatLiteralP", "+="]
+- ["s25ExpressibleByFloatLiteralP", "-"]
+- ["s25ExpressibleByFloatLiteralP", "-="]
+- ["s25ExpressibleByFloatLiteralP", "<"]
+- ["s25ExpressibleByFloatLiteralP", "<="]
+- ["s25ExpressibleByFloatLiteralP", "=="]
+- ["s25ExpressibleByFloatLiteralP", ">"]
+- ["s25ExpressibleByFloatLiteralP", ">="]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "IntegerLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "Magnitude"]
+- !private ["s25ExpressibleByFloatLiteralP", "Stride"]
+- !private ["s25ExpressibleByFloatLiteralP", "TimeInterval"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- !private ["s25ExpressibleByFloatLiteralP", "__derived_struct_equals"]
+- !private ["s25ExpressibleByFloatLiteralP", "distance"]
+- ["s25ExpressibleByFloatLiteralP", "encode"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "magnitude"]
+- ["s25ExpressibleByFloatLiteralP", "microseconds"]
+- ["s25ExpressibleByFloatLiteralP", "milliseconds"]
+- ["s25ExpressibleByFloatLiteralP", "nanoseconds"]
+- ["s25ExpressibleByFloatLiteralP", "negate"]
+- ["s25ExpressibleByFloatLiteralP", "seconds"]
+- !private ["s25ExpressibleByFloatLiteralP", "timeInterval"]
+- ["s25ExpressibleByFloatLiteralP", "zero"]
+- ["s27ExpressibleByIntegerLiteralP", "*"]
+- ["s27ExpressibleByIntegerLiteralP", "*="]
+- ["s27ExpressibleByIntegerLiteralP", "+"]
+- ["s27ExpressibleByIntegerLiteralP", "+="]
+- ["s27ExpressibleByIntegerLiteralP", "-"]
+- ["s27ExpressibleByIntegerLiteralP", "-="]
+- ["s27ExpressibleByIntegerLiteralP", "<"]
+- ["s27ExpressibleByIntegerLiteralP", "<="]
+- ["s27ExpressibleByIntegerLiteralP", "=="]
+- ["s27ExpressibleByIntegerLiteralP", ">"]
+- ["s27ExpressibleByIntegerLiteralP", ">="]
+- ["s27ExpressibleByIntegerLiteralP", "FloatLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- ["s27ExpressibleByIntegerLiteralP", "Magnitude"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Stride"]
+- !private ["s27ExpressibleByIntegerLiteralP", "TimeInterval"]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "__derived_struct_equals"]
+- !private ["s27ExpressibleByIntegerLiteralP", "distance"]
+- ["s27ExpressibleByIntegerLiteralP", "encode"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "magnitude"]
+- ["s27ExpressibleByIntegerLiteralP", "microseconds"]
+- ["s27ExpressibleByIntegerLiteralP", "milliseconds"]
+- ["s27ExpressibleByIntegerLiteralP", "nanoseconds"]
+- ["s27ExpressibleByIntegerLiteralP", "negate"]
+- ["s27ExpressibleByIntegerLiteralP", "seconds"]
+- !private ["s27ExpressibleByIntegerLiteralP", "timeInterval"]
+- ["s27ExpressibleByIntegerLiteralP", "zero"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SF", ""]
+- !private ["SF", "distance"]
+- !private ["SF", "init"]
+- ["SH", "<"]
+- ["SH", "<="]
+- ["SH", "=="]
+- ["SH", ">"]
+- ["SH", ">="]
+- !private ["SH", "AnyCancellable"]
+- !private ["SH", "BlockOperation"]
+- ["SH", "Cancellable"]
+- !private ["SH", "CancellationContext"]
+- ["SH", "Codable"]
+- ["SH", "Comparable"]
+- !private ["SH", "Date"]
+- !private ["SH", "DelayReadyOperation"]
+- ["SH", "DispatchQueue"]
+- ["SH", "ExpressibleByFloatLiteral"]
+- ["SH", "Hashable"]
+- !private ["SH", "OCombine"]
+- ["SH", "Operation"]
+- ["SH", "Scheduler"]
+- ["SH", "SchedulerTimeIntervalConvertible"]
+- !private ["SH", "SchedulerTimeType"]
+- ["SH", "SignedNumeric"]
+- ["SH", "Stride"]
+- ["SH", "Strideable"]
+- !private ["SH", "TimeInterval"]
+- ["SH", "UnfairLock"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "_step"]
+- !private ["SH", "action"]
+- !private ["SH", "addOperation"]
+- ["SH", "advanced"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "becomeReady"]
+- ["SH", "cancel"]
+- !private ["SH", "context"]
+- !private ["SH", "date"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "didChangeValue"]
+- ["SH", "distance"]
+- ["SH", "encode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "interval"]
+- !private ["SH", "isReady"]
+- !private ["SH", "lock"]
+- !private ["SH", "magnitude"]
+- !private ["SH", "once"]
+- !private ["SH", "queue"]
+- !private ["SH", "readyFromAfter"]
+- !private ["SH", "readyFromAfterLock"]
+- !private ["SH", "readySchedulingQueue"]
+- !private ["SH", "repeating"]
+- ["SH", "stringValue"]
+- !private ["SH", "timeIntervalSinceNow"]
+- !private ["SH", "timeIntervalSinceReferenceDate"]
+- !private ["SH", "willChangeValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "distance"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "AnyCancellable"]
+- ["So8NSObjectC", "BinaryInteger"]
+- !private ["So8NSObjectC", "BlockOperation"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Cancellable"]
+- ["So8NSObjectC", "CancellationContext"]
+- ["So8NSObjectC", "Codable"]
+- ["So8NSObjectC", "Comparable"]
+- ["So8NSObjectC", "Date"]
+- ["So8NSObjectC", "DelayReadyOperation"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "DispatchTime"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "ExpressibleByFloatLiteral"]
+- ["So8NSObjectC", "Hashable"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "OCombine"]
+- ["So8NSObjectC", "Operation"]
+- ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "Scheduler"]
+- ["So8NSObjectC", "SchedulerTimeIntervalConvertible"]
+- ["So8NSObjectC", "SchedulerTimeType"]
+- ["So8NSObjectC", "SignedNumeric"]
+- !private ["So8NSObjectC", "Stride"]
+- ["So8NSObjectC", "Strideable"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "UnfairLock"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "action"]
+- ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "addOperationWithBlock"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- ["So8NSObjectC", "becomeReady"]
+- !private ["So8NSObjectC", "blockOperationWithBlock"]
+- ["So8NSObjectC", "cancel"]
+- ["So8NSObjectC", "context"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "didChangeValue"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interval"]
+- ["So8NSObjectC", "isReady"]
+- !private ["So8NSObjectC", "lock"]
+- !private ["So8NSObjectC", "magnitude"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "ocombine"]
+- ["So8NSObjectC", "once"]
+- ["So8NSObjectC", "queue"]
+- ["So8NSObjectC", "readyFromAfter"]
+- ["So8NSObjectC", "readyFromAfterLock"]
+- ["So8NSObjectC", "readySchedulingQueue"]
+- ["So8NSObjectC", "repeating"]
+- ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setTarget"]
+- ["So8NSObjectC", "suspend"]
+- ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "willChangeValue"]
+- !private ["So8NSObjectP", "AnyCancellable"]
+- ["So8NSObjectP", "BinaryInteger"]
+- !private ["So8NSObjectP", "BlockOperation"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "Cancellable"]
+- ["So8NSObjectP", "CancellationContext"]
+- ["So8NSObjectP", "Codable"]
+- ["So8NSObjectP", "Comparable"]
+- ["So8NSObjectP", "Date"]
+- ["So8NSObjectP", "DelayReadyOperation"]
+- ["So8NSObjectP", "DispatchQueue"]
+- ["So8NSObjectP", "DispatchTime"]
+- ["So8NSObjectP", "Double"]
+- ["So8NSObjectP", "ExpressibleByFloatLiteral"]
+- ["So8NSObjectP", "Hashable"]
+- ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "OCombine"]
+- ["So8NSObjectP", "Operation"]
+- ["So8NSObjectP", "OperationQueue"]
+- ["So8NSObjectP", "Scheduler"]
+- ["So8NSObjectP", "SchedulerTimeIntervalConvertible"]
+- ["So8NSObjectP", "SchedulerTimeType"]
+- ["So8NSObjectP", "SignedNumeric"]
+- !private ["So8NSObjectP", "Stride"]
+- ["So8NSObjectP", "Strideable"]
+- ["So8NSObjectP", "TimeInterval"]
+- ["So8NSObjectP", "UnfairLock"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "action"]
+- ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "addOperationWithBlock"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- ["So8NSObjectP", "becomeReady"]
+- !private ["So8NSObjectP", "blockOperationWithBlock"]
+- ["So8NSObjectP", "cancel"]
+- ["So8NSObjectP", "context"]
+- !private ["So8NSObjectP", "date"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "didChangeValue"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "interval"]
+- ["So8NSObjectP", "isReady"]
+- !private ["So8NSObjectP", "lock"]
+- !private ["So8NSObjectP", "magnitude"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "ocombine"]
+- ["So8NSObjectP", "once"]
+- ["So8NSObjectP", "queue"]
+- ["So8NSObjectP", "readyFromAfter"]
+- ["So8NSObjectP", "readyFromAfterLock"]
+- ["So8NSObjectP", "readySchedulingQueue"]
+- ["So8NSObjectP", "repeating"]
+- ["So8NSObjectP", "resume"]
+- ["So8NSObjectP", "setTarget"]
+- ["So8NSObjectP", "suspend"]
+- ["So8NSObjectP", "sync"]
+- !private ["So8NSObjectP", "willChangeValue"]
+- ["Sj", "*"]
+- ["Sj", "*="]
+- ["Sj", "+"]
+- ["Sj", "+="]
+- ["Sj", "-"]
+- ["Sj", "-="]
+- ["Sj", "<"]
+- ["Sj", "<="]
+- ["Sj", "=="]
+- ["Sj", ">"]
+- ["Sj", ">="]
+- ["Sj", "FloatLiteralType"]
+- ["Sj", "IntegerLiteralType"]
+- ["Sj", "Magnitude"]
+- !private ["Sj", "Stride"]
+- !private ["Sj", "TimeInterval"]
+- ["Sj", ""]
+- !private ["Sj", "__derived_struct_equals"]
+- !private ["Sj", "distance"]
+- ["Sj", "encode"]
+- ["Sj", "init"]
+- ["Sj", "magnitude"]
+- ["Sj", "microseconds"]
+- ["Sj", "milliseconds"]
+- ["Sj", "nanoseconds"]
+- ["Sj", "negate"]
+- ["Sj", "seconds"]
+- !private ["Sj", "timeInterval"]
+- ["Sj", "zero"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "AnyCancellable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "BinaryInteger"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "BlockOperation"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Bool"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Cancellable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Codable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Comparable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Date"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "DelayReadyOperation"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "DispatchQueue"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "DispatchTime"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Double"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "ExpressibleByFloatLiteral"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Hashable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Int"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Operation"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "OperationQueue"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "SchedulerOptions"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "SchedulerTimeIntervalConvertible"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "SchedulerTimeType"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "SignedNumeric"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Stride"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Strideable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "TimeInterval"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "UnfairLock"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "Void"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", ""]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "date"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "didChangeValue"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "init"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "interval"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "lock"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "magnitude"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "minimumTolerance"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "now"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "queue"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "readyFromAfter"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "readyFromAfterLock"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "schedule"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV", "willChangeValue"]
+- ["So9OS_objectC", ""]
+- ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "resume"]
+- ["So9OS_objectC", "setTarget"]
+- ["So9OS_objectC", "suspend"]
+- ["So9OS_objectC", "sync"]
+- ["So11NSOperationC", "Bool"]
+- ["So11NSOperationC", "Cancellable"]
+- ["So11NSOperationC", "CancellationContext"]
+- ["So11NSOperationC", "DelayReadyOperation"]
+- ["So11NSOperationC", "DispatchQueue"]
+- ["So11NSOperationC", "DispatchTime"]
+- ["So11NSOperationC", "OperationQueue"]
+- ["So11NSOperationC", "SchedulerTimeType"]
+- ["So11NSOperationC", "TimeInterval"]
+- ["So11NSOperationC", "UnfairLock"]
+- ["So11NSOperationC", "Void"]
+- ["So11NSOperationC", ""]
+- ["So11NSOperationC", "action"]
+- ["So11NSOperationC", "becomeReady"]
+- !private ["So11NSOperationC", "blockOperationWithBlock"]
+- ["So11NSOperationC", "cancel"]
+- ["So11NSOperationC", "context"]
+- !private ["So11NSOperationC", "didChangeValue"]
+- ["So11NSOperationC", "init"]
+- ["So11NSOperationC", "interval"]
+- ["So11NSOperationC", "isReady"]
+- !private ["So11NSOperationC", "lock"]
+- ["So11NSOperationC", "main"]
+- ["So11NSOperationC", "once"]
+- ["So11NSOperationC", "queue"]
+- ["So11NSOperationC", "readyFromAfter"]
+- ["So11NSOperationC", "readyFromAfterLock"]
+- ["So11NSOperationC", "readySchedulingQueue"]
+- ["So11NSOperationC", "repeating"]
+- !private ["So11NSOperationC", "willChangeValue"]
+- !private ["So16NSOperationQueueC", "AnyCancellable"]
+- ["So16NSOperationQueueC", "BinaryInteger"]
+- !private ["So16NSOperationQueueC", "BlockOperation"]
+- ["So16NSOperationQueueC", "Bool"]
+- ["So16NSOperationQueueC", "Cancellable"]
+- ["So16NSOperationQueueC", "Codable"]
+- ["So16NSOperationQueueC", "Comparable"]
+- ["So16NSOperationQueueC", "Date"]
+- !private ["So16NSOperationQueueC", "DelayReadyOperation"]
+- ["So16NSOperationQueueC", "DispatchQueue"]
+- ["So16NSOperationQueueC", "DispatchTime"]
+- ["So16NSOperationQueueC", "Double"]
+- ["So16NSOperationQueueC", "ExpressibleByFloatLiteral"]
+- ["So16NSOperationQueueC", "Hashable"]
+- ["So16NSOperationQueueC", "Int"]
+- ["So16NSOperationQueueC", "OCombine"]
+- ["So16NSOperationQueueC", "Operation"]
+- ["So16NSOperationQueueC", "OperationQueue"]
+- ["So16NSOperationQueueC", "Scheduler"]
+- ["So16NSOperationQueueC", "SchedulerTimeIntervalConvertible"]
+- !private ["So16NSOperationQueueC", "SchedulerTimeType"]
+- ["So16NSOperationQueueC", "SignedNumeric"]
+- !private ["So16NSOperationQueueC", "Stride"]
+- ["So16NSOperationQueueC", "Strideable"]
+- ["So16NSOperationQueueC", "TimeInterval"]
+- ["So16NSOperationQueueC", "UnfairLock"]
+- ["So16NSOperationQueueC", "Void"]
+- ["So16NSOperationQueueC", ""]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["So16NSOperationQueueC", "date"]
+- !private ["So16NSOperationQueueC", "didChangeValue"]
+- !private ["So16NSOperationQueueC", "interval"]
+- !private ["So16NSOperationQueueC", "lock"]
+- !private ["So16NSOperationQueueC", "magnitude"]
+- ["So16NSOperationQueueC", "ocombine"]
+- !private ["So16NSOperationQueueC", "queue"]
+- !private ["So16NSOperationQueueC", "readyFromAfter"]
+- !private ["So16NSOperationQueueC", "readyFromAfterLock"]
+- !private ["So16NSOperationQueueC", "willChangeValue"]
+- !private ["So19NSProgressReportingP", "AnyCancellable"]
+- ["So19NSProgressReportingP", "BinaryInteger"]
+- !private ["So19NSProgressReportingP", "BlockOperation"]
+- ["So19NSProgressReportingP", "Bool"]
+- ["So19NSProgressReportingP", "Cancellable"]
+- ["So19NSProgressReportingP", "Codable"]
+- ["So19NSProgressReportingP", "Comparable"]
+- ["So19NSProgressReportingP", "Date"]
+- !private ["So19NSProgressReportingP", "DelayReadyOperation"]
+- ["So19NSProgressReportingP", "DispatchQueue"]
+- ["So19NSProgressReportingP", "DispatchTime"]
+- ["So19NSProgressReportingP", "Double"]
+- ["So19NSProgressReportingP", "ExpressibleByFloatLiteral"]
+- ["So19NSProgressReportingP", "Hashable"]
+- ["So19NSProgressReportingP", "Int"]
+- ["So19NSProgressReportingP", "OCombine"]
+- ["So19NSProgressReportingP", "Operation"]
+- ["So19NSProgressReportingP", "OperationQueue"]
+- ["So19NSProgressReportingP", "Scheduler"]
+- ["So19NSProgressReportingP", "SchedulerTimeIntervalConvertible"]
+- !private ["So19NSProgressReportingP", "SchedulerTimeType"]
+- ["So19NSProgressReportingP", "SignedNumeric"]
+- !private ["So19NSProgressReportingP", "Stride"]
+- ["So19NSProgressReportingP", "Strideable"]
+- ["So19NSProgressReportingP", "TimeInterval"]
+- ["So19NSProgressReportingP", "UnfairLock"]
+- ["So19NSProgressReportingP", "Void"]
+- !private ["So19NSProgressReportingP", "addOperation"]
+- !private ["So19NSProgressReportingP", "date"]
+- !private ["So19NSProgressReportingP", "didChangeValue"]
+- !private ["So19NSProgressReportingP", "interval"]
+- !private ["So19NSProgressReportingP", "lock"]
+- !private ["So19NSProgressReportingP", "magnitude"]
+- ["So19NSProgressReportingP", "ocombine"]
+- !private ["So19NSProgressReportingP", "queue"]
+- !private ["So19NSProgressReportingP", "readyFromAfter"]
+- !private ["So19NSProgressReportingP", "readyFromAfterLock"]
+- !private ["So19NSProgressReportingP", "willChangeValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceNow"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s10SIMDScalarP", "distance"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["11OpenCombine9SchedulerP", "AnyCancellable"]
+- !private ["7Combine9SchedulerP", "AnyCancellable"]
+- !private ["11OpenCombine9SchedulerP", "BlockOperation"]
+- !private ["7Combine9SchedulerP", "BlockOperation"]
+- ["11OpenCombine9SchedulerP", "Cancellable"]
+- ["7Combine9SchedulerP", "Cancellable"]
+- ["11OpenCombine9SchedulerP", "Codable"]
+- ["7Combine9SchedulerP", "Codable"]
+- ["11OpenCombine9SchedulerP", "Comparable"]
+- ["7Combine9SchedulerP", "Comparable"]
+- !private ["11OpenCombine9SchedulerP", "Date"]
+- !private ["7Combine9SchedulerP", "Date"]
+- !private ["11OpenCombine9SchedulerP", "DelayReadyOperation"]
+- !private ["7Combine9SchedulerP", "DelayReadyOperation"]
+- ["11OpenCombine9SchedulerP", "DispatchQueue"]
+- ["7Combine9SchedulerP", "DispatchQueue"]
+- ["11OpenCombine9SchedulerP", "ExpressibleByFloatLiteral"]
+- ["7Combine9SchedulerP", "ExpressibleByFloatLiteral"]
+- ["11OpenCombine9SchedulerP", "Hashable"]
+- ["7Combine9SchedulerP", "Hashable"]
+- !private ["7Combine9SchedulerP", "OCombine"]
+- ["11OpenCombine9SchedulerP", "Operation"]
+- ["7Combine9SchedulerP", "Operation"]
+- ["7Combine9SchedulerP", "Scheduler"]
+- ["11OpenCombine9SchedulerP", "SchedulerOptions"]
+- ["11OpenCombine9SchedulerP", "SchedulerTimeIntervalConvertible"]
+- ["7Combine9SchedulerP", "SchedulerTimeIntervalConvertible"]
+- ["11OpenCombine9SchedulerP", "SchedulerTimeType"]
+- !private ["7Combine9SchedulerP", "SchedulerTimeType"]
+- ["11OpenCombine9SchedulerP", "SignedNumeric"]
+- ["7Combine9SchedulerP", "SignedNumeric"]
+- !private ["11OpenCombine9SchedulerP", "Stride"]
+- !private ["7Combine9SchedulerP", "Stride"]
+- ["11OpenCombine9SchedulerP", "Strideable"]
+- ["7Combine9SchedulerP", "Strideable"]
+- !private ["11OpenCombine9SchedulerP", "TimeInterval"]
+- !private ["7Combine9SchedulerP", "TimeInterval"]
+- ["11OpenCombine9SchedulerP", "UnfairLock"]
+- ["7Combine9SchedulerP", "UnfairLock"]
+- ["11OpenCombine9SchedulerP", ""]
+- !private ["7Combine9SchedulerP", "addOperation"]
+- !private ["7Combine9SchedulerP", "asyncAfter"]
+- !private ["11OpenCombine9SchedulerP", "date"]
+- !private ["7Combine9SchedulerP", "date"]
+- !private ["11OpenCombine9SchedulerP", "didChangeValue"]
+- !private ["7Combine9SchedulerP", "didChangeValue"]
+- ["7Combine9SchedulerP", "init"]
+- !private ["11OpenCombine9SchedulerP", "init"]
+- !private ["11OpenCombine9SchedulerP", "interval"]
+- !private ["7Combine9SchedulerP", "interval"]
+- !private ["11OpenCombine9SchedulerP", "lock"]
+- !private ["7Combine9SchedulerP", "lock"]
+- !private ["11OpenCombine9SchedulerP", "magnitude"]
+- !private ["7Combine9SchedulerP", "magnitude"]
+- ["11OpenCombine9SchedulerP", "minimumTolerance"]
+- !private ["7Combine9SchedulerP", "minimumTolerance"]
+- ["11OpenCombine9SchedulerP", "now"]
+- !private ["7Combine9SchedulerP", "now"]
+- !private ["11OpenCombine9SchedulerP", "queue"]
+- !private ["7Combine9SchedulerP", "queue"]
+- !private ["11OpenCombine9SchedulerP", "readyFromAfter"]
+- !private ["7Combine9SchedulerP", "readyFromAfter"]
+- !private ["11OpenCombine9SchedulerP", "readyFromAfterLock"]
+- !private ["7Combine9SchedulerP", "readyFromAfterLock"]
+- ["11OpenCombine9SchedulerP", "schedule"]
+- !private ["7Combine9SchedulerP", "schedule"]
+- !private ["11OpenCombine9SchedulerP", "willChangeValue"]
+- !private ["7Combine9SchedulerP", "willChangeValue"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV16SchedulerOptionsV", "init"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "*"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "*="]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "+"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "+="]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "-"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "-="]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "<"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "<="]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "=="]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", ">"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", ">="]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "FloatLiteralType"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "IntegerLiteralType"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "Magnitude"]
+- !private ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "Stride"]
+- !private ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "TimeInterval"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", ""]
+- !private ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "__derived_struct_equals"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "encode"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "init"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "magnitude"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "microseconds"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "milliseconds"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "nanoseconds"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "negate"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "seconds"]
+- !private ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "timeInterval"]
+- ["11OpenCombine32SchedulerTimeIntervalConvertibleP", "zero"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "<"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "<="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "=="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", ">"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", ">="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "BinaryInteger"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Bool"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Codable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "CodingKeys"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Comparable"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Date"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Double"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "ExpressibleByFloatLiteral"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Int"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "SchedulerTimeIntervalConvertible"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "SchedulerTimeType"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "SignedNumeric"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "Stride"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "TimeInterval"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", ""]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "_rawHashValue"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "_step"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "advanced"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "date"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "distance"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "encode"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "hash"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "hashValue"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "init"]
+- !private ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV", "magnitude"]
+- ["s13SignedNumericP", "*"]
+- ["s13SignedNumericP", "*="]
+- ["s13SignedNumericP", "+"]
+- ["s13SignedNumericP", "+="]
+- ["s13SignedNumericP", "-"]
+- ["s13SignedNumericP", "-="]
+- ["s13SignedNumericP", "<"]
+- ["s13SignedNumericP", "<="]
+- ["s13SignedNumericP", "=="]
+- ["s13SignedNumericP", ">"]
+- ["s13SignedNumericP", ">="]
+- ["s13SignedNumericP", "FloatLiteralType"]
+- ["s13SignedNumericP", "IntegerLiteralType"]
+- ["s13SignedNumericP", "Magnitude"]
+- !private ["s13SignedNumericP", "Stride"]
+- !private ["s13SignedNumericP", "TimeInterval"]
+- ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "__derived_struct_equals"]
+- !private ["s13SignedNumericP", "distance"]
+- ["s13SignedNumericP", "encode"]
+- ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "magnitude"]
+- ["s13SignedNumericP", "microseconds"]
+- ["s13SignedNumericP", "milliseconds"]
+- ["s13SignedNumericP", "nanoseconds"]
+- ["s13SignedNumericP", "negate"]
+- ["s13SignedNumericP", "seconds"]
+- !private ["s13SignedNumericP", "timeInterval"]
+- ["s13SignedNumericP", "zero"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "*"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "*="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "+"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "+="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "-"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "-="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "<"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "<="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "=="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", ">"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", ">="]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "BinaryInteger"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "Bool"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "CodingKeys"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "Double"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "FloatLiteralType"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "Int"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "IntegerLiteralType"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "Magnitude"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "Stride"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "TimeInterval"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", ""]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "__derived_struct_equals"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "encode"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "init"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "magnitude"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "microseconds"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "milliseconds"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "nanoseconds"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "negate"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "seconds"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "timeInterval"]
+- ["So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV", "zero"]
+- ["Sx", "<"]
+- ["Sx", "<="]
+- ["Sx", "=="]
+- ["Sx", ">"]
+- ["Sx", ">="]
+- ["Sx", "Codable"]
+- ["Sx", "Comparable"]
+- ["Sx", "ExpressibleByFloatLiteral"]
+- ["Sx", "SchedulerTimeIntervalConvertible"]
+- !private ["Sx", "SchedulerTimeType"]
+- ["Sx", "SignedNumeric"]
+- ["Sx", "Stride"]
+- !private ["Sx", "TimeInterval"]
+- ["Sx", ""]
+- ["Sx", "_rawHashValue"]
+- ["Sx", "_step"]
+- ["Sx", "advanced"]
+- !private ["Sx", "date"]
+- ["Sx", "distance"]
+- ["Sx", "encode"]
+- ["Sx", "hash"]
+- ["Sx", "hashValue"]
+- ["Sx", "init"]
+- !private ["Sx", "magnitude"]
+- !private ["s20TextOutputStreamableP", "distance"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s15_CVarArgAlignedP", "distance"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "distance"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "distance"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceNow"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceReferenceDate"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "distance"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "distance"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "distance"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnyCancellable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockOperation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Cancellable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CancellationContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Codable"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Comparable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DelayReadyOperation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ExpressibleByFloatLiteral"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Hashable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OCombine"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Operation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Scheduler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SchedulerTimeIntervalConvertible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SchedulerTimeType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SignedNumeric"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Stride"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Strideable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UnfairLock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "cancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didChangeValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReady"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "magnitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "once"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "queue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readyFromAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readyFromAfterLock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "readySchedulingQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "repeating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "willChangeValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AnyCancellable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BlockOperation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Cancellable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CancellationContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Codable"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Comparable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DelayReadyOperation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ExpressibleByFloatLiteral"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Hashable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OCombine"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Operation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Scheduler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SchedulerTimeIntervalConvertible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SchedulerTimeType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SignedNumeric"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Stride"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Strideable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TimeInterval"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UnfairLock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "action"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addOperation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "asyncAfter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "becomeReady"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "context"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didChangeValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interval"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isReady"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "magnitude"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "once"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "queue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readyFromAfter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readyFromAfterLock"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "readySchedulingQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "repeating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "willChangeValue"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "distance"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceNow"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceReferenceDate"]
+- ["So21OpenCombineUnfairLockV", "allocate"]
+- !private ["So21OpenCombineUnfairLockV", "deallocate"]
+- !private ["So21OpenCombineUnfairLockV", "lock"]
+- !private ["So21OpenCombineUnfairLockV", "unlock"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "11OpenCombine14AnyCancellableC"
+- !private "SB"
+- !private "So16NSBlockOperationC"
+- "s7CVarArgP"
+- "11OpenCombine11CancellableP"
+- "s9CodingKeyP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "Se"
+- !private "s7DecoderP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "Sd"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sj"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV"
+- "So9OS_objectC"
+- "So11NSOperationC"
+- "So16NSOperationQueueC"
+- "So19NSProgressReportingP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- !private "11OpenCombine9SchedulerP"
+- !private "7Combine9SchedulerP"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV16SchedulerOptionsV"
+- "11OpenCombine32SchedulerTimeIntervalConvertibleP"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV"
+- "s13SignedNumericP"
+- "So16NSOperationQueueC21OpenCombineFoundationE8OCombineV17SchedulerTimeTypeV6StrideV"
+- "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "So21OpenCombineUnfairLockV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include/COpenCombineHelpers.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e5f1490a3c8ecd0f86533c6457861404"

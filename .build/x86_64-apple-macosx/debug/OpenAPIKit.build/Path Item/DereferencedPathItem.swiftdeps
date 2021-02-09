@@ -1,0 +1,526 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DereferencedPathItem"
+provides-nominal:
+- "10OpenAPIKit20DereferencedPathItemV"
+- "10OpenAPIKit20DereferencedPathItemV8EndpointV"
+- "10OpenAPIKit0A3APIO8PathItemV"
+provides-member:
+- ["10OpenAPIKit20DereferencedPathItemV", ""]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", ""]
+- ["10OpenAPIKit0A3APIO8PathItemV", ""]
+- ["10OpenAPIKit20DereferencedPathItemV", "for"]
+- ["10OpenAPIKit20DereferencedPathItemV", "subscript"]
+- ["10OpenAPIKit20DereferencedPathItemV", "Endpoint"]
+- ["10OpenAPIKit20DereferencedPathItemV", "endpoints"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AnyHashable"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "DereferencedOperation"
+- "DereferencedParameter"
+- "DereferencedPathItem"
+- "Endpoint"
+- "Equatable"
+- "KeyPath"
+- "LocallyDereferenceable"
+- "OpenAPI"
+- "OrderedDictionary"
+- "Set"
+- !private "for"
+- !private "underlyingPathItem"
+depends-member:
+- !private ["10OpenAPIKit10AnyCodableV", ""]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "map"]
+- ["10OpenAPIKit0A3APIO11CallbackURLV", ""]
+- !private ["s12CaseIterableP", "Element"]
+- !private ["s12CaseIterableP", "allCases"]
+- ["s12CaseIterableP", "delete"]
+- ["s12CaseIterableP", "get"]
+- ["s12CaseIterableP", "head"]
+- ["s12CaseIterableP", "options"]
+- ["s12CaseIterableP", "patch"]
+- ["s12CaseIterableP", "post"]
+- ["s12CaseIterableP", "put"]
+- ["s12CaseIterableP", "trace"]
+- ["10OpenAPIKit23CodableVendorExtendableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "DereferencedPathItem"]
+- ["10OpenAPIKit23CodableVendorExtendableP", "DereferencedSelf"]
+- ["10OpenAPIKit23CodableVendorExtendableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit23CodableVendorExtendableP", "_dereferenced"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "delete"]
+- ["10OpenAPIKit23CodableVendorExtendableP", "dereferenced"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "get"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "head"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "options"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "parameters"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "patch"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "post"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "put"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "subscript"]
+- !private ["10OpenAPIKit23CodableVendorExtendableP", "trace"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "map"]
+- ["10OpenAPIKit0A3APIO11ContentTypeO", ""]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "_dereferenced"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "dereferenced"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_dereferenced"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "dereferenced"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- ["Se", "Default_DereferencedSelf"]
+- !private ["Se", "DereferencedPathItem"]
+- ["Se", "DereferencedSelf"]
+- ["Se", "_Default_DereferencedSelf"]
+- ["Se", "_dereferenced"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "delete"]
+- ["Se", "dereferenced"]
+- !private ["Se", "get"]
+- !private ["Se", "head"]
+- !private ["Se", "map"]
+- !private ["Se", "options"]
+- !private ["Se", "parameters"]
+- !private ["Se", "patch"]
+- !private ["Se", "post"]
+- !private ["Se", "put"]
+- !private ["Se", "subscript"]
+- !private ["Se", "trace"]
+- ["10OpenAPIKit21DereferencedOperationV", ""]
+- !private ["10OpenAPIKit21DereferencedOperationV", "init"]
+- ["10OpenAPIKit21DereferencedParameterV", ""]
+- ["10OpenAPIKit20DereferencedPathItemV", "=="]
+- ["10OpenAPIKit20DereferencedPathItemV", "AnyHashable"]
+- ["10OpenAPIKit20DereferencedPathItemV", "DereferencedOperation"]
+- ["10OpenAPIKit20DereferencedPathItemV", "DereferencedParameter"]
+- ["10OpenAPIKit20DereferencedPathItemV", "DereferencedPathItem"]
+- ["10OpenAPIKit20DereferencedPathItemV", "Endpoint"]
+- ["10OpenAPIKit20DereferencedPathItemV", "Equatable"]
+- ["10OpenAPIKit20DereferencedPathItemV", "KeyPath"]
+- ["10OpenAPIKit20DereferencedPathItemV", "Map"]
+- ["10OpenAPIKit20DereferencedPathItemV", "OpenAPI"]
+- ["10OpenAPIKit20DereferencedPathItemV", "OrderedDictionary"]
+- ["10OpenAPIKit20DereferencedPathItemV", "Set"]
+- ["10OpenAPIKit20DereferencedPathItemV", ""]
+- ["10OpenAPIKit20DereferencedPathItemV", "__derived_struct_equals"]
+- ["10OpenAPIKit20DereferencedPathItemV", "delete"]
+- ["10OpenAPIKit20DereferencedPathItemV", "endpoints"]
+- ["10OpenAPIKit20DereferencedPathItemV", "for"]
+- ["10OpenAPIKit20DereferencedPathItemV", "get"]
+- ["10OpenAPIKit20DereferencedPathItemV", "head"]
+- ["10OpenAPIKit20DereferencedPathItemV", "init"]
+- ["10OpenAPIKit20DereferencedPathItemV", "options"]
+- ["10OpenAPIKit20DereferencedPathItemV", "parameters"]
+- ["10OpenAPIKit20DereferencedPathItemV", "patch"]
+- ["10OpenAPIKit20DereferencedPathItemV", "post"]
+- ["10OpenAPIKit20DereferencedPathItemV", "put"]
+- ["10OpenAPIKit20DereferencedPathItemV", "subscript"]
+- ["10OpenAPIKit20DereferencedPathItemV", "trace"]
+- ["10OpenAPIKit20DereferencedPathItemV", "underlyingPathItem"]
+- !private ["10OpenAPIKit19DereferencedRequestV", ""]
+- !private ["10OpenAPIKit20DereferencedResponseV", ""]
+- !private ["10OpenAPIKit31DereferencedSecurityRequirementV", ""]
+- !private ["10OpenAPIKit6EitherO", ""]
+- !private ["10OpenAPIKit6EitherO", "_dereferenced"]
+- !private ["10OpenAPIKit6EitherO", "dereferenced"]
+- ["SE", "Default_DereferencedSelf"]
+- !private ["SE", "DereferencedPathItem"]
+- ["SE", "DereferencedSelf"]
+- ["SE", "_Default_DereferencedSelf"]
+- ["SE", "_dereferenced"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "delete"]
+- ["SE", "dereferenced"]
+- !private ["SE", "get"]
+- !private ["SE", "head"]
+- !private ["SE", "map"]
+- !private ["SE", "options"]
+- !private ["SE", "parameters"]
+- !private ["SE", "patch"]
+- !private ["SE", "post"]
+- !private ["SE", "put"]
+- !private ["SE", "subscript"]
+- !private ["SE", "trace"]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "=="]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "DereferencedOperation"]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "OpenAPI"]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", ""]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "__derived_struct_equals"]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "init"]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "method"]
+- ["10OpenAPIKit20DereferencedPathItemV8EndpointV", "operation"]
+- ["SQ", "=="]
+- ["SQ", "Default_DereferencedSelf"]
+- !private ["SQ", "DereferencedOperation"]
+- !private ["SQ", "DereferencedPathItem"]
+- ["SQ", "DereferencedSelf"]
+- ["SQ", "Equatable"]
+- !private ["SQ", "OpenAPI"]
+- ["SQ", ""]
+- ["SQ", "_Default_DereferencedSelf"]
+- !private ["SQ", "__derived_struct_equals"]
+- ["SQ", "_dereferenced"]
+- !private ["SQ", "allCases"]
+- !private ["SQ", "compactMap"]
+- ["SQ", "delete"]
+- ["SQ", "dereferenced"]
+- !private ["SQ", "for"]
+- ["SQ", "get"]
+- ["SQ", "head"]
+- !private ["SQ", "init"]
+- !private ["SQ", "map"]
+- ["SQ", "options"]
+- !private ["SQ", "parameters"]
+- ["SQ", "patch"]
+- ["SQ", "post"]
+- ["SQ", "put"]
+- ["SQ", "subscript"]
+- ["SQ", "trace"]
+- !private ["SQ", "underlyingPathItem"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["SH", "allCases"]
+- !private ["SH", "compactMap"]
+- ["SH", "delete"]
+- ["SH", "get"]
+- ["SH", "head"]
+- !private ["SH", "map"]
+- ["SH", "options"]
+- ["SH", "patch"]
+- ["SH", "post"]
+- ["SH", "put"]
+- ["SH", "trace"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", ""]
+- !private ["10OpenAPIKit0A3APIO10HttpMethodO", "allCases"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "delete"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "get"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "head"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "options"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "patch"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "post"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "put"]
+- ["10OpenAPIKit0A3APIO10HttpMethodO", "trace"]
+- ["10OpenAPIKit13JSONReferenceO", ""]
+- ["10OpenAPIKit22LocallyDereferenceableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "DereferencedPathItem"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "DereferencedSelf"]
+- ["10OpenAPIKit22LocallyDereferenceableP", ""]
+- ["10OpenAPIKit22LocallyDereferenceableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "_dereferenced"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "delete"]
+- ["10OpenAPIKit22LocallyDereferenceableP", "dereferenced"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "get"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "head"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "options"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "parameters"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "patch"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "post"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "put"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "subscript"]
+- !private ["10OpenAPIKit22LocallyDereferenceableP", "trace"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- ["10OpenAPIKit0A3APIO", "Components"]
+- ["10OpenAPIKit0A3APIO", "HttpMethod"]
+- ["10OpenAPIKit0A3APIO", "Path"]
+- ["10OpenAPIKit0A3APIO", "PathItem"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "compactMap"]
+- !private ["10OpenAPIKit0A13APISchemaTypeP", "map"]
+- !private ["10OpenAPIKit0A3APIO9OperationV", ""]
+- !private ["Sq", "map"]
+- ["10OpenAPIKit17OrderedDictionaryV", ""]
+- !private ["10OpenAPIKit0A3APIO9ParameterV", ""]
+- ["10OpenAPIKit0A3APIO4PathV", ""]
+- ["10OpenAPIKit0A3APIO8PathItemV", "AnyHashable"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "Default_DereferencedSelf"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "DereferencedPathItem"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "DereferencedSelf"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "OpenAPI"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "Set"]
+- ["10OpenAPIKit0A3APIO8PathItemV", ""]
+- ["10OpenAPIKit0A3APIO8PathItemV", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "_dereferenced"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "delete"]
+- ["10OpenAPIKit0A3APIO8PathItemV", "dereferenced"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "get"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "head"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "options"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "parameters"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "patch"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "post"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "put"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "subscript"]
+- !private ["10OpenAPIKit0A3APIO8PathItemV", "trace"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "map"]
+- !private ["SY", "allCases"]
+- ["SY", "delete"]
+- ["SY", "get"]
+- ["SY", "head"]
+- ["SY", "options"]
+- ["SY", "patch"]
+- ["SY", "post"]
+- ["SY", "put"]
+- ["SY", "trace"]
+- ["10OpenAPIKit0A3APIO7RequestV", ""]
+- ["10OpenAPIKit0A3APIO8ResponseV", ""]
+- ["10OpenAPIKit0A3APIO14SecuritySchemeV", ""]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "map"]
+- !private ["10OpenAPIKit0A3APIO6ServerV", ""]
+- ["10OpenAPIKit0A3APIO8ResponseV10StatusCodeO", ""]
+- ["10OpenAPIKit11ValidatableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit11ValidatableP", "DereferencedPathItem"]
+- ["10OpenAPIKit11ValidatableP", "DereferencedSelf"]
+- ["10OpenAPIKit11ValidatableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit11ValidatableP", "_dereferenced"]
+- !private ["10OpenAPIKit11ValidatableP", "compactMap"]
+- !private ["10OpenAPIKit11ValidatableP", "delete"]
+- ["10OpenAPIKit11ValidatableP", "dereferenced"]
+- !private ["10OpenAPIKit11ValidatableP", "get"]
+- !private ["10OpenAPIKit11ValidatableP", "head"]
+- !private ["10OpenAPIKit11ValidatableP", "map"]
+- !private ["10OpenAPIKit11ValidatableP", "options"]
+- !private ["10OpenAPIKit11ValidatableP", "parameters"]
+- !private ["10OpenAPIKit11ValidatableP", "patch"]
+- !private ["10OpenAPIKit11ValidatableP", "post"]
+- !private ["10OpenAPIKit11ValidatableP", "put"]
+- !private ["10OpenAPIKit11ValidatableP", "subscript"]
+- !private ["10OpenAPIKit11ValidatableP", "trace"]
+- ["10OpenAPIKit16VendorExtendableP", "Default_DereferencedSelf"]
+- !private ["10OpenAPIKit16VendorExtendableP", "DereferencedPathItem"]
+- ["10OpenAPIKit16VendorExtendableP", "DereferencedSelf"]
+- ["10OpenAPIKit16VendorExtendableP", ""]
+- ["10OpenAPIKit16VendorExtendableP", "_Default_DereferencedSelf"]
+- ["10OpenAPIKit16VendorExtendableP", "_dereferenced"]
+- !private ["10OpenAPIKit16VendorExtendableP", "delete"]
+- ["10OpenAPIKit16VendorExtendableP", "dereferenced"]
+- !private ["10OpenAPIKit16VendorExtendableP", "get"]
+- !private ["10OpenAPIKit16VendorExtendableP", "head"]
+- !private ["10OpenAPIKit16VendorExtendableP", "options"]
+- !private ["10OpenAPIKit16VendorExtendableP", "parameters"]
+- !private ["10OpenAPIKit16VendorExtendableP", "patch"]
+- !private ["10OpenAPIKit16VendorExtendableP", "post"]
+- !private ["10OpenAPIKit16VendorExtendableP", "put"]
+- !private ["10OpenAPIKit16VendorExtendableP", "subscript"]
+- !private ["10OpenAPIKit16VendorExtendableP", "trace"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "10OpenAPIKit10AnyCodableV"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "10OpenAPIKit0A3APIO11CallbackURLV"
+- "s12CaseIterableP"
+- "10OpenAPIKit23CodableVendorExtendableP"
+- !private "Sl"
+- "10OpenAPIKit0A3APIO11ContentTypeO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "10OpenAPIKit21DereferencedOperationV"
+- "10OpenAPIKit21DereferencedParameterV"
+- "10OpenAPIKit20DereferencedPathItemV"
+- !private "10OpenAPIKit19DereferencedRequestV"
+- !private "10OpenAPIKit20DereferencedResponseV"
+- !private "10OpenAPIKit31DereferencedSecurityRequirementV"
+- !private "10OpenAPIKit6EitherO"
+- "SE"
+- "10OpenAPIKit20DereferencedPathItemV8EndpointV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "10OpenAPIKit0A3APIO10HttpMethodO"
+- "10OpenAPIKit13JSONReferenceO"
+- "10OpenAPIKit22LocallyDereferenceableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "10OpenAPIKit0A3APIO"
+- !private "10OpenAPIKit0A13APISchemaTypeP"
+- !private "10OpenAPIKit0A3APIO9OperationV"
+- !private "Sq"
+- "10OpenAPIKit17OrderedDictionaryV"
+- !private "10OpenAPIKit0A3APIO9ParameterV"
+- "10OpenAPIKit0A3APIO4PathV"
+- "10OpenAPIKit0A3APIO8PathItemV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- "10OpenAPIKit0A3APIO7RequestV"
+- "10OpenAPIKit0A3APIO8ResponseV"
+- "10OpenAPIKit0A3APIO14SecuritySchemeV"
+- !private "ST"
+- !private "10OpenAPIKit0A3APIO6ServerV"
+- "10OpenAPIKit0A3APIO8ResponseV10StatusCodeO"
+- "10OpenAPIKit11ValidatableP"
+- "10OpenAPIKit16VendorExtendableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5ebea6ffd8629f26ebd6d087295e2146"

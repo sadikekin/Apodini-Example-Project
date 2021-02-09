@@ -1,0 +1,642 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11OpenCombine10PublishersO14SwitchToLatestV"
+provides-member:
+- ["11OpenCombine9PublisherP", ""]
+- ["11OpenCombine10PublishersO", ""]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", ""]
+- ["11OpenCombine9PublisherP", "switchToLatest"]
+- ["11OpenCombine9PublisherP", "switchToLatest"]
+- ["11OpenCombine9PublisherP", "switchToLatest"]
+- ["11OpenCombine9PublisherP", "switchToLatest"]
+- ["11OpenCombine10PublishersO", "SwitchToLatest"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+="
+- !private "-="
+- !private "=="
+- !private ">"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CollectionOfOne"
+- "CombineIdentifier"
+- "CustomPlaygroundDisplayConvertible"
+- "CustomReflectable"
+- "CustomStringConvertible"
+- "Downstream"
+- !private "EmptyCollection"
+- "Failure"
+- "FloatLiteralType"
+- "Input"
+- "IntegerLiteralType"
+- "Mirror"
+- "NestedPublisher"
+- "Never"
+- "Outer"
+- "Output"
+- "Publisher"
+- "Publishers"
+- "Self"
+- !private "Side"
+- "String"
+- !private "StringLiteralType"
+- "Subscriber"
+- "Subscribers"
+- "Subscription"
+- "UInt64"
+- "UnfairLock"
+- "UnfairRecursiveLock"
+- "Upstream"
+- !private "awaitingInnerSubscription"
+- !private "cancelled"
+- !private "currentInnerIndex"
+- !private "currentInnerSubscription"
+- !private "description"
+- !private "downstream"
+- !private "downstreamDemand"
+- !private "downstreamLock"
+- !private "finished"
+- !private "index"
+- !private "lock"
+- !private "map"
+- !private "nextInnerIndex"
+- !private "outer"
+- !private "outerSubscription"
+- !private "precondition"
+- !private "sentCompletion"
+- !private "setFailureType"
+- !private "upstream"
+- !private "||"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["11OpenCombine11CancellableP", "CollectionOfOne"]
+- ["11OpenCombine11CancellableP", "CombineIdentifier"]
+- ["11OpenCombine11CancellableP", "CustomPlaygroundDisplayConvertible"]
+- ["11OpenCombine11CancellableP", "CustomReflectable"]
+- ["11OpenCombine11CancellableP", "CustomStringConvertible"]
+- !private ["11OpenCombine11CancellableP", "EmptyCollection"]
+- ["11OpenCombine11CancellableP", "Failure"]
+- ["11OpenCombine11CancellableP", "Input"]
+- !private ["11OpenCombine11CancellableP", "Mirror"]
+- !private ["11OpenCombine11CancellableP", "Side"]
+- ["11OpenCombine11CancellableP", "Subscriber"]
+- ["11OpenCombine11CancellableP", "Subscribers"]
+- ["11OpenCombine11CancellableP", "UnfairLock"]
+- ["11OpenCombine11CancellableP", "UnfairRecursiveLock"]
+- ["11OpenCombine11CancellableP", ""]
+- !private ["11OpenCombine11CancellableP", "awaitingInnerSubscription"]
+- ["11OpenCombine11CancellableP", "cancel"]
+- !private ["11OpenCombine11CancellableP", "cancelled"]
+- ["11OpenCombine11CancellableP", "combineIdentifier"]
+- !private ["11OpenCombine11CancellableP", "currentInnerIndex"]
+- !private ["11OpenCombine11CancellableP", "currentInnerSubscription"]
+- ["11OpenCombine11CancellableP", "customMirror"]
+- ["11OpenCombine11CancellableP", "description"]
+- !private ["11OpenCombine11CancellableP", "downstream"]
+- !private ["11OpenCombine11CancellableP", "downstreamDemand"]
+- !private ["11OpenCombine11CancellableP", "downstreamLock"]
+- !private ["11OpenCombine11CancellableP", "finished"]
+- !private ["11OpenCombine11CancellableP", "index"]
+- !private ["11OpenCombine11CancellableP", "init"]
+- !private ["11OpenCombine11CancellableP", "lock"]
+- !private ["11OpenCombine11CancellableP", "nextInnerIndex"]
+- !private ["11OpenCombine11CancellableP", "outer"]
+- !private ["11OpenCombine11CancellableP", "outerSubscription"]
+- ["11OpenCombine11CancellableP", "playgroundDescription"]
+- !private ["11OpenCombine11CancellableP", "precondition"]
+- ["11OpenCombine11CancellableP", "receive"]
+- !private ["11OpenCombine11CancellableP", "receiveInner"]
+- ["11OpenCombine11CancellableP", "request"]
+- !private ["11OpenCombine11CancellableP", "sentCompletion"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["s15CollectionOfOneV", "init"]
+- ["11OpenCombine0B10IdentifierV", "init"]
+- !private ["SL", "assertNonZero"]
+- ["SL", "none"]
+- !private ["SL", "unlimited"]
+- ["11OpenCombine11SubscribersO10CompletionO", "failure"]
+- ["11OpenCombine11SubscribersO10CompletionO", "finished"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "CollectionOfOne"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "CombineIdentifier"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "CustomPlaygroundDisplayConvertible"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "CustomReflectable"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "CustomStringConvertible"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "EmptyCollection"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "Failure"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "Input"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "Mirror"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "Side"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "Subscriber"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "Subscribers"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "UnfairLock"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "UnfairRecursiveLock"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", ""]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "awaitingInnerSubscription"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "cancel"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "cancelled"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "combineIdentifier"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "currentInnerIndex"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "currentInnerSubscription"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "customMirror"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "description"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "downstream"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "downstreamDemand"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "downstreamLock"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "finished"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "index"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "init"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "lock"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "nextInnerIndex"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "outer"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "outerSubscription"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "playgroundDescription"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "precondition"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "receive"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "receiveInner"]
+- ["11OpenCombine06CustomB21IdentifierConvertibleP", "request"]
+- !private ["11OpenCombine06CustomB21IdentifierConvertibleP", "sentCompletion"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "CollectionOfOne"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "CombineIdentifier"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "CustomPlaygroundDisplayConvertible"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "CustomReflectable"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "CustomStringConvertible"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "EmptyCollection"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "Failure"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "Input"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "Mirror"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "Side"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "Subscriber"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "Subscribers"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "UnfairLock"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "UnfairRecursiveLock"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", ""]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "awaitingInnerSubscription"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "cancel"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "cancelled"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "combineIdentifier"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "currentInnerIndex"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "currentInnerSubscription"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "customMirror"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "description"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "downstream"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "downstreamDemand"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "downstreamLock"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "finished"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "index"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "init"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "lock"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "nextInnerIndex"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "outer"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "outerSubscription"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "playgroundDescription"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "precondition"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "receive"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "receiveInner"]
+- ["s34CustomPlaygroundDisplayConvertibleP", "request"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "sentCompletion"]
+- !private ["s17CustomReflectableP", "Child"]
+- !private ["s17CustomReflectableP", "CollectionOfOne"]
+- ["s17CustomReflectableP", "CombineIdentifier"]
+- ["s17CustomReflectableP", "CustomPlaygroundDisplayConvertible"]
+- ["s17CustomReflectableP", "CustomReflectable"]
+- ["s17CustomReflectableP", "CustomStringConvertible"]
+- !private ["s17CustomReflectableP", "EmptyCollection"]
+- ["s17CustomReflectableP", "Failure"]
+- ["s17CustomReflectableP", "Input"]
+- !private ["s17CustomReflectableP", "Mirror"]
+- !private ["s17CustomReflectableP", "Side"]
+- ["s17CustomReflectableP", "Subscriber"]
+- ["s17CustomReflectableP", "Subscribers"]
+- ["s17CustomReflectableP", "UnfairLock"]
+- ["s17CustomReflectableP", "UnfairRecursiveLock"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "awaitingInnerSubscription"]
+- ["s17CustomReflectableP", "cancel"]
+- !private ["s17CustomReflectableP", "cancelled"]
+- ["s17CustomReflectableP", "combineIdentifier"]
+- !private ["s17CustomReflectableP", "currentInnerIndex"]
+- !private ["s17CustomReflectableP", "currentInnerSubscription"]
+- ["s17CustomReflectableP", "customMirror"]
+- ["s17CustomReflectableP", "description"]
+- !private ["s17CustomReflectableP", "downstream"]
+- !private ["s17CustomReflectableP", "downstreamDemand"]
+- !private ["s17CustomReflectableP", "downstreamLock"]
+- !private ["s17CustomReflectableP", "finished"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "lock"]
+- !private ["s17CustomReflectableP", "nextInnerIndex"]
+- !private ["s17CustomReflectableP", "outer"]
+- !private ["s17CustomReflectableP", "outerSubscription"]
+- ["s17CustomReflectableP", "playgroundDescription"]
+- !private ["s17CustomReflectableP", "precondition"]
+- ["s17CustomReflectableP", "receive"]
+- !private ["s17CustomReflectableP", "receiveInner"]
+- ["s17CustomReflectableP", "request"]
+- !private ["s17CustomReflectableP", "sentCompletion"]
+- !private ["s23CustomStringConvertibleP", "Child"]
+- !private ["s23CustomStringConvertibleP", "CollectionOfOne"]
+- ["s23CustomStringConvertibleP", "CombineIdentifier"]
+- ["s23CustomStringConvertibleP", "CustomPlaygroundDisplayConvertible"]
+- ["s23CustomStringConvertibleP", "CustomReflectable"]
+- ["s23CustomStringConvertibleP", "CustomStringConvertible"]
+- !private ["s23CustomStringConvertibleP", "EmptyCollection"]
+- ["s23CustomStringConvertibleP", "Failure"]
+- ["s23CustomStringConvertibleP", "Input"]
+- !private ["s23CustomStringConvertibleP", "Mirror"]
+- !private ["s23CustomStringConvertibleP", "Side"]
+- ["s23CustomStringConvertibleP", "Subscriber"]
+- ["s23CustomStringConvertibleP", "Subscribers"]
+- ["s23CustomStringConvertibleP", "UnfairLock"]
+- ["s23CustomStringConvertibleP", "UnfairRecursiveLock"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "assertNonZero"]
+- !private ["s23CustomStringConvertibleP", "awaitingInnerSubscription"]
+- ["s23CustomStringConvertibleP", "cancel"]
+- !private ["s23CustomStringConvertibleP", "cancelled"]
+- ["s23CustomStringConvertibleP", "combineIdentifier"]
+- !private ["s23CustomStringConvertibleP", "currentInnerIndex"]
+- !private ["s23CustomStringConvertibleP", "currentInnerSubscription"]
+- ["s23CustomStringConvertibleP", "customMirror"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "downstream"]
+- !private ["s23CustomStringConvertibleP", "downstreamDemand"]
+- !private ["s23CustomStringConvertibleP", "downstreamLock"]
+- !private ["s23CustomStringConvertibleP", "finished"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "nextInnerIndex"]
+- ["s23CustomStringConvertibleP", "none"]
+- !private ["s23CustomStringConvertibleP", "outer"]
+- !private ["s23CustomStringConvertibleP", "outerSubscription"]
+- ["s23CustomStringConvertibleP", "playgroundDescription"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- ["s23CustomStringConvertibleP", "receive"]
+- !private ["s23CustomStringConvertibleP", "receiveInner"]
+- ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "sentCompletion"]
+- !private ["s23CustomStringConvertibleP", "unlimited"]
+- !private ["Se", "assertNonZero"]
+- ["Se", "failure"]
+- ["Se", "finished"]
+- ["Se", "none"]
+- !private ["Se", "unlimited"]
+- !private ["11OpenCombine11SubscribersO6DemandV", ""]
+- !private ["11OpenCombine11SubscribersO6DemandV", "assertNonZero"]
+- ["11OpenCombine11SubscribersO6DemandV", "none"]
+- !private ["11OpenCombine11SubscribersO6DemandV", "unlimited"]
+- !private ["s15EmptyCollectionV", "init"]
+- !private ["SE", "assertNonZero"]
+- ["SE", "failure"]
+- ["SE", "finished"]
+- ["SE", "none"]
+- !private ["SE", "unlimited"]
+- ["SQ", ""]
+- !private ["SQ", "assertNonZero"]
+- ["SQ", "failure"]
+- ["SQ", "finished"]
+- ["SQ", "init"]
+- ["SQ", "none"]
+- !private ["SQ", "switchToLatest"]
+- !private ["SQ", "unlimited"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["SH", "assertNonZero"]
+- ["SH", "failure"]
+- ["SH", "finished"]
+- ["SH", "init"]
+- ["SH", "none"]
+- !private ["SH", "unlimited"]
+- ["11OpenCombine10PublishersO3MapV", ""]
+- !private ["11OpenCombine10PublishersO3MapV", "switchToLatest"]
+- !private ["11OpenCombine10PublishersO10MapKeyPathV", "switchToLatest"]
+- !private ["s6MirrorV", "Child"]
+- !private ["s6MirrorV", "init"]
+- !private ["SM", "init"]
+- ["11OpenCombine9PublisherP", "CustomPlaygroundDisplayConvertible"]
+- ["11OpenCombine9PublisherP", "CustomReflectable"]
+- ["11OpenCombine9PublisherP", "CustomStringConvertible"]
+- !private ["11OpenCombine9PublisherP", "EmptyCollection"]
+- ["11OpenCombine9PublisherP", "Failure"]
+- !private ["11OpenCombine9PublisherP", "Mirror"]
+- ["11OpenCombine9PublisherP", "Never"]
+- ["11OpenCombine9PublisherP", "Outer"]
+- ["11OpenCombine9PublisherP", "Output"]
+- ["11OpenCombine9PublisherP", "Publisher"]
+- ["11OpenCombine9PublisherP", "Publishers"]
+- !private ["11OpenCombine9PublisherP", "Side"]
+- ["11OpenCombine9PublisherP", "Subscriber"]
+- ["11OpenCombine9PublisherP", "Subscribers"]
+- ["11OpenCombine9PublisherP", "Subscription"]
+- ["11OpenCombine9PublisherP", "UnfairLock"]
+- ["11OpenCombine9PublisherP", "UnfairRecursiveLock"]
+- ["11OpenCombine9PublisherP", ""]
+- !private ["11OpenCombine9PublisherP", "awaitingInnerSubscription"]
+- !private ["11OpenCombine9PublisherP", "cancelled"]
+- !private ["11OpenCombine9PublisherP", "currentInnerIndex"]
+- !private ["11OpenCombine9PublisherP", "currentInnerSubscription"]
+- !private ["11OpenCombine9PublisherP", "description"]
+- !private ["11OpenCombine9PublisherP", "downstream"]
+- !private ["11OpenCombine9PublisherP", "downstreamDemand"]
+- !private ["11OpenCombine9PublisherP", "downstreamLock"]
+- !private ["11OpenCombine9PublisherP", "finished"]
+- !private ["11OpenCombine9PublisherP", "init"]
+- !private ["11OpenCombine9PublisherP", "lock"]
+- !private ["11OpenCombine9PublisherP", "map"]
+- !private ["11OpenCombine9PublisherP", "nextInnerIndex"]
+- !private ["11OpenCombine9PublisherP", "outerSubscription"]
+- !private ["11OpenCombine9PublisherP", "precondition"]
+- ["11OpenCombine9PublisherP", "receive"]
+- !private ["11OpenCombine9PublisherP", "sentCompletion"]
+- !private ["11OpenCombine9PublisherP", "setFailureType"]
+- !private ["11OpenCombine9PublisherP", "subscribe"]
+- ["11OpenCombine9PublisherP", "switchToLatest"]
+- !private ["11OpenCombine9PublisherP", "upstream"]
+- ["11OpenCombine10PublishersO", "Map"]
+- !private ["11OpenCombine10PublishersO", "Outer"]
+- ["11OpenCombine10PublishersO", "Publisher"]
+- ["11OpenCombine10PublishersO", "SetFailureType"]
+- ["11OpenCombine10PublishersO", "Subscriber"]
+- ["11OpenCombine10PublishersO", "SwitchToLatest"]
+- ["11OpenCombine10PublishersO", ""]
+- !private ["11OpenCombine10PublishersO", "upstream"]
+- !private ["Sk", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- ["11OpenCombine10PublishersO14SetFailureTypeV", ""]
+- !private ["11OpenCombine10PublishersO14SetFailureTypeV", "switchToLatest"]
+- !private ["11OpenCombine10SubscriberP", "CollectionOfOne"]
+- ["11OpenCombine10SubscriberP", "CombineIdentifier"]
+- ["11OpenCombine10SubscriberP", "CustomPlaygroundDisplayConvertible"]
+- ["11OpenCombine10SubscriberP", "CustomReflectable"]
+- ["11OpenCombine10SubscriberP", "CustomStringConvertible"]
+- !private ["11OpenCombine10SubscriberP", "EmptyCollection"]
+- ["11OpenCombine10SubscriberP", "Failure"]
+- ["11OpenCombine10SubscriberP", "Input"]
+- !private ["11OpenCombine10SubscriberP", "Mirror"]
+- !private ["11OpenCombine10SubscriberP", "Side"]
+- ["11OpenCombine10SubscriberP", "Subscriber"]
+- ["11OpenCombine10SubscriberP", "Subscribers"]
+- ["11OpenCombine10SubscriberP", "UnfairLock"]
+- ["11OpenCombine10SubscriberP", "UnfairRecursiveLock"]
+- !private ["11OpenCombine10SubscriberP", ""]
+- !private ["11OpenCombine10SubscriberP", "awaitingInnerSubscription"]
+- ["11OpenCombine10SubscriberP", "cancel"]
+- !private ["11OpenCombine10SubscriberP", "cancelled"]
+- ["11OpenCombine10SubscriberP", "combineIdentifier"]
+- !private ["11OpenCombine10SubscriberP", "currentInnerIndex"]
+- !private ["11OpenCombine10SubscriberP", "currentInnerSubscription"]
+- ["11OpenCombine10SubscriberP", "customMirror"]
+- ["11OpenCombine10SubscriberP", "description"]
+- !private ["11OpenCombine10SubscriberP", "downstream"]
+- !private ["11OpenCombine10SubscriberP", "downstreamDemand"]
+- !private ["11OpenCombine10SubscriberP", "downstreamLock"]
+- !private ["11OpenCombine10SubscriberP", "finished"]
+- !private ["11OpenCombine10SubscriberP", "index"]
+- !private ["11OpenCombine10SubscriberP", "init"]
+- !private ["11OpenCombine10SubscriberP", "lock"]
+- !private ["11OpenCombine10SubscriberP", "nextInnerIndex"]
+- !private ["11OpenCombine10SubscriberP", "outer"]
+- !private ["11OpenCombine10SubscriberP", "outerSubscription"]
+- ["11OpenCombine10SubscriberP", "playgroundDescription"]
+- !private ["11OpenCombine10SubscriberP", "precondition"]
+- ["11OpenCombine10SubscriberP", "receive"]
+- !private ["11OpenCombine10SubscriberP", "receiveInner"]
+- ["11OpenCombine10SubscriberP", "request"]
+- !private ["11OpenCombine10SubscriberP", "sentCompletion"]
+- ["11OpenCombine11SubscribersO", "Completion"]
+- ["11OpenCombine11SubscribersO", "Demand"]
+- !private ["11OpenCombine12SubscriptionP", "CollectionOfOne"]
+- ["11OpenCombine12SubscriptionP", "CombineIdentifier"]
+- ["11OpenCombine12SubscriptionP", "CustomPlaygroundDisplayConvertible"]
+- ["11OpenCombine12SubscriptionP", "CustomReflectable"]
+- ["11OpenCombine12SubscriptionP", "CustomStringConvertible"]
+- !private ["11OpenCombine12SubscriptionP", "EmptyCollection"]
+- ["11OpenCombine12SubscriptionP", "Failure"]
+- ["11OpenCombine12SubscriptionP", "Input"]
+- !private ["11OpenCombine12SubscriptionP", "Mirror"]
+- !private ["11OpenCombine12SubscriptionP", "Side"]
+- ["11OpenCombine12SubscriptionP", "Subscriber"]
+- ["11OpenCombine12SubscriptionP", "Subscribers"]
+- ["11OpenCombine12SubscriptionP", "UnfairLock"]
+- ["11OpenCombine12SubscriptionP", "UnfairRecursiveLock"]
+- !private ["11OpenCombine12SubscriptionP", ""]
+- !private ["11OpenCombine12SubscriptionP", "awaitingInnerSubscription"]
+- ["11OpenCombine12SubscriptionP", "cancel"]
+- !private ["11OpenCombine12SubscriptionP", "cancelled"]
+- ["11OpenCombine12SubscriptionP", "combineIdentifier"]
+- !private ["11OpenCombine12SubscriptionP", "currentInnerIndex"]
+- !private ["11OpenCombine12SubscriptionP", "currentInnerSubscription"]
+- ["11OpenCombine12SubscriptionP", "customMirror"]
+- ["11OpenCombine12SubscriptionP", "description"]
+- !private ["11OpenCombine12SubscriptionP", "downstream"]
+- !private ["11OpenCombine12SubscriptionP", "downstreamDemand"]
+- !private ["11OpenCombine12SubscriptionP", "downstreamLock"]
+- !private ["11OpenCombine12SubscriptionP", "finished"]
+- !private ["11OpenCombine12SubscriptionP", "index"]
+- !private ["11OpenCombine12SubscriptionP", "init"]
+- !private ["11OpenCombine12SubscriptionP", "lock"]
+- !private ["11OpenCombine12SubscriptionP", "nextInnerIndex"]
+- !private ["11OpenCombine12SubscriptionP", "outer"]
+- !private ["11OpenCombine12SubscriptionP", "outerSubscription"]
+- ["11OpenCombine12SubscriptionP", "playgroundDescription"]
+- !private ["11OpenCombine12SubscriptionP", "precondition"]
+- ["11OpenCombine12SubscriptionP", "receive"]
+- !private ["11OpenCombine12SubscriptionP", "receiveInner"]
+- ["11OpenCombine12SubscriptionP", "request"]
+- !private ["11OpenCombine12SubscriptionP", "sentCompletion"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "CustomPlaygroundDisplayConvertible"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "CustomReflectable"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "CustomStringConvertible"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "EmptyCollection"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Failure"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Mirror"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Outer"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Output"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "Side"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "String"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Subscriber"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Subscribers"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "Subscription"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "UInt64"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "UnfairLock"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "UnfairRecursiveLock"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", ""]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "awaitingInnerSubscription"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "cancelled"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "currentInnerIndex"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "currentInnerSubscription"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "description"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "downstream"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "downstreamDemand"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "downstreamLock"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "finished"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "init"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "lock"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "nextInnerIndex"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "outerSubscription"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "precondition"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "receive"]
+- !private ["11OpenCombine10PublishersO14SwitchToLatestV", "sentCompletion"]
+- ["11OpenCombine10PublishersO14SwitchToLatestV", "upstream"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["So21OpenCombineUnfairLockV", "allocate"]
+- !private ["So21OpenCombineUnfairLockV", "deallocate"]
+- !private ["So21OpenCombineUnfairLockV", "lock"]
+- !private ["So21OpenCombineUnfairLockV", "unlock"]
+- ["So30OpenCombineUnfairRecursiveLockV", "allocate"]
+- !private ["So30OpenCombineUnfairRecursiveLockV", "deallocate"]
+- !private ["So30OpenCombineUnfairRecursiveLockV", "lock"]
+- !private ["So30OpenCombineUnfairRecursiveLockV", "unlock"]
+depends-nominal:
+- !private "SK"
+- "11OpenCombine11CancellableP"
+- !private "Sl"
+- !private "s15CollectionOfOneV"
+- "11OpenCombine0B10IdentifierV"
+- "SL"
+- "11OpenCombine11SubscribersO10CompletionO"
+- "11OpenCombine06CustomB21IdentifierConvertibleP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s34CustomPlaygroundDisplayConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "11OpenCombine11SubscribersO6DemandV"
+- !private "s15EmptyCollectionV"
+- "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "11OpenCombine10PublishersO3MapV"
+- !private "11OpenCombine10PublishersO10MapKeyPathV"
+- !private "s6MirrorV"
+- !private "SM"
+- "11OpenCombine9PublisherP"
+- "11OpenCombine10PublishersO"
+- !private "Sk"
+- !private "ST"
+- "11OpenCombine10PublishersO14SetFailureTypeV"
+- "11OpenCombine10SubscriberP"
+- "11OpenCombine11SubscribersO"
+- "11OpenCombine12SubscriptionP"
+- "11OpenCombine10PublishersO14SwitchToLatestV"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "So21OpenCombineUnfairLockV"
+- "So30OpenCombineUnfairRecursiveLockV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include/COpenCombineHelpers.h"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP1.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTP2.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_Vapor3.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHPACK.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/GraphQL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CJWTKitBoringSSL.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FCM.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/BSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FineJSON.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresNIO.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTLS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNS.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWT.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOExtrasZlib.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Backtrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CBacktrace.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolConformance.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Runtime.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombine.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtocolType.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKittenCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoCore.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketInfrastructure.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ApodiniDatabase.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ProtobufferCoding.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Logging.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Casting.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineDispatch.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Apodini.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKitBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentBenchmark.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COperatingSystem.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoKitten.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOHTTPCompression.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenCombineFoundation.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SwifCron.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Crypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_MongoKittenCrypto.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CURLParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RichJSONParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CMultipartParser.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMySQLDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentSQLiteDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentMongoDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentPostgresDriver.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Vapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTVapor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AssociatedTypeRequirementsVisitor.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOExtras.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Jobs.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Metrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CoreMetrics.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTransportServices.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOTestUtils.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Yams.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/_NIO1APIShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CCryptoBoringSSLShims.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Notifications.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/COpenCombineHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ValuePointers.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOFoundationCompat.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/NIOWebSocket.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/APNSwift.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/OpenAPIKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MySQLKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/JWTKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/ConsoleKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/SQLiteKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/RoutingKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/PostgresKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/WebSocketKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/FluentKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MultipartKit.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/AsyncHTTPClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/DNSClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/MongoClient.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Fluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/XCTFluent.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CContext.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/Meow.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/sadikekinozbay/Documents/TUM/WS-2/Swift/Apodini-Example-Project/.build/checkouts/CRuntime/Sources/CRuntime/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+interface-hash: "d95901c9d8259ef4939fb6844618f798"
